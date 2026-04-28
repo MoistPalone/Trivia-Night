@@ -5,3 +5,4 @@ data/questions.db
 assets/sounds/
 assets/music/
 .pytest_cache/
+.venv/
