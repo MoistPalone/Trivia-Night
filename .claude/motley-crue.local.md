@@ -3,7 +3,7 @@ mode: oncall
 active: true
 project: Trivia Night
 wiki_path: ~/wiki/wiki/Trivia Night
-sprint: "Session 1 complete — scaffold + DB + 225 questions seeded (history, science, geography)"
+sprint: "Session 8 next — QA + ship v1.0"
 last_brief: 2026-04-28
 ---
 
@@ -16,11 +16,11 @@ last_brief: 2026-04-28
 - [x] Verify DB: SELECT COUNT(*) FROM questions → 225
 - [ ] Initialize git repo and make first commit
 - [ ] Session 2: seed arts.json, people.json, music.json (225 more questions → 450 total)
-- [ ] Session 3: game engine (state.py, player.py, engine.py, scorer.py, timer.py)
-- [ ] Session 4: core UI scaffold (main_window.py, welcome.py, board.py, scoreboard.py)
-- [ ] Session 5: question screen + timer widget
-- [ ] Session 6: answer evaluation + round logic
-- [ ] Session 7: audio + polish
+- [x] Session 3: game engine (state.py, player.py, engine.py, scorer.py, timer.py) — 41 tests passing
+- [x] Session 4: core UI scaffold — welcome + board + scoreboard; 30 tiles render; welcome→board wired
+- [x] Session 5: question screen + timer widget + result overlay + full turn cycle
+- [x] Session 6: round summary + sudden death + game over screens; full game cycle playable
+- [x] Session 7: audio (QSoundEffect + 7 generated WAVs) + genre color accents on board tiles
 - [ ] Session 8: QA + ship v1.0
 
 ## Notes

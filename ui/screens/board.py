@@ -20,20 +20,32 @@ TILE_CLEARED_BG = "#131320"
 TILE_BORDER = "#2a5a9b"
 TILE_CLEARED_BORDER = "#222233"
 
+# One accent color per genre (keyed by genre_id 1–6)
+GENRE_COLORS: dict[int, str] = {
+    1: "#5b9bd5",  # History — steel blue
+    2: "#4abf7f",  # Science — teal
+    3: "#d5865b",  # Geography — terracotta
+    4: "#bf9a4a",  # Arts — amber
+    5: "#9b5bd5",  # People — violet
+    6: "#5bd5c8",  # Music — cyan
+}
+
 DIFFICULTIES = [1, 2, 3, 4, 5]
 POINTS = [100, 200, 300, 400, 500]
 
 
-def _tile_style(cleared: bool) -> str:
+def _tile_style(cleared: bool, accent: str = GOLD) -> str:
     bg = TILE_CLEARED_BG if cleared else TILE_BG
     fg = "#444460" if cleared else GOLD
     border = TILE_CLEARED_BORDER if cleared else TILE_BORDER
-    hover = "" if cleared else f"QPushButton:hover {{ background-color: #22508b; border-color: {GOLD}; }}"
+    top_accent = TILE_CLEARED_BORDER if cleared else accent
+    hover = "" if cleared else f"QPushButton:hover {{ background-color: #22508b; border-color: {accent}; }}"
     return f"""
         QPushButton {{
             background-color: {bg};
             color: {fg};
             border: 2px solid {border};
+            border-top: 3px solid {top_accent};
             border-radius: 4px;
         }}
         {hover}
@@ -82,7 +94,7 @@ class BoardScreen(QWidget):
                     QSizePolicy.Policy.Expanding,
                     QSizePolicy.Policy.Expanding,
                 )
-                btn.setStyleSheet(_tile_style(cleared=False))
+                btn.setStyleSheet(_tile_style(cleared=False, accent=GENRE_COLORS.get(gid, GOLD)))
                 btn.clicked.connect(
                     lambda _, g=gid, d=diff: self.tile_selected.emit(g, d)
                 )
@@ -95,5 +107,5 @@ class BoardScreen(QWidget):
         for (gid, diff), btn in self._tiles.items():
             cleared = (gid, diff) in state.board_cleared
             btn.setEnabled(not cleared)
-            btn.setStyleSheet(_tile_style(cleared=cleared))
+            btn.setStyleSheet(_tile_style(cleared=cleared, accent=GENRE_COLORS.get(gid, GOLD)))
         self.scoreboard.refresh(state)

@@ -2,7 +2,6 @@ __pycache__/
 *.pyc
 *.pyo
 data/questions.db
-assets/sounds/
 assets/music/
 .pytest_cache/
 .venv/
