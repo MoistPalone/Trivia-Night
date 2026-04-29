@@ -3,7 +3,7 @@ mode: oncall
 active: true
 project: Trivia Night
 wiki_path: ~/wiki/wiki/Trivia Night
-sprint: "Session 8 next — QA + ship v1.0"
+sprint: "v1.0 shipped — post-release polish or new features as needed"
 last_brief: 2026-04-28
 ---
 
@@ -21,7 +21,7 @@ last_brief: 2026-04-28
 - [x] Session 5: question screen + timer widget + result overlay + full turn cycle
 - [x] Session 6: round summary + sudden death + game over screens; full game cycle playable
 - [x] Session 7: audio (QSoundEffect + 7 generated WAVs) + genre color accents on board tiles
-- [ ] Session 8: QA + ship v1.0
+- [x] Session 8: QA pass — 4 bugs fixed (difficulty key, SD pause, unused param, gitignore); committed v1.0
 
 ## Notes
 
