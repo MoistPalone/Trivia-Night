@@ -1,84 +1,1465 @@
 {
   "genre": "History",
   "questions": [
-    {"difficulty": 1, "points": 100, "question": "Who was the first President of the United States?", "answer": "George Washington", "answer_keywords": ["washington", "george washington"]},
-    {"difficulty": 1, "points": 100, "question": "In what year did World War II end?", "answer": "1945", "answer_keywords": ["1945"]},
-    {"difficulty": 1, "points": 100, "question": "Who was the first man to walk on the moon?", "answer": "Neil Armstrong", "answer_keywords": ["armstrong", "neil armstrong"]},
-    {"difficulty": 1, "points": 100, "question": "What ship sank after hitting an iceberg in April 1912?", "answer": "Titanic", "answer_keywords": ["titanic"]},
-    {"difficulty": 1, "points": 100, "question": "What year did the Berlin Wall fall?", "answer": "1989", "answer_keywords": ["1989"]},
-    {"difficulty": 1, "points": 100, "question": "Which American President was assassinated in 1865?", "answer": "Abraham Lincoln", "answer_keywords": ["lincoln", "abraham lincoln"]},
-    {"difficulty": 1, "points": 100, "question": "What year did the United States declare independence?", "answer": "1776", "answer_keywords": ["1776"]},
-    {"difficulty": 1, "points": 100, "question": "Who was the leader of Nazi Germany during World War II?", "answer": "Adolf Hitler", "answer_keywords": ["hitler", "adolf hitler"]},
-    {"difficulty": 1, "points": 100, "question": "Who was the Egyptian queen known for her relationship with Julius Caesar and Mark Antony?", "answer": "Cleopatra", "answer_keywords": ["cleopatra"]},
-    {"difficulty": 1, "points": 100, "question": "Who was the first woman to fly solo across the Atlantic Ocean?", "answer": "Amelia Earhart", "answer_keywords": ["earhart", "amelia earhart"]},
-    {"difficulty": 1, "points": 100, "question": "What name was given to the first artificial satellite, launched by the Soviet Union in 1957?", "answer": "Sputnik", "answer_keywords": ["sputnik"]},
-    {"difficulty": 1, "points": 100, "question": "Which US President delivered the Gettysburg Address?", "answer": "Abraham Lincoln", "answer_keywords": ["lincoln", "abraham lincoln"]},
-    {"difficulty": 1, "points": 100, "question": "What country did Christopher Columbus sail for when he reached the Americas in 1492?", "answer": "Spain", "answer_keywords": ["spain", "spanish"]},
-    {"difficulty": 1, "points": 100, "question": "Which ancient wonder was located in Alexandria, Egypt?", "answer": "Lighthouse of Alexandria", "answer_keywords": ["lighthouse", "pharos"]},
-    {"difficulty": 1, "points": 100, "question": "Who invented the telephone?", "answer": "Alexander Graham Bell", "answer_keywords": ["bell", "graham bell"]},
-
-    {"difficulty": 2, "points": 200, "question": "Which French Emperor was defeated at the Battle of Waterloo in 1815?", "answer": "Napoleon Bonaparte", "answer_keywords": ["napoleon", "napoleon bonaparte"]},
-    {"difficulty": 2, "points": 200, "question": "What year did the Russian Revolution begin?", "answer": "1917", "answer_keywords": ["1917"]},
-    {"difficulty": 2, "points": 200, "question": "Who led the Cuban Revolution that brought him to power in 1959?", "answer": "Fidel Castro", "answer_keywords": ["castro", "fidel castro"]},
-    {"difficulty": 2, "points": 200, "question": "Which British King famously had six wives?", "answer": "Henry VIII", "answer_keywords": ["henry viii", "henry the eighth"]},
-    {"difficulty": 2, "points": 200, "question": "Who was the ancient Greek philosopher who taught Alexander the Great?", "answer": "Aristotle", "answer_keywords": ["aristotle"]},
-    {"difficulty": 2, "points": 200, "question": "What year did the French Revolution begin?", "answer": "1789", "answer_keywords": ["1789"]},
-    {"difficulty": 2, "points": 200, "question": "Which Mongol leader conquered the largest contiguous land empire in history?", "answer": "Genghis Khan", "answer_keywords": ["genghis khan", "chinggis khan"]},
-    {"difficulty": 2, "points": 200, "question": "What was the name of the ship on which the Pilgrims sailed to America in 1620?", "answer": "Mayflower", "answer_keywords": ["mayflower"]},
-    {"difficulty": 2, "points": 200, "question": "Who was the first Prime Minister of India after independence?", "answer": "Jawaharlal Nehru", "answer_keywords": ["nehru", "jawaharlal nehru"]},
-    {"difficulty": 2, "points": 200, "question": "What was the ancient trade route connecting China to Rome called?", "answer": "Silk Road", "answer_keywords": ["silk road"]},
-    {"difficulty": 2, "points": 200, "question": "Which US President ordered the atomic bombings of Japan in 1945?", "answer": "Harry Truman", "answer_keywords": ["truman", "harry truman"]},
-    {"difficulty": 2, "points": 200, "question": "Who was the first woman to win a Nobel Prize?", "answer": "Marie Curie", "answer_keywords": ["curie", "marie curie"]},
-    {"difficulty": 2, "points": 200, "question": "What year did South Africa hold its first multi-racial elections?", "answer": "1994", "answer_keywords": ["1994"]},
-    {"difficulty": 2, "points": 200, "question": "What document, signed in 1215, limited the powers of the English king?", "answer": "Magna Carta", "answer_keywords": ["magna carta"]},
-    {"difficulty": 2, "points": 200, "question": "Who was the ancient Roman general who famously crossed the Alps with war elephants?", "answer": "Hannibal", "answer_keywords": ["hannibal", "hannibal barca"]},
-
-    {"difficulty": 3, "points": 300, "question": "What year did the Ottoman Empire officially end?", "answer": "1922", "answer_keywords": ["1922"]},
-    {"difficulty": 3, "points": 300, "question": "Who was the last Tsar of Russia?", "answer": "Nicholas II", "answer_keywords": ["nicholas ii", "nicholas the second"]},
-    {"difficulty": 3, "points": 300, "question": "What treaty officially ended World War I?", "answer": "Treaty of Versailles", "answer_keywords": ["versailles", "treaty of versailles"]},
-    {"difficulty": 3, "points": 300, "question": "What ancient civilization is credited with inventing the first writing system?", "answer": "Sumerians", "answer_keywords": ["sumerian", "sumerians"]},
-    {"difficulty": 3, "points": 300, "question": "What was the name of the Allied invasion of Normandy on June 6, 1944?", "answer": "Operation Overlord", "answer_keywords": ["overlord", "operation overlord"]},
-    {"difficulty": 3, "points": 300, "question": "Who coined the phrase 'Iron Curtain' to describe the division of Europe after World War II?", "answer": "Winston Churchill", "answer_keywords": ["churchill", "winston churchill"]},
-    {"difficulty": 3, "points": 300, "question": "What year did the Korean War begin?", "answer": "1950", "answer_keywords": ["1950"]},
-    {"difficulty": 3, "points": 300, "question": "Who was the first female Prime Minister of the United Kingdom?", "answer": "Margaret Thatcher", "answer_keywords": ["thatcher", "margaret thatcher"]},
-    {"difficulty": 3, "points": 300, "question": "What year did Spain launch its famous Armada against England?", "answer": "1588", "answer_keywords": ["1588"]},
-    {"difficulty": 3, "points": 300, "question": "Who was the first Emperor of unified China?", "answer": "Qin Shi Huang", "answer_keywords": ["qin shi huang", "shi huang"]},
-    {"difficulty": 3, "points": 300, "question": "What ancient city was destroyed by the eruption of Mount Vesuvius in 79 AD?", "answer": "Pompeii", "answer_keywords": ["pompeii"]},
-    {"difficulty": 3, "points": 300, "question": "What Aztec emperor was captured by Hernán Cortés in 1520?", "answer": "Moctezuma II", "answer_keywords": ["moctezuma", "montezuma"]},
-    {"difficulty": 3, "points": 300, "question": "What was the name of the apartheid policy that enforced racial segregation in South Africa?", "answer": "Apartheid", "answer_keywords": ["apartheid"]},
-    {"difficulty": 3, "points": 300, "question": "Which Roman Emperor converted to Christianity and issued the Edict of Milan?", "answer": "Constantine", "answer_keywords": ["constantine", "constantine i"]},
-    {"difficulty": 3, "points": 300, "question": "What year did the last emperor of China abdicate?", "answer": "1912", "answer_keywords": ["1912"]},
-
-    {"difficulty": 4, "points": 400, "question": "What ancient Mesopotamian writing system used wedge-shaped marks on clay tablets?", "answer": "Cuneiform", "answer_keywords": ["cuneiform"]},
-    {"difficulty": 4, "points": 400, "question": "Which Roman general defeated Hannibal at the Battle of Zama in 202 BC?", "answer": "Scipio Africanus", "answer_keywords": ["scipio", "scipio africanus"]},
-    {"difficulty": 4, "points": 400, "question": "What year did the Ottoman Turks conquer Constantinople?", "answer": "1453", "answer_keywords": ["1453"]},
-    {"difficulty": 4, "points": 400, "question": "Who was the Byzantine Emperor who codified Roman law in the 6th century?", "answer": "Justinian I", "answer_keywords": ["justinian", "justinian i"]},
-    {"difficulty": 4, "points": 400, "question": "What was the name of the Viking explorer credited with first reaching North America?", "answer": "Leif Erikson", "answer_keywords": ["leif erikson", "leif ericson"]},
-    {"difficulty": 4, "points": 400, "question": "What year did the Thirty Years' War end?", "answer": "1648", "answer_keywords": ["1648"]},
-    {"difficulty": 4, "points": 400, "question": "What bacterium caused the Black Death pandemic of the 14th century?", "answer": "Yersinia pestis", "answer_keywords": ["yersinia pestis", "yersinia"]},
-    {"difficulty": 4, "points": 400, "question": "Who was the first Mughal Emperor of India?", "answer": "Babur", "answer_keywords": ["babur"]},
-    {"difficulty": 4, "points": 400, "question": "What year did the Meiji Restoration begin in Japan?", "answer": "1868", "answer_keywords": ["1868"]},
-    {"difficulty": 4, "points": 400, "question": "What was the name of the Prussian statesman who unified Germany in the 19th century?", "answer": "Otto von Bismarck", "answer_keywords": ["bismarck", "otto von bismarck"]},
-    {"difficulty": 4, "points": 400, "question": "Which Spartan king led the famous last stand at the Battle of Thermopylae?", "answer": "Leonidas", "answer_keywords": ["leonidas"]},
-    {"difficulty": 4, "points": 400, "question": "What year did the Ottomans besiege Vienna for the second and last time?", "answer": "1683", "answer_keywords": ["1683"]},
-    {"difficulty": 4, "points": 400, "question": "Who was the first Shogun of the Tokugawa period in Japan?", "answer": "Tokugawa Ieyasu", "answer_keywords": ["tokugawa", "tokugawa ieyasu"]},
-    {"difficulty": 4, "points": 400, "question": "What was the name of the Japanese practice of ritual suicide by samurai?", "answer": "Seppuku", "answer_keywords": ["seppuku", "hara-kiri"]},
-    {"difficulty": 4, "points": 400, "question": "What is the name of the ancient Inca method of record-keeping using knotted strings?", "answer": "Quipu", "answer_keywords": ["quipu", "khipu"]},
-
-    {"difficulty": 5, "points": 500, "question": "What treaty ended the War of Spanish Succession in 1713?", "answer": "Treaty of Utrecht", "answer_keywords": ["utrecht", "treaty of utrecht"]},
-    {"difficulty": 5, "points": 500, "question": "What was the name of the ancient Aztec capital city?", "answer": "Tenochtitlan", "answer_keywords": ["tenochtitlan"]},
-    {"difficulty": 5, "points": 500, "question": "Who was the ancient Persian king defeated by Alexander the Great at the Battle of Gaugamela?", "answer": "Darius III", "answer_keywords": ["darius", "darius iii"]},
-    {"difficulty": 5, "points": 500, "question": "What medieval Crusader state was established after the First Crusade in 1099?", "answer": "Kingdom of Jerusalem", "answer_keywords": ["kingdom of jerusalem", "jerusalem"]},
-    {"difficulty": 5, "points": 500, "question": "What Chinese rebellion from 1850 to 1864 killed tens of millions of people?", "answer": "Taiping Rebellion", "answer_keywords": ["taiping", "taiping rebellion"]},
-    {"difficulty": 5, "points": 500, "question": "What was the name of the Chinese admiral who led massive naval expeditions in the early 15th century?", "answer": "Zheng He", "answer_keywords": ["zheng he"]},
-    {"difficulty": 5, "points": 500, "question": "What year did Attila the Hun die?", "answer": "453", "answer_keywords": ["453", "453 ad"]},
-    {"difficulty": 5, "points": 500, "question": "What ancient Silk Road city was known as the Pearl of the East?", "answer": "Samarkand", "answer_keywords": ["samarkand"]},
-    {"difficulty": 5, "points": 500, "question": "Who was the last Inca emperor, executed by Francisco Pizarro in 1533?", "answer": "Atahualpa", "answer_keywords": ["atahualpa"]},
-    {"difficulty": 5, "points": 500, "question": "What year was the Magna Carta signed at Runnymede?", "answer": "1215", "answer_keywords": ["1215"]},
-    {"difficulty": 5, "points": 500, "question": "What was the name of the economic system in medieval Europe where peasants worked land in exchange for protection?", "answer": "Feudalism", "answer_keywords": ["feudalism", "feudal system"]},
-    {"difficulty": 5, "points": 500, "question": "What year did the Council of Nicaea establish the official Christian creed?", "answer": "325", "answer_keywords": ["325", "325 ad"]},
-    {"difficulty": 5, "points": 500, "question": "Who was the Byzantine Empress who ruled as regent and later co-emperor in the late 8th century?", "answer": "Irene of Athens", "answer_keywords": ["irene", "irene of athens"]},
-    {"difficulty": 5, "points": 500, "question": "What was the name of the naval battle in 31 BC where Octavian defeated Mark Antony and Cleopatra?", "answer": "Battle of Actium", "answer_keywords": ["actium", "battle of actium"]},
-    {"difficulty": 5, "points": 500, "question": "What Mongol military tactic involved feigned retreats to draw enemies into ambushes?", "answer": "Feigned retreat", "answer_keywords": ["feigned retreat", "feigned withdrawal"]}
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the first President of the United States?",
+      "answer": "George Washington",
+      "answer_keywords": [
+        "washington",
+        "george washington"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "In what year did World War II end?",
+      "answer": "1945",
+      "answer_keywords": [
+        "1945"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the first man to walk on the moon?",
+      "answer": "Neil Armstrong",
+      "answer_keywords": [
+        "armstrong",
+        "neil armstrong"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What ship sank after hitting an iceberg in April 1912?",
+      "answer": "Titanic",
+      "answer_keywords": [
+        "titanic"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What year did the Berlin Wall fall?",
+      "answer": "1989",
+      "answer_keywords": [
+        "1989"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Which American President was assassinated in 1865?",
+      "answer": "Abraham Lincoln",
+      "answer_keywords": [
+        "lincoln",
+        "abraham lincoln"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What year did the United States declare independence?",
+      "answer": "1776",
+      "answer_keywords": [
+        "1776"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the leader of Nazi Germany during World War II?",
+      "answer": "Adolf Hitler",
+      "answer_keywords": [
+        "hitler",
+        "adolf hitler"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the Egyptian queen known for her relationship with Julius Caesar and Mark Antony?",
+      "answer": "Cleopatra",
+      "answer_keywords": [
+        "cleopatra"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+      "answer": "Amelia Earhart",
+      "answer_keywords": [
+        "earhart",
+        "amelia earhart"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What name was given to the first artificial satellite, launched by the Soviet Union in 1957?",
+      "answer": "Sputnik",
+      "answer_keywords": [
+        "sputnik"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Which US President delivered the Gettysburg Address?",
+      "answer": "Abraham Lincoln",
+      "answer_keywords": [
+        "lincoln",
+        "abraham lincoln"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What country did Christopher Columbus sail for when he reached the Americas in 1492?",
+      "answer": "Spain",
+      "answer_keywords": [
+        "spain",
+        "spanish"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Which ancient wonder was located in Alexandria, Egypt?",
+      "answer": "Lighthouse of Alexandria",
+      "answer_keywords": [
+        "lighthouse",
+        "pharos"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who invented the telephone?",
+      "answer": "Alexander Graham Bell",
+      "answer_keywords": [
+        "bell",
+        "graham bell"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Which French Emperor was defeated at the Battle of Waterloo in 1815?",
+      "answer": "Napoleon Bonaparte",
+      "answer_keywords": [
+        "napoleon",
+        "napoleon bonaparte"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What year did the Russian Revolution begin?",
+      "answer": "1917",
+      "answer_keywords": [
+        "1917"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who led the Cuban Revolution that brought him to power in 1959?",
+      "answer": "Fidel Castro",
+      "answer_keywords": [
+        "castro",
+        "fidel castro"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Which British King famously had six wives?",
+      "answer": "Henry VIII",
+      "answer_keywords": [
+        "henry viii",
+        "henry the eighth"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the ancient Greek philosopher who taught Alexander the Great?",
+      "answer": "Aristotle",
+      "answer_keywords": [
+        "aristotle"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What year did the French Revolution begin?",
+      "answer": "1789",
+      "answer_keywords": [
+        "1789"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Which Mongol leader conquered the largest contiguous land empire in history?",
+      "answer": "Genghis Khan",
+      "answer_keywords": [
+        "genghis khan",
+        "chinggis khan"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What was the name of the ship on which the Pilgrims sailed to America in 1620?",
+      "answer": "Mayflower",
+      "answer_keywords": [
+        "mayflower"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the first Prime Minister of India after independence?",
+      "answer": "Jawaharlal Nehru",
+      "answer_keywords": [
+        "nehru",
+        "jawaharlal nehru"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What was the ancient trade route connecting China to Rome called?",
+      "answer": "Silk Road",
+      "answer_keywords": [
+        "silk road"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Which US President ordered the atomic bombings of Japan in 1945?",
+      "answer": "Harry Truman",
+      "answer_keywords": [
+        "truman",
+        "harry truman"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "answer": "Marie Curie",
+      "answer_keywords": [
+        "curie",
+        "marie curie"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What year did South Africa hold its first multi-racial elections?",
+      "answer": "1994",
+      "answer_keywords": [
+        "1994"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What document, signed in 1215, limited the powers of the English king?",
+      "answer": "Magna Carta",
+      "answer_keywords": [
+        "magna carta"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the ancient Roman general who famously crossed the Alps with war elephants?",
+      "answer": "Hannibal",
+      "answer_keywords": [
+        "hannibal",
+        "hannibal barca"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What year did the Ottoman Empire officially end?",
+      "answer": "1922",
+      "answer_keywords": [
+        "1922"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the last Tsar of Russia?",
+      "answer": "Nicholas II",
+      "answer_keywords": [
+        "nicholas ii",
+        "nicholas the second"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What treaty officially ended World War I?",
+      "answer": "Treaty of Versailles",
+      "answer_keywords": [
+        "versailles",
+        "treaty of versailles"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What ancient civilization is credited with inventing the first writing system?",
+      "answer": "Sumerians",
+      "answer_keywords": [
+        "sumerian",
+        "sumerians"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What was the name of the Allied invasion of Normandy on June 6, 1944?",
+      "answer": "Operation Overlord",
+      "answer_keywords": [
+        "overlord",
+        "operation overlord"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who coined the phrase 'Iron Curtain' to describe the division of Europe after World War II?",
+      "answer": "Winston Churchill",
+      "answer_keywords": [
+        "churchill",
+        "winston churchill"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What year did the Korean War begin?",
+      "answer": "1950",
+      "answer_keywords": [
+        "1950"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first female Prime Minister of the United Kingdom?",
+      "answer": "Margaret Thatcher",
+      "answer_keywords": [
+        "thatcher",
+        "margaret thatcher"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What year did Spain launch its famous Armada against England?",
+      "answer": "1588",
+      "answer_keywords": [
+        "1588"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first Emperor of unified China?",
+      "answer": "Qin Shi Huang",
+      "answer_keywords": [
+        "qin shi huang",
+        "shi huang"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What ancient city was destroyed by the eruption of Mount Vesuvius in 79 AD?",
+      "answer": "Pompeii",
+      "answer_keywords": [
+        "pompeii"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What Aztec emperor was captured by Hernán Cortés in 1520?",
+      "answer": "Moctezuma II",
+      "answer_keywords": [
+        "moctezuma",
+        "montezuma"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What was the name of the apartheid policy that enforced racial segregation in South Africa?",
+      "answer": "Apartheid",
+      "answer_keywords": [
+        "apartheid"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Which Roman Emperor converted to Christianity and issued the Edict of Milan?",
+      "answer": "Constantine",
+      "answer_keywords": [
+        "constantine",
+        "constantine i"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What year did the last emperor of China abdicate?",
+      "answer": "1912",
+      "answer_keywords": [
+        "1912"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What ancient Mesopotamian writing system used wedge-shaped marks on clay tablets?",
+      "answer": "Cuneiform",
+      "answer_keywords": [
+        "cuneiform"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Which Roman general defeated Hannibal at the Battle of Zama in 202 BC?",
+      "answer": "Scipio Africanus",
+      "answer_keywords": [
+        "scipio",
+        "scipio africanus"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What year did the Ottoman Turks conquer Constantinople?",
+      "answer": "1453",
+      "answer_keywords": [
+        "1453"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the Byzantine Emperor who codified Roman law in the 6th century?",
+      "answer": "Justinian I",
+      "answer_keywords": [
+        "justinian",
+        "justinian i"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What was the name of the Viking explorer credited with first reaching North America?",
+      "answer": "Leif Erikson",
+      "answer_keywords": [
+        "leif erikson",
+        "leif ericson"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What year did the Thirty Years' War end?",
+      "answer": "1648",
+      "answer_keywords": [
+        "1648"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What bacterium caused the Black Death pandemic of the 14th century?",
+      "answer": "Yersinia pestis",
+      "answer_keywords": [
+        "yersinia pestis",
+        "yersinia"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the first Mughal Emperor of India?",
+      "answer": "Babur",
+      "answer_keywords": [
+        "babur"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What year did the Meiji Restoration begin in Japan?",
+      "answer": "1868",
+      "answer_keywords": [
+        "1868"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What was the name of the Prussian statesman who unified Germany in the 19th century?",
+      "answer": "Otto von Bismarck",
+      "answer_keywords": [
+        "bismarck",
+        "otto von bismarck"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Which Spartan king led the famous last stand at the Battle of Thermopylae?",
+      "answer": "Leonidas",
+      "answer_keywords": [
+        "leonidas"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What year did the Ottomans besiege Vienna for the second and last time?",
+      "answer": "1683",
+      "answer_keywords": [
+        "1683"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the first Shogun of the Tokugawa period in Japan?",
+      "answer": "Tokugawa Ieyasu",
+      "answer_keywords": [
+        "tokugawa",
+        "tokugawa ieyasu"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What was the name of the Japanese practice of ritual suicide by samurai?",
+      "answer": "Seppuku",
+      "answer_keywords": [
+        "seppuku",
+        "hara-kiri"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the ancient Inca method of record-keeping using knotted strings?",
+      "answer": "Quipu",
+      "answer_keywords": [
+        "quipu",
+        "khipu"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What treaty ended the War of Spanish Succession in 1713?",
+      "answer": "Treaty of Utrecht",
+      "answer_keywords": [
+        "utrecht",
+        "treaty of utrecht"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What was the name of the ancient Aztec capital city?",
+      "answer": "Tenochtitlan",
+      "answer_keywords": [
+        "tenochtitlan"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the ancient Persian king defeated by Alexander the Great at the Battle of Gaugamela?",
+      "answer": "Darius III",
+      "answer_keywords": [
+        "darius",
+        "darius iii"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What medieval Crusader state was established after the First Crusade in 1099?",
+      "answer": "Kingdom of Jerusalem",
+      "answer_keywords": [
+        "kingdom of jerusalem",
+        "jerusalem"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What Chinese rebellion from 1850 to 1864 killed tens of millions of people?",
+      "answer": "Taiping Rebellion",
+      "answer_keywords": [
+        "taiping",
+        "taiping rebellion"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What was the name of the Chinese admiral who led massive naval expeditions in the early 15th century?",
+      "answer": "Zheng He",
+      "answer_keywords": [
+        "zheng he"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What year did Attila the Hun die?",
+      "answer": "453",
+      "answer_keywords": [
+        "453",
+        "453 ad"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What ancient Silk Road city was known as the Pearl of the East?",
+      "answer": "Samarkand",
+      "answer_keywords": [
+        "samarkand"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the last Inca emperor, executed by Francisco Pizarro in 1533?",
+      "answer": "Atahualpa",
+      "answer_keywords": [
+        "atahualpa"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What year was the Magna Carta signed at Runnymede?",
+      "answer": "1215",
+      "answer_keywords": [
+        "1215"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What was the name of the economic system in medieval Europe where peasants worked land in exchange for protection?",
+      "answer": "Feudalism",
+      "answer_keywords": [
+        "feudalism",
+        "feudal system"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What year did the Council of Nicaea establish the official Christian creed?",
+      "answer": "325",
+      "answer_keywords": [
+        "325",
+        "325 ad"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the Byzantine Empress who ruled as regent and later co-emperor in the late 8th century?",
+      "answer": "Irene of Athens",
+      "answer_keywords": [
+        "irene",
+        "irene of athens"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What was the name of the naval battle in 31 BC where Octavian defeated Mark Antony and Cleopatra?",
+      "answer": "Battle of Actium",
+      "answer_keywords": [
+        "actium",
+        "battle of actium"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What Mongol military tactic involved feigned retreats to draw enemies into ambushes?",
+      "answer": "Feigned retreat",
+      "answer_keywords": [
+        "feigned retreat",
+        "feigned withdrawal"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the first person to orbit Earth?",
+      "answer": "Yuri Gagarin",
+      "answer_keywords": [
+        "gagarin",
+        "yuri gagarin"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What year did World War I begin?",
+      "answer": "1914",
+      "answer_keywords": [
+        "1914"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Which ancient city was buried by the eruption of Mount Vesuvius in 79 AD?",
+      "answer": "Pompeii",
+      "answer_keywords": [
+        "pompeii"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who led India's independence movement through nonviolent resistance?",
+      "answer": "Mahatma Gandhi",
+      "answer_keywords": [
+        "gandhi",
+        "mahatma gandhi"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "In which country did the D-Day landings take place in 1944?",
+      "answer": "France",
+      "answer_keywords": [
+        "france",
+        "normandy"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What year did the Soviet Union dissolve?",
+      "answer": "1991",
+      "answer_keywords": [
+        "1991"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the principal author of the Declaration of Independence?",
+      "answer": "Thomas Jefferson",
+      "answer_keywords": [
+        "jefferson",
+        "thomas jefferson"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "In what year did Japan attack Pearl Harbor?",
+      "answer": "1941",
+      "answer_keywords": [
+        "1941"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the British Prime Minister during most of World War II?",
+      "answer": "Winston Churchill",
+      "answer_keywords": [
+        "churchill",
+        "winston churchill"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What war was fought between northern and southern US states from 1861 to 1865?",
+      "answer": "American Civil War",
+      "answer_keywords": [
+        "civil war",
+        "american civil war"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the first European to reach India by sailing around Africa?",
+      "answer": "Vasco da Gama",
+      "answer_keywords": [
+        "vasco da gama",
+        "da gama"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What was the name of the treaty that ended World War I?",
+      "answer": "Treaty of Versailles",
+      "answer_keywords": [
+        "versailles",
+        "treaty of versailles"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the first African American President of the United States?",
+      "answer": "Barack Obama",
+      "answer_keywords": [
+        "obama",
+        "barack obama"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What ancient structure was built across northern China to guard against nomadic invasions?",
+      "answer": "Great Wall of China",
+      "answer_keywords": [
+        "great wall",
+        "great wall of china"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What year was the United Nations founded?",
+      "answer": "1945",
+      "answer_keywords": [
+        "1945"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "How many years did Nelson Mandela spend in prison before his release in 1990?",
+      "answer": "27 years",
+      "answer_keywords": [
+        "27",
+        "twenty-seven"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What was the name of the US aid program that helped rebuild Western Europe after World War II?",
+      "answer": "Marshall Plan",
+      "answer_keywords": [
+        "marshall plan",
+        "marshall"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Which ancient Roman arena was used for gladiatorial contests?",
+      "answer": "Colosseum",
+      "answer_keywords": [
+        "colosseum",
+        "coliseum"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What was the name of the German air force in World War II?",
+      "answer": "Luftwaffe",
+      "answer_keywords": [
+        "luftwaffe"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What battle is considered the turning point of the American Civil War, fought in 1863?",
+      "answer": "Battle of Gettysburg",
+      "answer_keywords": [
+        "gettysburg",
+        "battle of gettysburg"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What was the term for the period of economic collapse that began in 1929?",
+      "answer": "Great Depression",
+      "answer_keywords": [
+        "great depression",
+        "depression"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Which country was ruled by Francisco Franco from 1939 to 1975?",
+      "answer": "Spain",
+      "answer_keywords": [
+        "spain"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What year did the United States purchase the Louisiana Territory from France?",
+      "answer": "1803",
+      "answer_keywords": [
+        "1803"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the Soviet leader during the Cuban Missile Crisis?",
+      "answer": "Nikita Khrushchev",
+      "answer_keywords": [
+        "khrushchev",
+        "nikita khrushchev"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What ancient Greek city-state was renowned for its military culture and warrior training?",
+      "answer": "Sparta",
+      "answer_keywords": [
+        "sparta"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What year did the United States enter World War I?",
+      "answer": "1917",
+      "answer_keywords": [
+        "1917"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the US military operation that liberated Kuwait in 1991?",
+      "answer": "Operation Desert Storm",
+      "answer_keywords": [
+        "desert storm",
+        "operation desert storm"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Which British monarch gave her name to the era spanning 1837 to 1901?",
+      "answer": "Queen Victoria",
+      "answer_keywords": [
+        "victoria",
+        "queen victoria"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What empire was ruled by Suleiman the Magnificent at its height in the 16th century?",
+      "answer": "Ottoman Empire",
+      "answer_keywords": [
+        "ottoman",
+        "ottoman empire"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What was the name of the British wartime intelligence operation that broke German Enigma codes?",
+      "answer": "Ultra",
+      "answer_keywords": [
+        "ultra",
+        "bletchley park"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What year did the Byzantine Empire fall to the Ottoman Turks?",
+      "answer": "1453",
+      "answer_keywords": [
+        "1453"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first Holy Roman Emperor?",
+      "answer": "Charlemagne",
+      "answer_keywords": [
+        "charlemagne",
+        "charles the great"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What ancient civilization built Machu Picchu?",
+      "answer": "Inca",
+      "answer_keywords": [
+        "inca",
+        "incas"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What name was given to the period of economic boom in the United States during the 1920s?",
+      "answer": "Roaring Twenties",
+      "answer_keywords": [
+        "roaring twenties",
+        "roaring 20s"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What was the name of the Japanese-American internment order signed by Roosevelt in 1942?",
+      "answer": "Executive Order 9066",
+      "answer_keywords": [
+        "executive order 9066",
+        "9066"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What country did Napoleon invade in 1812 in a disastrous military campaign?",
+      "answer": "Russia",
+      "answer_keywords": [
+        "russia"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the term for the British policy of appeasing Hitler exemplified by the 1938 Munich Agreement?",
+      "answer": "Appeasement",
+      "answer_keywords": [
+        "appeasement"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What year did the Korean War armistice take effect?",
+      "answer": "1953",
+      "answer_keywords": [
+        "1953"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Which empire built the road network known as the Royal Road stretching from Susa to Sardis?",
+      "answer": "Persian Empire",
+      "answer_keywords": [
+        "persian",
+        "persian empire",
+        "achaemenid"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What was the name of the 1944 German counteroffensive in the Ardennes?",
+      "answer": "Battle of the Bulge",
+      "answer_keywords": [
+        "battle of the bulge",
+        "bulge",
+        "ardennes offensive"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What city was divided into four occupation zones after World War II?",
+      "answer": "Berlin",
+      "answer_keywords": [
+        "berlin"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What was the name of the Indian independence movement tactic of refusing to use British goods?",
+      "answer": "Swadeshi",
+      "answer_keywords": [
+        "swadeshi",
+        "non-cooperation",
+        "boycott"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Which emperor ordered the burning of books and burying of scholars in ancient China?",
+      "answer": "Qin Shi Huang",
+      "answer_keywords": [
+        "qin shi huang",
+        "qin shi huangdi",
+        "first emperor"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What was the name of the secret police force in Nazi Germany?",
+      "answer": "Gestapo",
+      "answer_keywords": [
+        "gestapo"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What 1648 peace settlement ended the Thirty Years War?",
+      "answer": "Peace of Westphalia",
+      "answer_keywords": [
+        "westphalia",
+        "peace of westphalia"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What was the name of the Japanese military code broken by the US before the Battle of Midway?",
+      "answer": "JN-25",
+      "answer_keywords": [
+        "jn-25",
+        "jn25",
+        "purple"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Which Byzantine emperor ordered the codification of Roman law known as the Corpus Juris Civilis?",
+      "answer": "Justinian I",
+      "answer_keywords": [
+        "justinian",
+        "justinian i"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What was the name of the Venetian merchant who served Kublai Khan and wrote about his travels to China?",
+      "answer": "Marco Polo",
+      "answer_keywords": [
+        "marco polo",
+        "polo"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the term for the Viking parliament and law-making assembly?",
+      "answer": "Thing",
+      "answer_keywords": [
+        "thing",
+        "althing",
+        "ting"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What year did the Bolsheviks seize power in the October Revolution?",
+      "answer": "1917",
+      "answer_keywords": [
+        "1917"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What was the name of the Confederacy's ironclad warship that fought the USS Monitor in 1862?",
+      "answer": "CSS Virginia",
+      "answer_keywords": [
+        "virginia",
+        "css virginia",
+        "merrimack",
+        "merrimac"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Which treaty in 1494 divided the New World between Spain and Portugal?",
+      "answer": "Treaty of Tordesillas",
+      "answer_keywords": [
+        "tordesillas",
+        "treaty of tordesillas"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What ancient Near Eastern law code is one of the oldest deciphered writings of significant length?",
+      "answer": "Code of Hammurabi",
+      "answer_keywords": [
+        "hammurabi",
+        "code of hammurabi"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What was the name of the failed US-backed invasion of Cuba in 1961?",
+      "answer": "Bay of Pigs",
+      "answer_keywords": [
+        "bay of pigs",
+        "playa giron"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Which Mughal emperor built the Taj Mahal as a mausoleum for his wife?",
+      "answer": "Shah Jahan",
+      "answer_keywords": [
+        "shah jahan"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What economic system characterized European feudal trade in which colonies supplied raw materials to the mother country?",
+      "answer": "Mercantilism",
+      "answer_keywords": [
+        "mercantilism",
+        "mercantilist"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What was the name of the British liner sunk by a German U-boat in 1915, contributing to US entry into WWI?",
+      "answer": "Lusitania",
+      "answer_keywords": [
+        "lusitania"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What Japanese city was the target of the first atomic bomb dropped in warfare?",
+      "answer": "Hiroshima",
+      "answer_keywords": [
+        "hiroshima"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the Macedonian general who became ruler of Egypt after Alexander's death and founded a dynasty?",
+      "answer": "Ptolemy I",
+      "answer_keywords": [
+        "ptolemy",
+        "ptolemy i",
+        "ptolemy soter"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What Aztec ruler was reigning when Hernán Cortés arrived in 1519?",
+      "answer": "Moctezuma II",
+      "answer_keywords": [
+        "moctezuma",
+        "montezuma",
+        "moctezuma ii"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the 1905 naval battle in which Japan defeated Russia's Baltic Fleet?",
+      "answer": "Battle of Tsushima",
+      "answer_keywords": [
+        "tsushima",
+        "battle of tsushima"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What 14th-century Islamic historian wrote the Muqaddimah, a foundational work in historiography?",
+      "answer": "Ibn Khaldun",
+      "answer_keywords": [
+        "ibn khaldun",
+        "khaldun"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What was the name of the Carthaginian general who defeated Rome at the Battle of Cannae in 216 BC?",
+      "answer": "Hannibal",
+      "answer_keywords": [
+        "hannibal",
+        "hannibal barca"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What Prussian military theorist wrote On War, a foundational text of military strategy?",
+      "answer": "Carl von Clausewitz",
+      "answer_keywords": [
+        "clausewitz",
+        "carl von clausewitz",
+        "von clausewitz"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the term for the policy of using scorched land and destroying resources to deny them to an advancing enemy?",
+      "answer": "Scorched Earth",
+      "answer_keywords": [
+        "scorched earth"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What Byzantine bureaucratic title designated the governor of a military district in the empire's provincial system?",
+      "answer": "Strategos",
+      "answer_keywords": [
+        "strategos",
+        "strategos"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What year did the Thirty Years War begin?",
+      "answer": "1618",
+      "answer_keywords": [
+        "1618"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Which Ottoman Sultan first captured Constantinople's predecessor, Adrianople, making it a capital?",
+      "answer": "Murad I",
+      "answer_keywords": [
+        "murad i",
+        "murad"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the ancient Egyptian administrative unit equivalent to a province, governed by a nomarch?",
+      "answer": "Nome",
+      "answer_keywords": [
+        "nome",
+        "nomos"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What was the name of the failed 1944 Allied airborne operation to capture bridges in the Netherlands?",
+      "answer": "Operation Market Garden",
+      "answer_keywords": [
+        "market garden",
+        "operation market garden"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What ancient kingdom, centered on modern Sudan, rivaled and occasionally ruled Egypt?",
+      "answer": "Kush",
+      "answer_keywords": [
+        "kush",
+        "kingdom of kush",
+        "nubia"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What 19th-century Zulu king expanded the Zulu Kingdom through military innovation and centralized power?",
+      "answer": "Shaka Zulu",
+      "answer_keywords": [
+        "shaka",
+        "shaka zulu"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What was the name of the Frankish dynasty founded by Clovis I that ruled until the 8th century?",
+      "answer": "Merovingian",
+      "answer_keywords": [
+        "merovingian",
+        "merovingians",
+        "merovingian dynasty"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What was the name of the German navy's submarine warfare strategy in World War II?",
+      "answer": "U-boat campaign",
+      "answer_keywords": [
+        "u-boat",
+        "wolf pack",
+        "submarine warfare"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What year did the Thirty Years War end with the Peace of Westphalia?",
+      "answer": "1648",
+      "answer_keywords": [
+        "1648"
+      ]
+    }
   ]
 }

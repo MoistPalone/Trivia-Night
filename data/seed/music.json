@@ -1,84 +1,1489 @@
 {
   "genre": "Music",
   "questions": [
-    {"difficulty": 1, "points": 100, "question": "Who composed Für Elise?", "answer": "Ludwig van Beethoven", "answer_keywords": ["beethoven", "ludwig van beethoven"]},
-    {"difficulty": 1, "points": 100, "question": "What instrument has 88 keys?", "answer": "Piano", "answer_keywords": ["piano"]},
-    {"difficulty": 1, "points": 100, "question": "What band sang Bohemian Rhapsody?", "answer": "Queen", "answer_keywords": ["queen"]},
-    {"difficulty": 1, "points": 100, "question": "Who is known as the King of Pop?", "answer": "Michael Jackson", "answer_keywords": ["michael jackson", "jackson"]},
-    {"difficulty": 1, "points": 100, "question": "Who composed The Four Seasons?", "answer": "Antonio Vivaldi", "answer_keywords": ["vivaldi", "antonio vivaldi"]},
-    {"difficulty": 1, "points": 100, "question": "What musical term means gradually getting louder?", "answer": "Crescendo", "answer_keywords": ["crescendo"]},
-    {"difficulty": 1, "points": 100, "question": "Who composed The Magic Flute?", "answer": "Wolfgang Amadeus Mozart", "answer_keywords": ["mozart", "wolfgang amadeus mozart"]},
-    {"difficulty": 1, "points": 100, "question": "Who is known as the Queen of Soul?", "answer": "Aretha Franklin", "answer_keywords": ["aretha franklin", "franklin"]},
-    {"difficulty": 1, "points": 100, "question": "What is the term for singing without any instrumental accompaniment?", "answer": "A cappella", "answer_keywords": ["a cappella", "acappella"]},
-    {"difficulty": 1, "points": 100, "question": "Who wrote the opera Aida?", "answer": "Giuseppe Verdi", "answer_keywords": ["verdi", "giuseppe verdi"]},
-    {"difficulty": 1, "points": 100, "question": "Who composed The Ring of the Nibelung?", "answer": "Richard Wagner", "answer_keywords": ["wagner", "richard wagner"]},
-    {"difficulty": 1, "points": 100, "question": "How many musicians perform in a quartet?", "answer": "Four", "answer_keywords": ["4", "four"]},
-    {"difficulty": 1, "points": 100, "question": "What symbol placed at the beginning of a staff indicates its pitch range?", "answer": "Clef", "answer_keywords": ["clef"]},
-    {"difficulty": 1, "points": 100, "question": "What is the large string instrument played with a bow while held between the knees?", "answer": "Cello", "answer_keywords": ["cello"]},
-    {"difficulty": 1, "points": 100, "question": "What Italian musical term means fast and lively?", "answer": "Allegro", "answer_keywords": ["allegro"]},
-
-    {"difficulty": 2, "points": 200, "question": "What musical term refers to the speed or pace of a piece?", "answer": "Tempo", "answer_keywords": ["tempo"]},
-    {"difficulty": 2, "points": 200, "question": "Who composed The Nutcracker?", "answer": "Pyotr Ilyich Tchaikovsky", "answer_keywords": ["tchaikovsky", "pyotr tchaikovsky"]},
-    {"difficulty": 2, "points": 200, "question": "What is the lowest male singing voice called?", "answer": "Bass", "answer_keywords": ["bass"]},
-    {"difficulty": 2, "points": 200, "question": "Who wrote Rhapsody in Blue?", "answer": "George Gershwin", "answer_keywords": ["gershwin", "george gershwin"]},
-    {"difficulty": 2, "points": 200, "question": "What percussion instrument consists of a circular frame with small metal disks around the rim?", "answer": "Tambourine", "answer_keywords": ["tambourine"]},
-    {"difficulty": 2, "points": 200, "question": "Who founded Motown Records?", "answer": "Berry Gordy", "answer_keywords": ["gordy", "berry gordy"]},
-    {"difficulty": 2, "points": 200, "question": "What is the highest female singing voice called?", "answer": "Soprano", "answer_keywords": ["soprano"]},
-    {"difficulty": 2, "points": 200, "question": "What jazz and blues form is built on a 12-bar chord progression?", "answer": "Blues", "answer_keywords": ["blues", "12-bar blues"]},
-    {"difficulty": 2, "points": 200, "question": "Who composed Clair de Lune?", "answer": "Claude Debussy", "answer_keywords": ["debussy", "claude debussy"]},
-    {"difficulty": 2, "points": 200, "question": "What is the term for a composition featuring a solo instrument with orchestral accompaniment?", "answer": "Concerto", "answer_keywords": ["concerto"]},
-    {"difficulty": 2, "points": 200, "question": "Who composed Pictures at an Exhibition?", "answer": "Modest Mussorgsky", "answer_keywords": ["mussorgsky", "modest mussorgsky"]},
-    {"difficulty": 2, "points": 200, "question": "What ancient Greek stringed instrument was played by plucking?", "answer": "Lyre", "answer_keywords": ["lyre"]},
-    {"difficulty": 2, "points": 200, "question": "What is the musical term for a short rhythmic or melodic pattern repeated throughout a piece?", "answer": "Ostinato", "answer_keywords": ["ostinato"]},
-    {"difficulty": 2, "points": 200, "question": "Who composed Water Music?", "answer": "George Frideric Handel", "answer_keywords": ["handel", "george frideric handel"]},
-    {"difficulty": 2, "points": 200, "question": "What is the musical term for notes played in a smooth, connected manner?", "answer": "Legato", "answer_keywords": ["legato"]},
-
-    {"difficulty": 3, "points": 300, "question": "What is the term for a musical piece in which a theme is introduced then imitated by successive voices in overlapping entries?", "answer": "Fugue", "answer_keywords": ["fugue"]},
-    {"difficulty": 3, "points": 300, "question": "Who composed The Rite of Spring?", "answer": "Igor Stravinsky", "answer_keywords": ["stravinsky", "igor stravinsky"]},
-    {"difficulty": 3, "points": 300, "question": "What Argentine dance originated in the working-class neighborhoods of Buenos Aires?", "answer": "Tango", "answer_keywords": ["tango"]},
-    {"difficulty": 3, "points": 300, "question": "Who invented the saxophone?", "answer": "Adolphe Sax", "answer_keywords": ["adolphe sax", "sax"]},
-    {"difficulty": 3, "points": 300, "question": "What is the musical term for a chord in which notes are played one after another instead of simultaneously?", "answer": "Arpeggio", "answer_keywords": ["arpeggio"]},
-    {"difficulty": 3, "points": 300, "question": "Who composed Bolero?", "answer": "Maurice Ravel", "answer_keywords": ["ravel", "maurice ravel"]},
-    {"difficulty": 3, "points": 300, "question": "What is the term for a concluding passage added at the end of a musical composition?", "answer": "Coda", "answer_keywords": ["coda"]},
-    {"difficulty": 3, "points": 300, "question": "Who is widely considered the father of rock and roll?", "answer": "Chuck Berry", "answer_keywords": ["chuck berry", "berry"]},
-    {"difficulty": 3, "points": 300, "question": "What is the name of the traditional Japanese large ensemble drum performance art?", "answer": "Taiko", "answer_keywords": ["taiko"]},
-    {"difficulty": 3, "points": 300, "question": "What is the musical term for music with no fixed key signature or tonal center?", "answer": "Atonal", "answer_keywords": ["atonal", "atonality"]},
-    {"difficulty": 3, "points": 300, "question": "Who composed Appalachian Spring?", "answer": "Aaron Copland", "answer_keywords": ["copland", "aaron copland"]},
-    {"difficulty": 3, "points": 300, "question": "What Brazilian dance form combines martial arts and music?", "answer": "Capoeira", "answer_keywords": ["capoeira"]},
-    {"difficulty": 3, "points": 300, "question": "What is the name of the Indian classical music melodic framework used as a basis for improvisation?", "answer": "Raga", "answer_keywords": ["raga"]},
-    {"difficulty": 3, "points": 300, "question": "What is the term for music in which some element is left to chance or performer choice?", "answer": "Aleatoric music", "answer_keywords": ["aleatoric", "aleatory music", "aleatory"]},
-    {"difficulty": 3, "points": 300, "question": "What Japanese three-stringed instrument is played with a large plectrum?", "answer": "Shamisen", "answer_keywords": ["shamisen"]},
-
-    {"difficulty": 4, "points": 400, "question": "What 12-tone compositional technique was systematically developed by Arnold Schoenberg?", "answer": "Serialism", "answer_keywords": ["serialism", "twelve-tone", "dodecaphony"]},
-    {"difficulty": 4, "points": 400, "question": "Who composed The Well-Tempered Clavier?", "answer": "Johann Sebastian Bach", "answer_keywords": ["bach", "j.s. bach", "johann sebastian bach"]},
-    {"difficulty": 4, "points": 400, "question": "Who invented the piano (fortepiano) around 1700?", "answer": "Bartolomeo Cristofori", "answer_keywords": ["cristofori", "bartolomeo cristofori"]},
-    {"difficulty": 4, "points": 400, "question": "Who composed Symphonie fantastique?", "answer": "Hector Berlioz", "answer_keywords": ["berlioz", "hector berlioz"]},
-    {"difficulty": 4, "points": 400, "question": "What West African hand drum is used in ceremonial and social music?", "answer": "Djembe", "answer_keywords": ["djembe"]},
-    {"difficulty": 4, "points": 400, "question": "Who composed Pierrot lunaire, a foundational expressionist work for voice and chamber ensemble?", "answer": "Arnold Schoenberg", "answer_keywords": ["schoenberg", "arnold schoenberg"]},
-    {"difficulty": 4, "points": 400, "question": "What ancient Chinese plucked instrument has 21 strings and a curved body?", "answer": "Guzheng", "answer_keywords": ["guzheng", "zheng"]},
-    {"difficulty": 4, "points": 400, "question": "Who composed Piano Concerto No. 2 in C minor, one of the most performed concertos in the repertoire?", "answer": "Sergei Rachmaninoff", "answer_keywords": ["rachmaninoff", "sergei rachmaninoff"]},
-    {"difficulty": 4, "points": 400, "question": "What is the musical term for the simultaneous combination of two or more melodic lines?", "answer": "Counterpoint", "answer_keywords": ["counterpoint", "polyphony"]},
-    {"difficulty": 4, "points": 400, "question": "What West African xylophone instrument has gourd resonators beneath each wooden bar?", "answer": "Balafon", "answer_keywords": ["balafon"]},
-    {"difficulty": 4, "points": 400, "question": "Who developed the prepared piano technique by placing objects on the strings?", "answer": "John Cage", "answer_keywords": ["cage", "john cage"]},
-    {"difficulty": 4, "points": 400, "question": "What is the Arabic short-necked plucked lute considered the ancestor of the European lute?", "answer": "Oud", "answer_keywords": ["oud"]},
-    {"difficulty": 4, "points": 400, "question": "What is the compositional technique where a melody is sung by multiple voices entering at different times?", "answer": "Canon", "answer_keywords": ["canon"]},
-    {"difficulty": 4, "points": 400, "question": "What is the Indian classical music rhythmic time cycle that organizes percussion patterns?", "answer": "Tala", "answer_keywords": ["tala"]},
-    {"difficulty": 4, "points": 400, "question": "What vocal technique produces an expressive fluctuation in pitch?", "answer": "Vibrato", "answer_keywords": ["vibrato"]},
-
-    {"difficulty": 5, "points": 500, "question": "Who composed Atmosphères, a work for large orchestra with no melody, harmony, or rhythm as conventionally understood?", "answer": "György Ligeti", "answer_keywords": ["ligeti", "gyorgy ligeti"]},
-    {"difficulty": 5, "points": 500, "question": "Who composed Structures Ia, a foundational work of integral serialism?", "answer": "Pierre Boulez", "answer_keywords": ["boulez", "pierre boulez"]},
-    {"difficulty": 5, "points": 500, "question": "What medieval polyphonic vocal form added voices improvised above a Gregorian plainchant?", "answer": "Organum", "answer_keywords": ["organum"]},
-    {"difficulty": 5, "points": 500, "question": "Who was the Renaissance composer who developed the polychoral style at St. Mark's Basilica in Venice?", "answer": "Giovanni Gabrieli", "answer_keywords": ["gabrieli", "giovanni gabrieli"]},
-    {"difficulty": 5, "points": 500, "question": "Who composed Threnody to the Victims of Hiroshima for 52 string instruments?", "answer": "Krzysztof Penderecki", "answer_keywords": ["penderecki", "krzysztof penderecki"]},
-    {"difficulty": 5, "points": 500, "question": "What 20th-century Hungarian composer extensively collected folk songs and incorporated them into classical compositions?", "answer": "Béla Bartók", "answer_keywords": ["bartok", "bela bartok"]},
-    {"difficulty": 5, "points": 500, "question": "What medieval rhythmic system used six patterns derived from classical poetic meter to organize polyphonic music?", "answer": "Rhythmic modes", "answer_keywords": ["rhythmic modes"]},
-    {"difficulty": 5, "points": 500, "question": "What South Indian double-headed drum is the primary percussion instrument of Carnatic classical music?", "answer": "Mridangam", "answer_keywords": ["mridangam"]},
-    {"difficulty": 5, "points": 500, "question": "Who is credited with establishing the mathematical basis of musical tuning using ratios of whole numbers?", "answer": "Pythagoras", "answer_keywords": ["pythagoras"]},
-    {"difficulty": 5, "points": 500, "question": "What ancient Greek system divided a perfect fourth into four pitches forming the basic unit of melody?", "answer": "Tetrachord", "answer_keywords": ["tetrachord"]},
-    {"difficulty": 5, "points": 500, "question": "Who composed Requiem Op. 48 in response to the Franco-Prussian War?", "answer": "Gabriel Fauré", "answer_keywords": ["faure", "gabriel faure"]},
-    {"difficulty": 5, "points": 500, "question": "What Indian clay pot instrument is played by striking the rim and mouth with the hands?", "answer": "Ghatam", "answer_keywords": ["ghatam"]},
-    {"difficulty": 5, "points": 500, "question": "Who composed Chronochromie, a work precisely notating birdsong from 77 species?", "answer": "Olivier Messiaen", "answer_keywords": ["messiaen", "olivier messiaen"]},
-    {"difficulty": 5, "points": 500, "question": "What ancient stringed instrument was found in the Royal Graves of Ur in Mesopotamia?", "answer": "Lyre of Ur", "answer_keywords": ["lyre of ur", "bull-headed lyre"]},
-    {"difficulty": 5, "points": 500, "question": "Who was the 16th-century Italian madrigal composer notorious for extreme chromaticism and who murdered his wife?", "answer": "Carlo Gesualdo", "answer_keywords": ["gesualdo", "carlo gesualdo"]}
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who composed Für Elise?",
+      "answer": "Ludwig van Beethoven",
+      "answer_keywords": [
+        "beethoven",
+        "ludwig van beethoven"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What instrument has 88 keys?",
+      "answer": "Piano",
+      "answer_keywords": [
+        "piano"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What band sang Bohemian Rhapsody?",
+      "answer": "Queen",
+      "answer_keywords": [
+        "queen"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who is known as the King of Pop?",
+      "answer": "Michael Jackson",
+      "answer_keywords": [
+        "michael jackson",
+        "jackson"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who composed The Four Seasons?",
+      "answer": "Antonio Vivaldi",
+      "answer_keywords": [
+        "vivaldi",
+        "antonio vivaldi"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What musical term means gradually getting louder?",
+      "answer": "Crescendo",
+      "answer_keywords": [
+        "crescendo"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who composed The Magic Flute?",
+      "answer": "Wolfgang Amadeus Mozart",
+      "answer_keywords": [
+        "mozart",
+        "wolfgang amadeus mozart"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who is known as the Queen of Soul?",
+      "answer": "Aretha Franklin",
+      "answer_keywords": [
+        "aretha franklin",
+        "franklin"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the term for singing without any instrumental accompaniment?",
+      "answer": "A cappella",
+      "answer_keywords": [
+        "a cappella",
+        "acappella"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who wrote the opera Aida?",
+      "answer": "Giuseppe Verdi",
+      "answer_keywords": [
+        "verdi",
+        "giuseppe verdi"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who composed The Ring of the Nibelung?",
+      "answer": "Richard Wagner",
+      "answer_keywords": [
+        "wagner",
+        "richard wagner"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "How many musicians perform in a quartet?",
+      "answer": "Four",
+      "answer_keywords": [
+        "4",
+        "four"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What symbol placed at the beginning of a staff indicates its pitch range?",
+      "answer": "Clef",
+      "answer_keywords": [
+        "clef"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the large string instrument played with a bow while held between the knees?",
+      "answer": "Cello",
+      "answer_keywords": [
+        "cello"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What Italian musical term means fast and lively?",
+      "answer": "Allegro",
+      "answer_keywords": [
+        "allegro"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What musical term refers to the speed or pace of a piece?",
+      "answer": "Tempo",
+      "answer_keywords": [
+        "tempo"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who composed The Nutcracker?",
+      "answer": "Pyotr Ilyich Tchaikovsky",
+      "answer_keywords": [
+        "tchaikovsky",
+        "pyotr tchaikovsky"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the lowest male singing voice called?",
+      "answer": "Bass",
+      "answer_keywords": [
+        "bass"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who wrote Rhapsody in Blue?",
+      "answer": "George Gershwin",
+      "answer_keywords": [
+        "gershwin",
+        "george gershwin"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What percussion instrument consists of a circular frame with small metal disks around the rim?",
+      "answer": "Tambourine",
+      "answer_keywords": [
+        "tambourine"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who founded Motown Records?",
+      "answer": "Berry Gordy",
+      "answer_keywords": [
+        "gordy",
+        "berry gordy"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the highest female singing voice called?",
+      "answer": "Soprano",
+      "answer_keywords": [
+        "soprano"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What jazz and blues form is built on a 12-bar chord progression?",
+      "answer": "Blues",
+      "answer_keywords": [
+        "blues",
+        "12-bar blues"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who composed Clair de Lune?",
+      "answer": "Claude Debussy",
+      "answer_keywords": [
+        "debussy",
+        "claude debussy"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the term for a composition featuring a solo instrument with orchestral accompaniment?",
+      "answer": "Concerto",
+      "answer_keywords": [
+        "concerto"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who composed Pictures at an Exhibition?",
+      "answer": "Modest Mussorgsky",
+      "answer_keywords": [
+        "mussorgsky",
+        "modest mussorgsky"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What ancient Greek stringed instrument was played by plucking?",
+      "answer": "Lyre",
+      "answer_keywords": [
+        "lyre"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the musical term for a short rhythmic or melodic pattern repeated throughout a piece?",
+      "answer": "Ostinato",
+      "answer_keywords": [
+        "ostinato"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who composed Water Music?",
+      "answer": "George Frideric Handel",
+      "answer_keywords": [
+        "handel",
+        "george frideric handel"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the musical term for notes played in a smooth, connected manner?",
+      "answer": "Legato",
+      "answer_keywords": [
+        "legato"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the term for a musical piece in which a theme is introduced then imitated by successive voices in overlapping entries?",
+      "answer": "Fugue",
+      "answer_keywords": [
+        "fugue"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who composed The Rite of Spring?",
+      "answer": "Igor Stravinsky",
+      "answer_keywords": [
+        "stravinsky",
+        "igor stravinsky"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What Argentine dance originated in the working-class neighborhoods of Buenos Aires?",
+      "answer": "Tango",
+      "answer_keywords": [
+        "tango"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who invented the saxophone?",
+      "answer": "Adolphe Sax",
+      "answer_keywords": [
+        "adolphe sax",
+        "sax"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the musical term for a chord in which notes are played one after another instead of simultaneously?",
+      "answer": "Arpeggio",
+      "answer_keywords": [
+        "arpeggio"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who composed Bolero?",
+      "answer": "Maurice Ravel",
+      "answer_keywords": [
+        "ravel",
+        "maurice ravel"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the term for a concluding passage added at the end of a musical composition?",
+      "answer": "Coda",
+      "answer_keywords": [
+        "coda"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who is widely considered the father of rock and roll?",
+      "answer": "Chuck Berry",
+      "answer_keywords": [
+        "chuck berry",
+        "berry"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the traditional Japanese large ensemble drum performance art?",
+      "answer": "Taiko",
+      "answer_keywords": [
+        "taiko"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the musical term for music with no fixed key signature or tonal center?",
+      "answer": "Atonal",
+      "answer_keywords": [
+        "atonal",
+        "atonality"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who composed Appalachian Spring?",
+      "answer": "Aaron Copland",
+      "answer_keywords": [
+        "copland",
+        "aaron copland"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What Brazilian dance form combines martial arts and music?",
+      "answer": "Capoeira",
+      "answer_keywords": [
+        "capoeira"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the Indian classical music melodic framework used as a basis for improvisation?",
+      "answer": "Raga",
+      "answer_keywords": [
+        "raga"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the term for music in which some element is left to chance or performer choice?",
+      "answer": "Aleatoric music",
+      "answer_keywords": [
+        "aleatoric",
+        "aleatory music",
+        "aleatory"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What Japanese three-stringed instrument is played with a large plectrum?",
+      "answer": "Shamisen",
+      "answer_keywords": [
+        "shamisen"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What 12-tone compositional technique was systematically developed by Arnold Schoenberg?",
+      "answer": "Serialism",
+      "answer_keywords": [
+        "serialism",
+        "twelve-tone",
+        "dodecaphony"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who composed The Well-Tempered Clavier?",
+      "answer": "Johann Sebastian Bach",
+      "answer_keywords": [
+        "bach",
+        "j.s. bach",
+        "johann sebastian bach"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who invented the piano (fortepiano) around 1700?",
+      "answer": "Bartolomeo Cristofori",
+      "answer_keywords": [
+        "cristofori",
+        "bartolomeo cristofori"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who composed Symphonie fantastique?",
+      "answer": "Hector Berlioz",
+      "answer_keywords": [
+        "berlioz",
+        "hector berlioz"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What West African hand drum is used in ceremonial and social music?",
+      "answer": "Djembe",
+      "answer_keywords": [
+        "djembe"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who composed Pierrot lunaire, a foundational expressionist work for voice and chamber ensemble?",
+      "answer": "Arnold Schoenberg",
+      "answer_keywords": [
+        "schoenberg",
+        "arnold schoenberg"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What ancient Chinese plucked instrument has 21 strings and a curved body?",
+      "answer": "Guzheng",
+      "answer_keywords": [
+        "guzheng",
+        "zheng"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who composed Piano Concerto No. 2 in C minor, one of the most performed concertos in the repertoire?",
+      "answer": "Sergei Rachmaninoff",
+      "answer_keywords": [
+        "rachmaninoff",
+        "sergei rachmaninoff"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the musical term for the simultaneous combination of two or more melodic lines?",
+      "answer": "Counterpoint",
+      "answer_keywords": [
+        "counterpoint",
+        "polyphony"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What West African xylophone instrument has gourd resonators beneath each wooden bar?",
+      "answer": "Balafon",
+      "answer_keywords": [
+        "balafon"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who developed the prepared piano technique by placing objects on the strings?",
+      "answer": "John Cage",
+      "answer_keywords": [
+        "cage",
+        "john cage"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the Arabic short-necked plucked lute considered the ancestor of the European lute?",
+      "answer": "Oud",
+      "answer_keywords": [
+        "oud"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the compositional technique where a melody is sung by multiple voices entering at different times?",
+      "answer": "Canon",
+      "answer_keywords": [
+        "canon"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the Indian classical music rhythmic time cycle that organizes percussion patterns?",
+      "answer": "Tala",
+      "answer_keywords": [
+        "tala"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What vocal technique produces an expressive fluctuation in pitch?",
+      "answer": "Vibrato",
+      "answer_keywords": [
+        "vibrato"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who composed Atmosphères, a work for large orchestra with no melody, harmony, or rhythm as conventionally understood?",
+      "answer": "György Ligeti",
+      "answer_keywords": [
+        "ligeti",
+        "gyorgy ligeti"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who composed Structures Ia, a foundational work of integral serialism?",
+      "answer": "Pierre Boulez",
+      "answer_keywords": [
+        "boulez",
+        "pierre boulez"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What medieval polyphonic vocal form added voices improvised above a Gregorian plainchant?",
+      "answer": "Organum",
+      "answer_keywords": [
+        "organum"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the Renaissance composer who developed the polychoral style at St. Mark's Basilica in Venice?",
+      "answer": "Giovanni Gabrieli",
+      "answer_keywords": [
+        "gabrieli",
+        "giovanni gabrieli"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who composed Threnody to the Victims of Hiroshima for 52 string instruments?",
+      "answer": "Krzysztof Penderecki",
+      "answer_keywords": [
+        "penderecki",
+        "krzysztof penderecki"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What 20th-century Hungarian composer extensively collected folk songs and incorporated them into classical compositions?",
+      "answer": "Béla Bartók",
+      "answer_keywords": [
+        "bartok",
+        "bela bartok"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What medieval rhythmic system used six patterns derived from classical poetic meter to organize polyphonic music?",
+      "answer": "Rhythmic modes",
+      "answer_keywords": [
+        "rhythmic modes"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What South Indian double-headed drum is the primary percussion instrument of Carnatic classical music?",
+      "answer": "Mridangam",
+      "answer_keywords": [
+        "mridangam"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who is credited with establishing the mathematical basis of musical tuning using ratios of whole numbers?",
+      "answer": "Pythagoras",
+      "answer_keywords": [
+        "pythagoras"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What ancient Greek system divided a perfect fourth into four pitches forming the basic unit of melody?",
+      "answer": "Tetrachord",
+      "answer_keywords": [
+        "tetrachord"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who composed Requiem Op. 48 in response to the Franco-Prussian War?",
+      "answer": "Gabriel Fauré",
+      "answer_keywords": [
+        "faure",
+        "gabriel faure"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What Indian clay pot instrument is played by striking the rim and mouth with the hands?",
+      "answer": "Ghatam",
+      "answer_keywords": [
+        "ghatam"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who composed Chronochromie, a work precisely notating birdsong from 77 species?",
+      "answer": "Olivier Messiaen",
+      "answer_keywords": [
+        "messiaen",
+        "olivier messiaen"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What ancient stringed instrument was found in the Royal Graves of Ur in Mesopotamia?",
+      "answer": "Lyre of Ur",
+      "answer_keywords": [
+        "lyre of ur",
+        "bull-headed lyre"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the 16th-century Italian madrigal composer notorious for extreme chromaticism and who murdered his wife?",
+      "answer": "Carlo Gesualdo",
+      "answer_keywords": [
+        "gesualdo",
+        "carlo gesualdo"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who wrote the opera The Magic Flute?",
+      "answer": "Wolfgang Amadeus Mozart",
+      "answer_keywords": [
+        "mozart",
+        "wolfgang amadeus mozart"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What instrument does a violinist play?",
+      "answer": "Violin",
+      "answer_keywords": [
+        "violin"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the name of the lowest male singing voice?",
+      "answer": "Bass",
+      "answer_keywords": [
+        "bass"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "How many strings does a standard guitar have?",
+      "answer": "Six",
+      "answer_keywords": [
+        "six",
+        "6"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who composed the Four Seasons?",
+      "answer": "Antonio Vivaldi",
+      "answer_keywords": [
+        "vivaldi",
+        "antonio vivaldi"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the name of the highest female singing voice?",
+      "answer": "Soprano",
+      "answer_keywords": [
+        "soprano"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What musical instrument has black and white keys?",
+      "answer": "Piano",
+      "answer_keywords": [
+        "piano",
+        "keyboard"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the lead singer of the band Queen?",
+      "answer": "Freddie Mercury",
+      "answer_keywords": [
+        "freddie mercury",
+        "mercury"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the name of the symbol placed at the beginning of a musical staff to indicate pitch?",
+      "answer": "Clef",
+      "answer_keywords": [
+        "clef",
+        "treble clef",
+        "bass clef"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who composed Moonlight Sonata?",
+      "answer": "Ludwig van Beethoven",
+      "answer_keywords": [
+        "beethoven",
+        "ludwig van beethoven"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the name of the American song genre that originated in the Mississippi Delta?",
+      "answer": "Blues",
+      "answer_keywords": [
+        "blues"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What does the musical term forte mean?",
+      "answer": "Loud",
+      "answer_keywords": [
+        "loud"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who sang the song Imagine?",
+      "answer": "John Lennon",
+      "answer_keywords": [
+        "lennon",
+        "john lennon"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "How many musicians play in a string quartet?",
+      "answer": "Four",
+      "answer_keywords": [
+        "four",
+        "4"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the Italian opera house where Verdi premiered many of his works?",
+      "answer": "La Scala",
+      "answer_keywords": [
+        "la scala",
+        "scala"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What musical form features a soloist accompanied by an orchestra?",
+      "answer": "Concerto",
+      "answer_keywords": [
+        "concerto"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the note that lasts one beat in 4/4 time?",
+      "answer": "Quarter note",
+      "answer_keywords": [
+        "quarter note",
+        "crotchet"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the genre of American music combining rhythm and blues with gospel?",
+      "answer": "Soul",
+      "answer_keywords": [
+        "soul",
+        "soul music"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who composed the opera Carmen?",
+      "answer": "Georges Bizet",
+      "answer_keywords": [
+        "bizet",
+        "georges bizet"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the musical term for a gradual increase in tempo?",
+      "answer": "Accelerando",
+      "answer_keywords": [
+        "accelerando"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the percussion instrument consisting of a stretched membrane struck with sticks?",
+      "answer": "Drum",
+      "answer_keywords": [
+        "drum",
+        "snare drum",
+        "bass drum"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the style of jazz developed in the 1940s characterized by fast tempos?",
+      "answer": "Bebop",
+      "answer_keywords": [
+        "bebop",
+        "bop"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who composed the Messiah oratorio?",
+      "answer": "George Frideric Handel",
+      "answer_keywords": [
+        "handel",
+        "george frideric handel",
+        "george handel"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the interval spanning eight notes on the diatonic scale?",
+      "answer": "Octave",
+      "answer_keywords": [
+        "octave"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the highest-pitched member of the brass family?",
+      "answer": "Trumpet",
+      "answer_keywords": [
+        "trumpet"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who wrote the opera Madama Butterfly?",
+      "answer": "Giacomo Puccini",
+      "answer_keywords": [
+        "puccini",
+        "giacomo puccini"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the term for a musical composition for solo voice with instrumental accompaniment?",
+      "answer": "Art song",
+      "answer_keywords": [
+        "art song",
+        "lied",
+        "lieder",
+        "chanson"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the musical scale with five notes per octave?",
+      "answer": "Pentatonic scale",
+      "answer_keywords": [
+        "pentatonic",
+        "pentatonic scale"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was known as the Waltz King for his famous Viennese waltzes?",
+      "answer": "Johann Strauss II",
+      "answer_keywords": [
+        "strauss",
+        "johann strauss",
+        "strauss ii"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the compositional technique where a theme is presented simultaneously in different keys?",
+      "answer": "Polytonality",
+      "answer_keywords": [
+        "polytonality",
+        "polytonal"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who composed the opera cycle The Ring of the Nibelung?",
+      "answer": "Richard Wagner",
+      "answer_keywords": [
+        "wagner",
+        "richard wagner"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the term for the ornamental note played just before a main note?",
+      "answer": "Appoggiatura",
+      "answer_keywords": [
+        "appoggiatura",
+        "grace note"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the Brazilian percussion instrument made of a gourd with beads?",
+      "answer": "Shekere",
+      "answer_keywords": [
+        "shekere",
+        "shakers",
+        "agogo"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who composed the piano étude known as the Revolutionary Étude?",
+      "answer": "Frédéric Chopin",
+      "answer_keywords": [
+        "chopin",
+        "frédéric chopin",
+        "frederic chopin"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the compositional form used by Bach in which a single melody is harmonized in four parts?",
+      "answer": "Chorale",
+      "answer_keywords": [
+        "chorale",
+        "bach chorale"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the Arabic microtonal music scale system that divides the octave into 24 intervals?",
+      "answer": "Maqam",
+      "answer_keywords": [
+        "maqam",
+        "maqamat",
+        "makam"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who composed Rhapsody in Blue, blending classical and jazz styles?",
+      "answer": "George Gershwin",
+      "answer_keywords": [
+        "gershwin",
+        "george gershwin"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the ornament consisting of rapid alternation between two adjacent notes?",
+      "answer": "Trill",
+      "answer_keywords": [
+        "trill",
+        "trillo"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the Indian classical music tradition of northern India?",
+      "answer": "Hindustani music",
+      "answer_keywords": [
+        "hindustani",
+        "hindustani music",
+        "north indian classical"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who composed the Goldberg Variations?",
+      "answer": "Johann Sebastian Bach",
+      "answer_keywords": [
+        "bach",
+        "johann sebastian bach"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the term for a musical phrase that provides a sense of resolution at the end of a section?",
+      "answer": "Cadence",
+      "answer_keywords": [
+        "cadence"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the Japanese art of throat singing producing multiple pitches simultaneously?",
+      "answer": "Overtone singing",
+      "answer_keywords": [
+        "overtone singing",
+        "harmonic singing",
+        "throat singing",
+        "tuvan throat singing"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who developed the system of solfège used in Western music education?",
+      "answer": "Guido of Arezzo",
+      "answer_keywords": [
+        "guido of arezzo",
+        "guido d'arezzo",
+        "guido"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the South African choral vocal style that became internationally known in the 1980s?",
+      "answer": "Isicathamiya",
+      "answer_keywords": [
+        "isicathamiya",
+        "mbube",
+        "ladysmith black mambazo style"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the Renaissance-era musical instrument with a crescent-shaped keyboard?",
+      "answer": "Geigenwerk",
+      "answer_keywords": [
+        "geigenwerk",
+        "bowed keyboard"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who composed the opera Wozzeck, a landmark of 20th-century atonal music?",
+      "answer": "Alban Berg",
+      "answer_keywords": [
+        "berg",
+        "alban berg"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the compositional technique developed by Olivier Messiaen using non-retrogradable rhythms?",
+      "answer": "Non-retrogradable rhythm",
+      "answer_keywords": [
+        "non-retrogradable",
+        "non-retrogradable rhythm",
+        "palindromic rhythm"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the 17th-century Italian violinist and composer who wrote 24 Caprices for solo violin?",
+      "answer": "Niccolò Paganini",
+      "answer_keywords": [
+        "paganini",
+        "niccolò paganini",
+        "niccolo paganini"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the Indian melodic framework that specifies scale, ornament, and emotional content?",
+      "answer": "Raga",
+      "answer_keywords": [
+        "raga",
+        "raag"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who composed the String Quartet No. 8 in C minor, considered a musical autobiography of his wartime suffering?",
+      "answer": "Dmitri Shostakovich",
+      "answer_keywords": [
+        "shostakovich",
+        "dmitri shostakovich"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the Javanese and Balinese orchestra consisting largely of metallophones and gongs?",
+      "answer": "Gamelan",
+      "answer_keywords": [
+        "gamelan"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the term for a note that is sustained while the harmony changes around it?",
+      "answer": "Pedal point",
+      "answer_keywords": [
+        "pedal point",
+        "pedal tone",
+        "organ point"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who composed the opera Nixon in China?",
+      "answer": "John Adams",
+      "answer_keywords": [
+        "john adams",
+        "adams"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the compositional technique in which a musical line is played backwards?",
+      "answer": "Retrograde",
+      "answer_keywords": [
+        "retrograde",
+        "retrograde motion"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the 19th-century Austro-Hungarian composer known for his lengthy, complex symphonies?",
+      "answer": "Anton Bruckner",
+      "answer_keywords": [
+        "bruckner",
+        "anton bruckner"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the medieval singing style using parallel open fifths?",
+      "answer": "Organum",
+      "answer_keywords": [
+        "organum",
+        "parallel organum"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who composed the piano work Gaspard de la nuit, considered among the most difficult piano pieces?",
+      "answer": "Maurice Ravel",
+      "answer_keywords": [
+        "ravel",
+        "maurice ravel"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the microtonally tuned scale used in Turkish classical music dividing the octave into 53 intervals?",
+      "answer": "Turkish maqam",
+      "answer_keywords": [
+        "turkish maqam",
+        "makam",
+        "53-tone"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who wrote Pierrot Lunaire, a landmark of Expressionist music using Sprechstimme?",
+      "answer": "Arnold Schoenberg",
+      "answer_keywords": [
+        "schoenberg",
+        "arnold schoenberg",
+        "schönberg"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the extended technique in which a cellist strikes the string with the wood of the bow?",
+      "answer": "Col legno",
+      "answer_keywords": [
+        "col legno"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who composed the orchestral work 4'33'', consisting entirely of silence?",
+      "answer": "John Cage",
+      "answer_keywords": [
+        "cage",
+        "john cage"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the medieval mode equivalent to starting a C major scale on D?",
+      "answer": "Dorian mode",
+      "answer_keywords": [
+        "dorian",
+        "dorian mode"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who composed the opera The Rake's Progress?",
+      "answer": "Igor Stravinsky",
+      "answer_keywords": [
+        "stravinsky",
+        "igor stravinsky"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the tuning system where all intervals are derived from pure mathematical ratios?",
+      "answer": "Just intonation",
+      "answer_keywords": [
+        "just intonation",
+        "pure intonation"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the Renaissance composer credited with founding the English madrigal tradition?",
+      "answer": "William Byrd",
+      "answer_keywords": [
+        "byrd",
+        "william byrd"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the compositional technique in which all pitch classes appear before any is repeated?",
+      "answer": "Serialism",
+      "answer_keywords": [
+        "serialism",
+        "twelve-tone",
+        "tone row",
+        "dodecaphony"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who composed the String Quartet in F major, nicknamed the Rasumovsky?",
+      "answer": "Ludwig van Beethoven",
+      "answer_keywords": [
+        "beethoven",
+        "ludwig van beethoven"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the phenomenon where a resonating body vibrates at a frequency other than its fundamental?",
+      "answer": "Overtone",
+      "answer_keywords": [
+        "overtone",
+        "harmonic",
+        "partial"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the 20th-century Hungarian composer who incorporated folk music and modernist techniques?",
+      "answer": "Béla Bartók",
+      "answer_keywords": [
+        "bartók",
+        "bartok",
+        "béla bartók",
+        "bela bartok"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the historical practice of improvising counterpoint over a given melody?",
+      "answer": "Counterpoint",
+      "answer_keywords": [
+        "counterpoint",
+        "contrapuntal improvisation"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who composed the Requiem that was left unfinished at his death and completed by Süssmayr?",
+      "answer": "Wolfgang Amadeus Mozart",
+      "answer_keywords": [
+        "mozart",
+        "wolfgang amadeus mozart"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the compositional form in which a theme undergoes systematic variation while preserving its harmonic structure?",
+      "answer": "Chaconne",
+      "answer_keywords": [
+        "chaconne",
+        "passacaglia"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the 16th-century Flemish composer considered the master of Renaissance polyphony?",
+      "answer": "Orlando di Lasso",
+      "answer_keywords": [
+        "orlando di lasso",
+        "lasso",
+        "di lasso",
+        "roland de lassus"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the tuning system based on equal division of the octave into twelve semitones?",
+      "answer": "Equal temperament",
+      "answer_keywords": [
+        "equal temperament",
+        "12-tet",
+        "twelve-tone equal temperament"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the name of the plucked string instrument associated with classical Hawaii?",
+      "answer": "Ukulele",
+      "answer_keywords": [
+        "ukulele",
+        "uke"
+      ]
+    }
   ]
 }

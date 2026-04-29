@@ -1,84 +1,1491 @@
 {
   "genre": "Arts",
   "questions": [
-    {"difficulty": 1, "points": 100, "question": "Who painted the Mona Lisa?", "answer": "Leonardo da Vinci", "answer_keywords": ["da vinci", "leonardo da vinci"]},
-    {"difficulty": 1, "points": 100, "question": "What famous painting by Edvard Munch shows a distorted screaming figure?", "answer": "The Scream", "answer_keywords": ["the scream", "scream"]},
-    {"difficulty": 1, "points": 100, "question": "What art movement is Pablo Picasso most associated with?", "answer": "Cubism", "answer_keywords": ["cubism"]},
-    {"difficulty": 1, "points": 100, "question": "Who sculpted the famous marble statue of David in Florence?", "answer": "Michelangelo", "answer_keywords": ["michelangelo"]},
-    {"difficulty": 1, "points": 100, "question": "What ancient armless Greek statue stands in the Louvre?", "answer": "Venus de Milo", "answer_keywords": ["venus de milo"]},
-    {"difficulty": 1, "points": 100, "question": "What Paris museum houses the Mona Lisa?", "answer": "Louvre", "answer_keywords": ["louvre"]},
-    {"difficulty": 1, "points": 100, "question": "Who painted The Starry Night?", "answer": "Vincent van Gogh", "answer_keywords": ["van gogh", "vincent van gogh"]},
-    {"difficulty": 1, "points": 100, "question": "Who painted Girl with a Pearl Earring?", "answer": "Johannes Vermeer", "answer_keywords": ["vermeer", "johannes vermeer"]},
-    {"difficulty": 1, "points": 100, "question": "What art style is known for depicting dreams and the subconscious mind?", "answer": "Surrealism", "answer_keywords": ["surrealism"]},
-    {"difficulty": 1, "points": 100, "question": "What is the term for a wall painting done on wet plaster?", "answer": "Fresco", "answer_keywords": ["fresco"]},
-    {"difficulty": 1, "points": 100, "question": "What architectural style features pointed arches and flying buttresses?", "answer": "Gothic", "answer_keywords": ["gothic"]},
-    {"difficulty": 1, "points": 100, "question": "What is the name for a sculpture of the Virgin Mary cradling the body of Jesus?", "answer": "Pietà", "answer_keywords": ["pieta", "pietà"]},
-    {"difficulty": 1, "points": 100, "question": "Who painted Guernica?", "answer": "Pablo Picasso", "answer_keywords": ["picasso", "pablo picasso"]},
-    {"difficulty": 1, "points": 100, "question": "What Japanese art form involves folding paper into decorative shapes?", "answer": "Origami", "answer_keywords": ["origami"]},
-    {"difficulty": 1, "points": 100, "question": "What art movement emphasized emotional expression over realistic depiction?", "answer": "Expressionism", "answer_keywords": ["expressionism"]},
-
-    {"difficulty": 2, "points": 200, "question": "What late 19th-century French movement is known for visible brushwork and painting outdoors?", "answer": "Impressionism", "answer_keywords": ["impressionism"]},
-    {"difficulty": 2, "points": 200, "question": "Who designed the Guggenheim Museum in New York City?", "answer": "Frank Lloyd Wright", "answer_keywords": ["frank lloyd wright", "wright"]},
-    {"difficulty": 2, "points": 200, "question": "What ancient Greek temple dedicated to Athena sits atop the Acropolis?", "answer": "Parthenon", "answer_keywords": ["parthenon"]},
-    {"difficulty": 2, "points": 200, "question": "Who painted The Birth of Venus?", "answer": "Sandro Botticelli", "answer_keywords": ["botticelli", "sandro botticelli"]},
-    {"difficulty": 2, "points": 200, "question": "What is the artistic technique of applying very thick paint to a canvas surface?", "answer": "Impasto", "answer_keywords": ["impasto"]},
-    {"difficulty": 2, "points": 200, "question": "What 1960s art movement used commercial imagery and mass-produced goods as subject matter?", "answer": "Pop Art", "answer_keywords": ["pop art"]},
-    {"difficulty": 2, "points": 200, "question": "Who painted Las Meninas?", "answer": "Diego Velázquez", "answer_keywords": ["velazquez", "diego velazquez"]},
-    {"difficulty": 2, "points": 200, "question": "What art movement founded by Marcel Duchamp challenged conventional definitions of art by exhibiting everyday objects?", "answer": "Dada", "answer_keywords": ["dada", "dadaism"]},
-    {"difficulty": 2, "points": 200, "question": "Who created The Thinker sculpture?", "answer": "Auguste Rodin", "answer_keywords": ["rodin", "auguste rodin"]},
-    {"difficulty": 2, "points": 200, "question": "What art movement followed Impressionism, using color and form to express emotions rather than depict reality?", "answer": "Post-Impressionism", "answer_keywords": ["post-impressionism", "post impressionism"]},
-    {"difficulty": 2, "points": 200, "question": "What artistic practice creates images from small pieces of glass, tile, or stone?", "answer": "Mosaic", "answer_keywords": ["mosaic"]},
-    {"difficulty": 2, "points": 200, "question": "Who is famous for the Campbell's Soup Cans artwork?", "answer": "Andy Warhol", "answer_keywords": ["warhol", "andy warhol"]},
-    {"difficulty": 2, "points": 200, "question": "What is the artistic practice of attaching objects and materials to a flat surface to create an image?", "answer": "Collage", "answer_keywords": ["collage"]},
-    {"difficulty": 2, "points": 200, "question": "What is the term for an artist's preliminary full-scale drawing or design for a larger work?", "answer": "Cartoon", "answer_keywords": ["cartoon"]},
-    {"difficulty": 2, "points": 200, "question": "What painting technique uses transparent overlapping layers of paint to create depth and luminosity?", "answer": "Glazing", "answer_keywords": ["glazing"]},
-
-    {"difficulty": 3, "points": 300, "question": "What Japanese woodblock print style flourished during the Edo period?", "answer": "Ukiyo-e", "answer_keywords": ["ukiyo-e", "ukiyo e"]},
-    {"difficulty": 3, "points": 300, "question": "Who designed the dome of the Florence Cathedral?", "answer": "Filippo Brunelleschi", "answer_keywords": ["brunelleschi", "filippo brunelleschi"]},
-    {"difficulty": 3, "points": 300, "question": "Who painted A Sunday Afternoon on the Island of La Grande Jatte?", "answer": "Georges Seurat", "answer_keywords": ["seurat", "georges seurat"]},
-    {"difficulty": 3, "points": 300, "question": "Who is considered the pioneer of abstract art, known for his Composition series?", "answer": "Wassily Kandinsky", "answer_keywords": ["kandinsky", "wassily kandinsky"]},
-    {"difficulty": 3, "points": 300, "question": "What 17th-century European style features dramatic grandeur, emotional intensity, and rich detail?", "answer": "Baroque", "answer_keywords": ["baroque"]},
-    {"difficulty": 3, "points": 300, "question": "Who painted Nighthawks, the famous image of patrons in a late-night American diner?", "answer": "Edward Hopper", "answer_keywords": ["hopper", "edward hopper"]},
-    {"difficulty": 3, "points": 300, "question": "What Dutch graphic artist is famous for mathematically impossible architectural illusions?", "answer": "M.C. Escher", "answer_keywords": ["escher", "m.c. escher"]},
-    {"difficulty": 3, "points": 300, "question": "What Spanish architect designed the Sagrada Família in Barcelona?", "answer": "Antoni Gaudí", "answer_keywords": ["gaudi", "gaudí", "antoni gaudi"]},
-    {"difficulty": 3, "points": 300, "question": "What New York art movement of the 1940s emphasized spontaneous, large-scale gestural brushwork?", "answer": "Abstract Expressionism", "answer_keywords": ["abstract expressionism"]},
-    {"difficulty": 3, "points": 300, "question": "What Japanese technique involves repairing broken pottery by filling cracks with gold lacquer?", "answer": "Kintsugi", "answer_keywords": ["kintsugi"]},
-    {"difficulty": 3, "points": 300, "question": "What painting technique uses light and shadow to model three-dimensional forms on a flat surface?", "answer": "Chiaroscuro", "answer_keywords": ["chiaroscuro"]},
-    {"difficulty": 3, "points": 300, "question": "What German art school founded in 1919 united fine arts with crafts and industrial design?", "answer": "Bauhaus", "answer_keywords": ["bauhaus"]},
-    {"difficulty": 3, "points": 300, "question": "Who painted The Night Watch?", "answer": "Rembrandt van Rijn", "answer_keywords": ["rembrandt", "rembrandt van rijn"]},
-    {"difficulty": 3, "points": 300, "question": "What technique involves scratching through a surface layer to reveal a contrasting color beneath?", "answer": "Sgraffito", "answer_keywords": ["sgraffito"]},
-    {"difficulty": 3, "points": 300, "question": "What art movement of the 1950s and 60s reduced art to basic geometric shapes and primary colors?", "answer": "Minimalism", "answer_keywords": ["minimalism"]},
-
-    {"difficulty": 4, "points": 400, "question": "Who painted Arrangement in Grey and Black No. 1, commonly known as Whistler's Mother?", "answer": "James McNeill Whistler", "answer_keywords": ["whistler", "james mcneill whistler"]},
-    {"difficulty": 4, "points": 400, "question": "What 15th-century Flemish painter created The Ghent Altarpiece?", "answer": "Jan van Eyck", "answer_keywords": ["van eyck", "jan van eyck"]},
-    {"difficulty": 4, "points": 400, "question": "What painting technique did Jackson Pollock develop, pouring and dripping paint onto a floor-laid canvas?", "answer": "Action painting", "answer_keywords": ["action painting", "drip painting"]},
-    {"difficulty": 4, "points": 400, "question": "Who designed Fallingwater, the famous house built over a waterfall in Pennsylvania?", "answer": "Frank Lloyd Wright", "answer_keywords": ["frank lloyd wright", "wright"]},
-    {"difficulty": 4, "points": 400, "question": "Who created the outdoor earthwork Spiral Jetty at Utah's Great Salt Lake?", "answer": "Robert Smithson", "answer_keywords": ["smithson", "robert smithson"]},
-    {"difficulty": 4, "points": 400, "question": "Who painted The Persistence of Memory featuring melting clocks?", "answer": "Salvador Dalí", "answer_keywords": ["dali", "salvador dali"]},
-    {"difficulty": 4, "points": 400, "question": "Who designed the Sydney Opera House?", "answer": "Jørn Utzon", "answer_keywords": ["utzon", "jorn utzon"]},
-    {"difficulty": 4, "points": 400, "question": "What ancient textile technique decorates fabric using a wax-resist dyeing process?", "answer": "Batik", "answer_keywords": ["batik"]},
-    {"difficulty": 4, "points": 400, "question": "Who painted American Gothic, depicting a farmer and a woman standing before a house?", "answer": "Grant Wood", "answer_keywords": ["grant wood", "grant"]},
-    {"difficulty": 4, "points": 400, "question": "What painting technique uses egg yolk as the binding medium for pigment?", "answer": "Tempera", "answer_keywords": ["tempera", "egg tempera"]},
-    {"difficulty": 4, "points": 400, "question": "Who created Fountain, the famous readymade artwork consisting of an upturned urinal?", "answer": "Marcel Duchamp", "answer_keywords": ["duchamp", "marcel duchamp"]},
-    {"difficulty": 4, "points": 400, "question": "What art form uses the natural environment as its medium, creating large-scale works in landscapes?", "answer": "Land art", "answer_keywords": ["land art", "earth art"]},
-    {"difficulty": 4, "points": 400, "question": "What is the term for a small preliminary three-dimensional model made before a final sculpture?", "answer": "Maquette", "answer_keywords": ["maquette"]},
-    {"difficulty": 4, "points": 400, "question": "What print-making technique involves engraving a design into a metal plate and printing from it?", "answer": "Etching", "answer_keywords": ["etching"]},
-    {"difficulty": 4, "points": 400, "question": "What Renaissance technique depicts three-dimensional space on a flat surface using vanishing points?", "answer": "Linear perspective", "answer_keywords": ["linear perspective", "perspective"]},
-
-    {"difficulty": 5, "points": 500, "question": "Who painted Oath of the Horatii, a foundational work of Neoclassicism?", "answer": "Jacques-Louis David", "answer_keywords": ["david", "jacques-louis david"]},
-    {"difficulty": 5, "points": 500, "question": "What Japanese artist created The Great Wave off Kanagawa?", "answer": "Katsushika Hokusai", "answer_keywords": ["hokusai", "katsushika hokusai"]},
-    {"difficulty": 5, "points": 500, "question": "What 19th-century British art movement sought to return to the detailed, sincere style of artists before Raphael?", "answer": "Pre-Raphaelite Brotherhood", "answer_keywords": ["pre-raphaelite", "pre-raphaelite brotherhood"]},
-    {"difficulty": 5, "points": 500, "question": "What ancient Roman painting technique used heated colored wax fused to a surface?", "answer": "Encaustic", "answer_keywords": ["encaustic"]},
-    {"difficulty": 5, "points": 500, "question": "What avant-garde movement of the 1960s incorporated performance, everyday actions, and mail art?", "answer": "Fluxus", "answer_keywords": ["fluxus"]},
-    {"difficulty": 5, "points": 500, "question": "What 16th-century Venetian painter is celebrated for luminous color, including the Assumption of the Virgin?", "answer": "Titian", "answer_keywords": ["titian"]},
-    {"difficulty": 5, "points": 500, "question": "What Russian avant-garde movement founded around 1915 used pure geometric abstraction as its basis?", "answer": "Suprematism", "answer_keywords": ["suprematism"]},
-    {"difficulty": 5, "points": 500, "question": "Who designed the Crystal Palace for London's Great Exhibition of 1851?", "answer": "Joseph Paxton", "answer_keywords": ["paxton", "joseph paxton"]},
-    {"difficulty": 5, "points": 500, "question": "What Mexican art movement produced large public murals by artists including Diego Rivera and José Orozco?", "answer": "Mexican muralism", "answer_keywords": ["mexican muralism", "muralism"]},
-    {"difficulty": 5, "points": 500, "question": "What year was Pablo Picasso's Guernica painted?", "answer": "1937", "answer_keywords": ["1937"]},
-    {"difficulty": 5, "points": 500, "question": "What is the Japanese art of formal flower arranging?", "answer": "Ikebana", "answer_keywords": ["ikebana"]},
-    {"difficulty": 5, "points": 500, "question": "Who was the pioneering 16th-century Italian female painter known for her Self-Portrait at the Easel?", "answer": "Sofonisba Anguissola", "answer_keywords": ["anguissola", "sofonisba anguissola"]},
-    {"difficulty": 5, "points": 500, "question": "What ancient Chinese painting tradition uses ink and water-based pigments on silk or paper?", "answer": "Ink wash painting", "answer_keywords": ["ink wash painting", "sumi-e"]},
-    {"difficulty": 5, "points": 500, "question": "What abstract painting technique, pioneered by Helen Frankenthaler, soaks diluted paint into unprimed canvas?", "answer": "Color field painting", "answer_keywords": ["color field", "color field painting"]},
-    {"difficulty": 5, "points": 500, "question": "What is the term for a decorative art technique of applying thin cut paper or other materials to a surface?", "answer": "Découpage", "answer_keywords": ["decoupage", "découpage"]}
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who painted the Mona Lisa?",
+      "answer": "Leonardo da Vinci",
+      "answer_keywords": [
+        "da vinci",
+        "leonardo da vinci"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What famous painting by Edvard Munch shows a distorted screaming figure?",
+      "answer": "The Scream",
+      "answer_keywords": [
+        "the scream",
+        "scream"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What art movement is Pablo Picasso most associated with?",
+      "answer": "Cubism",
+      "answer_keywords": [
+        "cubism"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who sculpted the famous marble statue of David in Florence?",
+      "answer": "Michelangelo",
+      "answer_keywords": [
+        "michelangelo"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What ancient armless Greek statue stands in the Louvre?",
+      "answer": "Venus de Milo",
+      "answer_keywords": [
+        "venus de milo"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What Paris museum houses the Mona Lisa?",
+      "answer": "Louvre",
+      "answer_keywords": [
+        "louvre"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who painted The Starry Night?",
+      "answer": "Vincent van Gogh",
+      "answer_keywords": [
+        "van gogh",
+        "vincent van gogh"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who painted Girl with a Pearl Earring?",
+      "answer": "Johannes Vermeer",
+      "answer_keywords": [
+        "vermeer",
+        "johannes vermeer"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What art style is known for depicting dreams and the subconscious mind?",
+      "answer": "Surrealism",
+      "answer_keywords": [
+        "surrealism"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the term for a wall painting done on wet plaster?",
+      "answer": "Fresco",
+      "answer_keywords": [
+        "fresco"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What architectural style features pointed arches and flying buttresses?",
+      "answer": "Gothic",
+      "answer_keywords": [
+        "gothic"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the name for a sculpture of the Virgin Mary cradling the body of Jesus?",
+      "answer": "Pietà",
+      "answer_keywords": [
+        "pieta",
+        "pietà"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who painted Guernica?",
+      "answer": "Pablo Picasso",
+      "answer_keywords": [
+        "picasso",
+        "pablo picasso"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What Japanese art form involves folding paper into decorative shapes?",
+      "answer": "Origami",
+      "answer_keywords": [
+        "origami"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What art movement emphasized emotional expression over realistic depiction?",
+      "answer": "Expressionism",
+      "answer_keywords": [
+        "expressionism"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What late 19th-century French movement is known for visible brushwork and painting outdoors?",
+      "answer": "Impressionism",
+      "answer_keywords": [
+        "impressionism"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who designed the Guggenheim Museum in New York City?",
+      "answer": "Frank Lloyd Wright",
+      "answer_keywords": [
+        "frank lloyd wright",
+        "wright"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What ancient Greek temple dedicated to Athena sits atop the Acropolis?",
+      "answer": "Parthenon",
+      "answer_keywords": [
+        "parthenon"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who painted The Birth of Venus?",
+      "answer": "Sandro Botticelli",
+      "answer_keywords": [
+        "botticelli",
+        "sandro botticelli"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the artistic technique of applying very thick paint to a canvas surface?",
+      "answer": "Impasto",
+      "answer_keywords": [
+        "impasto"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What 1960s art movement used commercial imagery and mass-produced goods as subject matter?",
+      "answer": "Pop Art",
+      "answer_keywords": [
+        "pop art"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who painted Las Meninas?",
+      "answer": "Diego Velázquez",
+      "answer_keywords": [
+        "velazquez",
+        "diego velazquez"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What art movement founded by Marcel Duchamp challenged conventional definitions of art by exhibiting everyday objects?",
+      "answer": "Dada",
+      "answer_keywords": [
+        "dada",
+        "dadaism"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who created The Thinker sculpture?",
+      "answer": "Auguste Rodin",
+      "answer_keywords": [
+        "rodin",
+        "auguste rodin"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What art movement followed Impressionism, using color and form to express emotions rather than depict reality?",
+      "answer": "Post-Impressionism",
+      "answer_keywords": [
+        "post-impressionism",
+        "post impressionism"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What artistic practice creates images from small pieces of glass, tile, or stone?",
+      "answer": "Mosaic",
+      "answer_keywords": [
+        "mosaic"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who is famous for the Campbell's Soup Cans artwork?",
+      "answer": "Andy Warhol",
+      "answer_keywords": [
+        "warhol",
+        "andy warhol"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the artistic practice of attaching objects and materials to a flat surface to create an image?",
+      "answer": "Collage",
+      "answer_keywords": [
+        "collage"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the term for an artist's preliminary full-scale drawing or design for a larger work?",
+      "answer": "Cartoon",
+      "answer_keywords": [
+        "cartoon"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What painting technique uses transparent overlapping layers of paint to create depth and luminosity?",
+      "answer": "Glazing",
+      "answer_keywords": [
+        "glazing"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What Japanese woodblock print style flourished during the Edo period?",
+      "answer": "Ukiyo-e",
+      "answer_keywords": [
+        "ukiyo-e",
+        "ukiyo e"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who designed the dome of the Florence Cathedral?",
+      "answer": "Filippo Brunelleschi",
+      "answer_keywords": [
+        "brunelleschi",
+        "filippo brunelleschi"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who painted A Sunday Afternoon on the Island of La Grande Jatte?",
+      "answer": "Georges Seurat",
+      "answer_keywords": [
+        "seurat",
+        "georges seurat"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who is considered the pioneer of abstract art, known for his Composition series?",
+      "answer": "Wassily Kandinsky",
+      "answer_keywords": [
+        "kandinsky",
+        "wassily kandinsky"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What 17th-century European style features dramatic grandeur, emotional intensity, and rich detail?",
+      "answer": "Baroque",
+      "answer_keywords": [
+        "baroque"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who painted Nighthawks, the famous image of patrons in a late-night American diner?",
+      "answer": "Edward Hopper",
+      "answer_keywords": [
+        "hopper",
+        "edward hopper"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What Dutch graphic artist is famous for mathematically impossible architectural illusions?",
+      "answer": "M.C. Escher",
+      "answer_keywords": [
+        "escher",
+        "m.c. escher"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What Spanish architect designed the Sagrada Família in Barcelona?",
+      "answer": "Antoni Gaudí",
+      "answer_keywords": [
+        "gaudi",
+        "gaudí",
+        "antoni gaudi"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What New York art movement of the 1940s emphasized spontaneous, large-scale gestural brushwork?",
+      "answer": "Abstract Expressionism",
+      "answer_keywords": [
+        "abstract expressionism"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What Japanese technique involves repairing broken pottery by filling cracks with gold lacquer?",
+      "answer": "Kintsugi",
+      "answer_keywords": [
+        "kintsugi"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What painting technique uses light and shadow to model three-dimensional forms on a flat surface?",
+      "answer": "Chiaroscuro",
+      "answer_keywords": [
+        "chiaroscuro"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What German art school founded in 1919 united fine arts with crafts and industrial design?",
+      "answer": "Bauhaus",
+      "answer_keywords": [
+        "bauhaus"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who painted The Night Watch?",
+      "answer": "Rembrandt van Rijn",
+      "answer_keywords": [
+        "rembrandt",
+        "rembrandt van rijn"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What technique involves scratching through a surface layer to reveal a contrasting color beneath?",
+      "answer": "Sgraffito",
+      "answer_keywords": [
+        "sgraffito"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What art movement of the 1950s and 60s reduced art to basic geometric shapes and primary colors?",
+      "answer": "Minimalism",
+      "answer_keywords": [
+        "minimalism"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who painted Arrangement in Grey and Black No. 1, commonly known as Whistler's Mother?",
+      "answer": "James McNeill Whistler",
+      "answer_keywords": [
+        "whistler",
+        "james mcneill whistler"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What 15th-century Flemish painter created The Ghent Altarpiece?",
+      "answer": "Jan van Eyck",
+      "answer_keywords": [
+        "van eyck",
+        "jan van eyck"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What painting technique did Jackson Pollock develop, pouring and dripping paint onto a floor-laid canvas?",
+      "answer": "Action painting",
+      "answer_keywords": [
+        "action painting",
+        "drip painting"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who designed Fallingwater, the famous house built over a waterfall in Pennsylvania?",
+      "answer": "Frank Lloyd Wright",
+      "answer_keywords": [
+        "frank lloyd wright",
+        "wright"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who created the outdoor earthwork Spiral Jetty at Utah's Great Salt Lake?",
+      "answer": "Robert Smithson",
+      "answer_keywords": [
+        "smithson",
+        "robert smithson"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who painted The Persistence of Memory featuring melting clocks?",
+      "answer": "Salvador Dalí",
+      "answer_keywords": [
+        "dali",
+        "salvador dali"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who designed the Sydney Opera House?",
+      "answer": "Jørn Utzon",
+      "answer_keywords": [
+        "utzon",
+        "jorn utzon"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What ancient textile technique decorates fabric using a wax-resist dyeing process?",
+      "answer": "Batik",
+      "answer_keywords": [
+        "batik"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who painted American Gothic, depicting a farmer and a woman standing before a house?",
+      "answer": "Grant Wood",
+      "answer_keywords": [
+        "grant wood",
+        "grant"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What painting technique uses egg yolk as the binding medium for pigment?",
+      "answer": "Tempera",
+      "answer_keywords": [
+        "tempera",
+        "egg tempera"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who created Fountain, the famous readymade artwork consisting of an upturned urinal?",
+      "answer": "Marcel Duchamp",
+      "answer_keywords": [
+        "duchamp",
+        "marcel duchamp"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What art form uses the natural environment as its medium, creating large-scale works in landscapes?",
+      "answer": "Land art",
+      "answer_keywords": [
+        "land art",
+        "earth art"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the term for a small preliminary three-dimensional model made before a final sculpture?",
+      "answer": "Maquette",
+      "answer_keywords": [
+        "maquette"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What print-making technique involves engraving a design into a metal plate and printing from it?",
+      "answer": "Etching",
+      "answer_keywords": [
+        "etching"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What Renaissance technique depicts three-dimensional space on a flat surface using vanishing points?",
+      "answer": "Linear perspective",
+      "answer_keywords": [
+        "linear perspective",
+        "perspective"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who painted Oath of the Horatii, a foundational work of Neoclassicism?",
+      "answer": "Jacques-Louis David",
+      "answer_keywords": [
+        "david",
+        "jacques-louis david"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What Japanese artist created The Great Wave off Kanagawa?",
+      "answer": "Katsushika Hokusai",
+      "answer_keywords": [
+        "hokusai",
+        "katsushika hokusai"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What 19th-century British art movement sought to return to the detailed, sincere style of artists before Raphael?",
+      "answer": "Pre-Raphaelite Brotherhood",
+      "answer_keywords": [
+        "pre-raphaelite",
+        "pre-raphaelite brotherhood"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What ancient Roman painting technique used heated colored wax fused to a surface?",
+      "answer": "Encaustic",
+      "answer_keywords": [
+        "encaustic"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What avant-garde movement of the 1960s incorporated performance, everyday actions, and mail art?",
+      "answer": "Fluxus",
+      "answer_keywords": [
+        "fluxus"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What 16th-century Venetian painter is celebrated for luminous color, including the Assumption of the Virgin?",
+      "answer": "Titian",
+      "answer_keywords": [
+        "titian"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What Russian avant-garde movement founded around 1915 used pure geometric abstraction as its basis?",
+      "answer": "Suprematism",
+      "answer_keywords": [
+        "suprematism"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who designed the Crystal Palace for London's Great Exhibition of 1851?",
+      "answer": "Joseph Paxton",
+      "answer_keywords": [
+        "paxton",
+        "joseph paxton"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What Mexican art movement produced large public murals by artists including Diego Rivera and José Orozco?",
+      "answer": "Mexican muralism",
+      "answer_keywords": [
+        "mexican muralism",
+        "muralism"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What year was Pablo Picasso's Guernica painted?",
+      "answer": "1937",
+      "answer_keywords": [
+        "1937"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the Japanese art of formal flower arranging?",
+      "answer": "Ikebana",
+      "answer_keywords": [
+        "ikebana"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the pioneering 16th-century Italian female painter known for her Self-Portrait at the Easel?",
+      "answer": "Sofonisba Anguissola",
+      "answer_keywords": [
+        "anguissola",
+        "sofonisba anguissola"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What ancient Chinese painting tradition uses ink and water-based pigments on silk or paper?",
+      "answer": "Ink wash painting",
+      "answer_keywords": [
+        "ink wash painting",
+        "sumi-e"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What abstract painting technique, pioneered by Helen Frankenthaler, soaks diluted paint into unprimed canvas?",
+      "answer": "Color field painting",
+      "answer_keywords": [
+        "color field",
+        "color field painting"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the term for a decorative art technique of applying thin cut paper or other materials to a surface?",
+      "answer": "Découpage",
+      "answer_keywords": [
+        "decoupage",
+        "découpage"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who sculpted the statue of David?",
+      "answer": "Michelangelo",
+      "answer_keywords": [
+        "michelangelo"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the name of the most famous work by Edvard Munch, depicting a figure with an anguished expression?",
+      "answer": "The Scream",
+      "answer_keywords": [
+        "the scream",
+        "scream"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What style of architecture is the Notre-Dame Cathedral in Paris?",
+      "answer": "Gothic",
+      "answer_keywords": [
+        "gothic",
+        "gothic architecture"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the name of the ancient Greek temple on the Acropolis of Athens?",
+      "answer": "Parthenon",
+      "answer_keywords": [
+        "parthenon"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who painted the ceiling of the Sistine Chapel?",
+      "answer": "Michelangelo",
+      "answer_keywords": [
+        "michelangelo"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What art form involves shaping clay into objects?",
+      "answer": "Pottery",
+      "answer_keywords": [
+        "pottery",
+        "ceramics"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the name of the famous auction house based in London and New York where artworks are sold?",
+      "answer": "Sotheby's",
+      "answer_keywords": [
+        "sotheby's",
+        "sothebys",
+        "christie's",
+        "christies"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who painted Guernica, a large anti-war canvas?",
+      "answer": "Pablo Picasso",
+      "answer_keywords": [
+        "picasso",
+        "pablo picasso"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the term for a painting done on wet plaster on a wall or ceiling?",
+      "answer": "Fresco",
+      "answer_keywords": [
+        "fresco"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What art movement is Salvador Dalí associated with?",
+      "answer": "Surrealism",
+      "answer_keywords": [
+        "surrealism",
+        "surrealist"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What are the three primary colors in traditional painting?",
+      "answer": "Red, yellow, and blue",
+      "answer_keywords": [
+        "red yellow blue",
+        "red blue yellow",
+        "primary colors"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who designed the Eiffel Tower?",
+      "answer": "Gustave Eiffel",
+      "answer_keywords": [
+        "eiffel",
+        "gustave eiffel"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the name of the ancient wonder that was a giant statue in Rhodes harbor?",
+      "answer": "Colossus of Rhodes",
+      "answer_keywords": [
+        "colossus of rhodes",
+        "colossus"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the art of arranging flowers called?",
+      "answer": "Ikebana",
+      "answer_keywords": [
+        "ikebana",
+        "floristry",
+        "flower arranging"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the artistic movement pioneered by Picasso and Braque that fragments objects into geometric shapes?",
+      "answer": "Cubism",
+      "answer_keywords": [
+        "cubism",
+        "cubist"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What technique, developed in the Renaissance, uses light and shadow to create three-dimensional form?",
+      "answer": "Chiaroscuro",
+      "answer_keywords": [
+        "chiaroscuro"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who designed the glass pyramid entrance to the Louvre in Paris?",
+      "answer": "I. M. Pei",
+      "answer_keywords": [
+        "i m pei",
+        "pei",
+        "ieoh ming pei"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the Japanese art of paper folding?",
+      "answer": "Origami",
+      "answer_keywords": [
+        "origami"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of Andy Warhol's famous series depicting Campbell's soup cans?",
+      "answer": "Campbell's Soup Cans",
+      "answer_keywords": [
+        "campbell's soup cans",
+        "soup cans",
+        "campbell soup"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What art movement, originating in the 1960s, used commercial imagery to challenge fine art?",
+      "answer": "Pop Art",
+      "answer_keywords": [
+        "pop art"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the artistic style characterized by flowing lines and natural forms, popular around 1900?",
+      "answer": "Art Nouveau",
+      "answer_keywords": [
+        "art nouveau"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What Dutch Golden Age painter is famous for his portraits, including The Night Watch?",
+      "answer": "Rembrandt",
+      "answer_keywords": [
+        "rembrandt",
+        "rembrandt van rijn"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the technique where paint is applied in thick, textured strokes?",
+      "answer": "Impasto",
+      "answer_keywords": [
+        "impasto"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the art movement that rejected conventional aesthetics in the early 20th century?",
+      "answer": "Dada",
+      "answer_keywords": [
+        "dada",
+        "dadaism",
+        "dadaist"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What type of artwork is made by embedding pieces of colored glass or stone into a surface?",
+      "answer": "Mosaic",
+      "answer_keywords": [
+        "mosaic",
+        "mosaics"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the Japanese art of ink painting and calligraphy?",
+      "answer": "Sumi-e",
+      "answer_keywords": [
+        "sumi-e",
+        "suibokuga",
+        "ink wash painting"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What 20th-century Russian-born artist is known for his colorful geometric abstract paintings?",
+      "answer": "Wassily Kandinsky",
+      "answer_keywords": [
+        "kandinsky",
+        "wassily kandinsky"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the technique of etching designs into a metal plate, then printing from it?",
+      "answer": "Engraving",
+      "answer_keywords": [
+        "engraving",
+        "intaglio"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who painted Nighthawks, a famous depiction of people at a late-night diner?",
+      "answer": "Edward Hopper",
+      "answer_keywords": [
+        "hopper",
+        "edward hopper"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the German art and design school founded in 1919 that influenced modern design?",
+      "answer": "Bauhaus",
+      "answer_keywords": [
+        "bauhaus"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the art movement associated with artists like Monet and Renoir that captured fleeting light?",
+      "answer": "Impressionism",
+      "answer_keywords": [
+        "impressionism",
+        "impressionist"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who painted Las Meninas, considered one of Western art's most important works?",
+      "answer": "Diego Velázquez",
+      "answer_keywords": [
+        "velázquez",
+        "velazquez",
+        "diego velázquez"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the sculptural style originating in ancient Greece characterized by idealized human forms?",
+      "answer": "Classical sculpture",
+      "answer_keywords": [
+        "classical",
+        "classical sculpture",
+        "hellenistic"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the term for the negative space, or background, of a work of art when it forms a recognizable shape?",
+      "answer": "Figure-ground relationship",
+      "answer_keywords": [
+        "figure-ground",
+        "ground",
+        "negative space"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the Islamic geometric art pattern based on interlacing star shapes?",
+      "answer": "Arabesque",
+      "answer_keywords": [
+        "arabesque",
+        "girih"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the art technique of applying wax to a surface to create a waterproof resist?",
+      "answer": "Batik",
+      "answer_keywords": [
+        "batik"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the Japanese art of woodblock printing?",
+      "answer": "Ukiyo-e",
+      "answer_keywords": [
+        "ukiyo-e",
+        "ukiyo e",
+        "woodblock printing"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the term for art created directly in public spaces, often unauthorized?",
+      "answer": "Street art",
+      "answer_keywords": [
+        "street art",
+        "graffiti"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What 20th-century American painter is associated with Abstract Expressionism and drip painting?",
+      "answer": "Jackson Pollock",
+      "answer_keywords": [
+        "pollock",
+        "jackson pollock"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the Italian Baroque sculptor known for The Ecstasy of Saint Teresa?",
+      "answer": "Gian Lorenzo Bernini",
+      "answer_keywords": [
+        "bernini",
+        "gian lorenzo bernini"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the art movement associated with Kandinsky and Franz Marc that used color to express spiritual truths?",
+      "answer": "Der Blaue Reiter",
+      "answer_keywords": [
+        "der blaue reiter",
+        "blaue reiter",
+        "blue rider"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the technique of applying paint with a palette knife rather than a brush?",
+      "answer": "Palette knife painting",
+      "answer_keywords": [
+        "palette knife",
+        "palette knife painting",
+        "knife painting"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who created the sculpture The Thinker?",
+      "answer": "Auguste Rodin",
+      "answer_keywords": [
+        "rodin",
+        "auguste rodin"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the 15th-century Flemish painting technique using multiple thin glazes of oil paint?",
+      "answer": "Flemish technique",
+      "answer_keywords": [
+        "flemish technique",
+        "flemish method",
+        "oil glazing"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the term for a work of art that comments on or imitates another work in a humorous way?",
+      "answer": "Parody",
+      "answer_keywords": [
+        "parody",
+        "pastiche"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who painted The Garden of Earthly Delights, a triptych depicting paradise, earth, and hell?",
+      "answer": "Hieronymus Bosch",
+      "answer_keywords": [
+        "bosch",
+        "hieronymus bosch"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the art movement associated with Louise Bourgeois and Joseph Beuys that blurred the line between art and life?",
+      "answer": "Fluxus",
+      "answer_keywords": [
+        "fluxus",
+        "performance art"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the term for a print made from a flat stone or metal plate treated with grease to repel ink?",
+      "answer": "Lithograph",
+      "answer_keywords": [
+        "lithograph",
+        "lithography"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who painted the Isenheim Altarpiece, a polyptych known for its graphic depiction of Christ's suffering?",
+      "answer": "Matthias Grünewald",
+      "answer_keywords": [
+        "grünewald",
+        "grunewald",
+        "matthias grunewald"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the visual art technique where an image is created by assembling different materials?",
+      "answer": "Collage",
+      "answer_keywords": [
+        "collage"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the term for a spatial illusion in painting where architectural elements extend the real space of a room?",
+      "answer": "Trompe l'oeil",
+      "answer_keywords": [
+        "trompe l'oeil",
+        "trompe loeil",
+        "trompe-l'oeil"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who created the series of water lily paintings at his garden in Giverny?",
+      "answer": "Claude Monet",
+      "answer_keywords": [
+        "monet",
+        "claude monet"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the Byzantine art form using gold-leaf backgrounds and stylized religious figures?",
+      "answer": "Icon painting",
+      "answer_keywords": [
+        "icon painting",
+        "iconography",
+        "icon"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the term for the systematic distortion of scale in a drawing so it appears correct when seen from an angle?",
+      "answer": "Anamorphosis",
+      "answer_keywords": [
+        "anamorphosis",
+        "anamorphic"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who painted Oath of the Horatii, marking the transition to Neoclassicism?",
+      "answer": "Jacques-Louis David",
+      "answer_keywords": [
+        "david",
+        "jacques-louis david",
+        "jacques louis david"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the medieval painting technique using egg yolk as a binder?",
+      "answer": "Egg tempera",
+      "answer_keywords": [
+        "egg tempera",
+        "tempera"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the term for the Japanese aesthetic concept of finding beauty in imperfection and impermanence?",
+      "answer": "Wabi-sabi",
+      "answer_keywords": [
+        "wabi-sabi",
+        "wabi sabi"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who painted the Ambassadors, containing a famous anamorphic skull?",
+      "answer": "Hans Holbein the Younger",
+      "answer_keywords": [
+        "holbein",
+        "hans holbein",
+        "holbein the younger"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the ancient Greek technique of encaustic painting, using heated beeswax as a binder?",
+      "answer": "Encaustic",
+      "answer_keywords": [
+        "encaustic",
+        "encaustic painting",
+        "wax painting"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the Mannerist painter known for his elongated figures and El Greco's real name?",
+      "answer": "Domenikos Theotokopoulos",
+      "answer_keywords": [
+        "domenikos theotokopoulos",
+        "domenico theotocopulos",
+        "el greco real name"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the optical illusion painting technique where dots of pure color placed side by side blend in the viewer's eye?",
+      "answer": "Pointillism",
+      "answer_keywords": [
+        "pointillism",
+        "divisionism",
+        "chromoluminarism"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the term for a print created by incising a design into a metal plate with a sharp needle?",
+      "answer": "Drypoint",
+      "answer_keywords": [
+        "drypoint",
+        "dry point"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who created the sculptural installation The Physical Impossibility of Death in the Mind of Someone Living?",
+      "answer": "Damien Hirst",
+      "answer_keywords": [
+        "damien hirst",
+        "hirst"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the art theory that holds that an artwork's meaning is independent of its creator's intentions?",
+      "answer": "Death of the Author",
+      "answer_keywords": [
+        "death of the author",
+        "intentional fallacy"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the ancient Mesoamerican art tradition notable for its colossal stone heads?",
+      "answer": "Olmec",
+      "answer_keywords": [
+        "olmec",
+        "olmec art"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the technique used in medieval manuscript illumination involving ultra-thin gold leaf?",
+      "answer": "Gilding",
+      "answer_keywords": [
+        "gilding",
+        "gold leaf",
+        "chrysography"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What Russian avant-garde movement sought to abolish art in favor of utilitarian design?",
+      "answer": "Constructivism",
+      "answer_keywords": [
+        "constructivism",
+        "constructivist"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the term for a type of architectural support that transfers the weight of a wall to an outer pier?",
+      "answer": "Flying buttress",
+      "answer_keywords": [
+        "flying buttress",
+        "buttress"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who painted the Raft of the Medusa, a monumental canvas depicting a shipwreck disaster?",
+      "answer": "Théodore Géricault",
+      "answer_keywords": [
+        "géricault",
+        "gericault",
+        "theodore gericault"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the East Asian art of landscape painting in ink, emphasizing empty space and atmosphere?",
+      "answer": "Shanshui",
+      "answer_keywords": [
+        "shanshui",
+        "shan shui",
+        "ink landscape"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the term for a self-portrait photograph?",
+      "answer": "Selfie",
+      "answer_keywords": [
+        "selfie",
+        "self-portrait photo"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the Japanese art of decorating objects with lacquer and gold?",
+      "answer": "Maki-e",
+      "answer_keywords": [
+        "maki-e",
+        "makie",
+        "lacquerware"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the artistic technique of drawing with charcoal?",
+      "answer": "Charcoal drawing",
+      "answer_keywords": [
+        "charcoal drawing",
+        "charcoal",
+        "charcoal sketch"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the Dutch Golden Age technique of painting light through windows onto domestic interiors?",
+      "answer": "Genre painting",
+      "answer_keywords": [
+        "genre painting",
+        "genre scene",
+        "dutch interior"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who painted The Persistence of Memory, featuring melting clocks?",
+      "answer": "Salvador Dalí",
+      "answer_keywords": [
+        "dalí",
+        "dali",
+        "salvador dali"
+      ]
+    }
   ]
 }

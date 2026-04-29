@@ -1,84 +1,1471 @@
 {
   "genre": "Science",
   "questions": [
-    {"difficulty": 1, "points": 100, "question": "What is the chemical symbol for water?", "answer": "H2O", "answer_keywords": ["h2o"]},
-    {"difficulty": 1, "points": 100, "question": "What planet is closest to the Sun?", "answer": "Mercury", "answer_keywords": ["mercury"]},
-    {"difficulty": 1, "points": 100, "question": "What is called the powerhouse of the cell?", "answer": "Mitochondria", "answer_keywords": ["mitochondria"]},
-    {"difficulty": 1, "points": 100, "question": "How many bones are in the adult human body?", "answer": "206", "answer_keywords": ["206"]},
-    {"difficulty": 1, "points": 100, "question": "What gas do plants absorb from the atmosphere during photosynthesis?", "answer": "Carbon dioxide", "answer_keywords": ["carbon dioxide", "co2"]},
-    {"difficulty": 1, "points": 100, "question": "What is the hardest natural substance on Earth?", "answer": "Diamond", "answer_keywords": ["diamond"]},
-    {"difficulty": 1, "points": 100, "question": "What force keeps planets in orbit around the Sun?", "answer": "Gravity", "answer_keywords": ["gravity", "gravitation"]},
-    {"difficulty": 1, "points": 100, "question": "What is the most abundant gas in Earth's atmosphere?", "answer": "Nitrogen", "answer_keywords": ["nitrogen"]},
-    {"difficulty": 1, "points": 100, "question": "What organ pumps blood through the human body?", "answer": "Heart", "answer_keywords": ["heart"]},
-    {"difficulty": 1, "points": 100, "question": "What is the chemical symbol for gold?", "answer": "Au", "answer_keywords": ["au"]},
-    {"difficulty": 1, "points": 100, "question": "What is the largest planet in our solar system?", "answer": "Jupiter", "answer_keywords": ["jupiter"]},
-    {"difficulty": 1, "points": 100, "question": "What type of animal is a whale?", "answer": "Mammal", "answer_keywords": ["mammal"]},
-    {"difficulty": 1, "points": 100, "question": "What scientist developed the theory of general relativity?", "answer": "Albert Einstein", "answer_keywords": ["einstein", "albert einstein"]},
-    {"difficulty": 1, "points": 100, "question": "What is the name of the process by which plants make food using sunlight?", "answer": "Photosynthesis", "answer_keywords": ["photosynthesis"]},
-    {"difficulty": 1, "points": 100, "question": "What is the chemical symbol for iron?", "answer": "Fe", "answer_keywords": ["fe"]},
-
-    {"difficulty": 2, "points": 200, "question": "What is the chemical formula for table salt?", "answer": "NaCl", "answer_keywords": ["nacl", "sodium chloride"]},
-    {"difficulty": 2, "points": 200, "question": "Who discovered penicillin?", "answer": "Alexander Fleming", "answer_keywords": ["fleming", "alexander fleming"]},
-    {"difficulty": 2, "points": 200, "question": "How many chromosomes do humans normally have?", "answer": "46", "answer_keywords": ["46"]},
-    {"difficulty": 2, "points": 200, "question": "What is the atomic number of carbon?", "answer": "6", "answer_keywords": ["6"]},
-    {"difficulty": 2, "points": 200, "question": "What is the name of the large bone in the human thigh?", "answer": "Femur", "answer_keywords": ["femur"]},
-    {"difficulty": 2, "points": 200, "question": "Who formulated the three laws of motion?", "answer": "Isaac Newton", "answer_keywords": ["newton", "isaac newton"]},
-    {"difficulty": 2, "points": 200, "question": "What is the most common element in the human body by mass?", "answer": "Oxygen", "answer_keywords": ["oxygen"]},
-    {"difficulty": 2, "points": 200, "question": "What is the name of the DNA structure discovered by Watson and Crick?", "answer": "Double helix", "answer_keywords": ["double helix"]},
-    {"difficulty": 2, "points": 200, "question": "What is the unit of electrical resistance?", "answer": "Ohm", "answer_keywords": ["ohm", "ohms"]},
-    {"difficulty": 2, "points": 200, "question": "What part of the eye controls the amount of light entering it?", "answer": "Iris", "answer_keywords": ["iris"]},
-    {"difficulty": 2, "points": 200, "question": "What is the boiling point of water in Celsius?", "answer": "100", "answer_keywords": ["100", "100 degrees"]},
-    {"difficulty": 2, "points": 200, "question": "What term describes animals that eat both plants and meat?", "answer": "Omnivores", "answer_keywords": ["omnivore", "omnivores"]},
-    {"difficulty": 2, "points": 200, "question": "What planet is known as the Red Planet?", "answer": "Mars", "answer_keywords": ["mars"]},
-    {"difficulty": 2, "points": 200, "question": "What is the name of the scale used to measure earthquake magnitude?", "answer": "Richter scale", "answer_keywords": ["richter", "richter scale"]},
-    {"difficulty": 2, "points": 200, "question": "What two-word term names the layer of the atmosphere where weather occurs?", "answer": "Troposphere", "answer_keywords": ["troposphere"]},
-
-    {"difficulty": 3, "points": 300, "question": "What is the chemical symbol for tungsten?", "answer": "W", "answer_keywords": ["w", "wolfram"]},
-    {"difficulty": 3, "points": 300, "question": "What is the term for a positively charged ion?", "answer": "Cation", "answer_keywords": ["cation"]},
-    {"difficulty": 3, "points": 300, "question": "What is the name of the process by which a cell divides to produce two identical daughter cells?", "answer": "Mitosis", "answer_keywords": ["mitosis"]},
-    {"difficulty": 3, "points": 300, "question": "Who discovered the neutron in 1932?", "answer": "James Chadwick", "answer_keywords": ["chadwick", "james chadwick"]},
-    {"difficulty": 3, "points": 300, "question": "What protein carries oxygen in red blood cells?", "answer": "Hemoglobin", "answer_keywords": ["hemoglobin", "haemoglobin"]},
-    {"difficulty": 3, "points": 300, "question": "What is the pH value of a neutral solution?", "answer": "7", "answer_keywords": ["7"]},
-    {"difficulty": 3, "points": 300, "question": "What is the name of the deepest point in the ocean?", "answer": "Mariana Trench", "answer_keywords": ["mariana trench", "mariana"]},
-    {"difficulty": 3, "points": 300, "question": "What is the minimum amount of fissile material needed to sustain a nuclear chain reaction called?", "answer": "Critical mass", "answer_keywords": ["critical mass"]},
-    {"difficulty": 3, "points": 300, "question": "What scientist first proposed the theory of continental drift?", "answer": "Alfred Wegener", "answer_keywords": ["wegener", "alfred wegener"]},
-    {"difficulty": 3, "points": 300, "question": "What type of star will our Sun eventually become after exhausting its fuel?", "answer": "White dwarf", "answer_keywords": ["white dwarf"]},
-    {"difficulty": 3, "points": 300, "question": "What is the term for the bending of light as it passes from one medium to another?", "answer": "Refraction", "answer_keywords": ["refraction"]},
-    {"difficulty": 3, "points": 300, "question": "Who developed the periodic table of elements?", "answer": "Dmitri Mendeleev", "answer_keywords": ["mendeleev", "dmitri mendeleev"]},
-    {"difficulty": 3, "points": 300, "question": "What is the name of the fundamental particle that carries the electromagnetic force?", "answer": "Photon", "answer_keywords": ["photon"]},
-    {"difficulty": 3, "points": 300, "question": "What is the approximate speed of sound in air at sea level in meters per second?", "answer": "343", "answer_keywords": ["343", "340"]},
-    {"difficulty": 3, "points": 300, "question": "What layer of the atmosphere lies between approximately 12 and 50 km altitude?", "answer": "Stratosphere", "answer_keywords": ["stratosphere"]},
-
-    {"difficulty": 4, "points": 400, "question": "What is the name of the enzyme that unwinds the DNA double helix during replication?", "answer": "Helicase", "answer_keywords": ["helicase"]},
-    {"difficulty": 4, "points": 400, "question": "What principle states that you cannot simultaneously know a particle's exact position and momentum?", "answer": "Heisenberg Uncertainty Principle", "answer_keywords": ["heisenberg", "uncertainty principle"]},
-    {"difficulty": 4, "points": 400, "question": "What is the chemical formula for sulfuric acid?", "answer": "H2SO4", "answer_keywords": ["h2so4"]},
-    {"difficulty": 4, "points": 400, "question": "What is the name of the force between quarks that holds protons and neutrons together?", "answer": "Strong nuclear force", "answer_keywords": ["strong nuclear force", "strong force"]},
-    {"difficulty": 4, "points": 400, "question": "What two scientists shared the Nobel Prize for discovering the structure of DNA?", "answer": "Watson and Crick", "answer_keywords": ["watson", "crick", "watson and crick"]},
-    {"difficulty": 4, "points": 400, "question": "What molecule serves as the primary energy currency of cells?", "answer": "ATP", "answer_keywords": ["atp", "adenosine triphosphate"]},
-    {"difficulty": 4, "points": 400, "question": "What is the maximum mass of a stable white dwarf star, named after its discoverer?", "answer": "Chandrasekhar limit", "answer_keywords": ["chandrasekhar", "chandrasekhar limit"]},
-    {"difficulty": 4, "points": 400, "question": "What physicist first described the mathematics of black holes in 1916?", "answer": "Karl Schwarzschild", "answer_keywords": ["schwarzschild", "karl schwarzschild"]},
-    {"difficulty": 4, "points": 400, "question": "What is the name of the process where a cell engulfs a particle or another cell?", "answer": "Phagocytosis", "answer_keywords": ["phagocytosis"]},
-    {"difficulty": 4, "points": 400, "question": "What experiment demonstrated that electrons have wave properties?", "answer": "Double-slit experiment", "answer_keywords": ["double slit", "double-slit experiment"]},
-    {"difficulty": 4, "points": 400, "question": "What Nobel Prize-winning physicist proposed the many-worlds interpretation of quantum mechanics?", "answer": "Hugh Everett", "answer_keywords": ["everett", "hugh everett"]},
-    {"difficulty": 4, "points": 400, "question": "What term describes the point in a star's evolution when its core runs out of hydrogen?", "answer": "Main sequence turnoff", "answer_keywords": ["main sequence turnoff", "turnoff point"]},
-    {"difficulty": 4, "points": 400, "question": "What is the name of the bond connecting phosphate groups to sugars in DNA's backbone?", "answer": "Phosphodiester bond", "answer_keywords": ["phosphodiester"]},
-    {"difficulty": 4, "points": 400, "question": "What is the approximate half-life of Carbon-14 in years?", "answer": "5730", "answer_keywords": ["5730", "5,730"]},
-    {"difficulty": 4, "points": 400, "question": "What is the term for the temperature at which a material becomes a superconductor?", "answer": "Critical temperature", "answer_keywords": ["critical temperature"]},
-
-    {"difficulty": 5, "points": 500, "question": "What equation describes how a quantum state evolves over time?", "answer": "Schrödinger equation", "answer_keywords": ["schrodinger", "schrodinger equation"]},
-    {"difficulty": 5, "points": 500, "question": "What mathematician proved Fermat's Last Theorem in 1995?", "answer": "Andrew Wiles", "answer_keywords": ["wiles", "andrew wiles"]},
-    {"difficulty": 5, "points": 500, "question": "What phenomenon correlates two particles so that measuring one instantly affects the other regardless of distance?", "answer": "Quantum entanglement", "answer_keywords": ["quantum entanglement", "entanglement"]},
-    {"difficulty": 5, "points": 500, "question": "What is the term for the boundary in spacetime beyond which nothing can escape a black hole?", "answer": "Event horizon", "answer_keywords": ["event horizon"]},
-    {"difficulty": 5, "points": 500, "question": "Which physicist first proposed that light comes in discrete energy packets?", "answer": "Max Planck", "answer_keywords": ["planck", "max planck"]},
-    {"difficulty": 5, "points": 500, "question": "What quantum phenomenon allows particles to pass through energy barriers that classical physics forbids?", "answer": "Quantum tunneling", "answer_keywords": ["quantum tunneling", "tunneling"]},
-    {"difficulty": 5, "points": 500, "question": "What are the elementary particles that make up protons and neutrons called?", "answer": "Quarks", "answer_keywords": ["quarks", "quark"]},
-    {"difficulty": 5, "points": 500, "question": "What is the name of the particle discovered at CERN in 2012 that gives mass to other particles?", "answer": "Higgs boson", "answer_keywords": ["higgs", "higgs boson"]},
-    {"difficulty": 5, "points": 500, "question": "What is the name of the radiation emitted by black holes, as predicted by Stephen Hawking?", "answer": "Hawking radiation", "answer_keywords": ["hawking radiation", "hawking"]},
-    {"difficulty": 5, "points": 500, "question": "What theorem proved that no hidden variable theory can reproduce all predictions of quantum mechanics?", "answer": "Bell's theorem", "answer_keywords": ["bell's theorem", "bell theorem"]},
-    {"difficulty": 5, "points": 500, "question": "Who first proposed the concept of entropy in thermodynamics?", "answer": "Rudolf Clausius", "answer_keywords": ["clausius", "rudolf clausius"]},
-    {"difficulty": 5, "points": 500, "question": "What is the name of the hypothetical faster-than-light particle?", "answer": "Tachyon", "answer_keywords": ["tachyon"]},
-    {"difficulty": 5, "points": 500, "question": "What is the term for the energy threshold below which light cannot eject electrons from a metal surface?", "answer": "Work function", "answer_keywords": ["work function"]},
-    {"difficulty": 5, "points": 500, "question": "What quantum state describes a system existing in multiple states simultaneously?", "answer": "Superposition", "answer_keywords": ["superposition", "quantum superposition"]},
-    {"difficulty": 5, "points": 500, "question": "What is the name of the coiled membrane structure in the inner ear responsible for sound transduction?", "answer": "Cochlea", "answer_keywords": ["cochlea"]}
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the chemical symbol for water?",
+      "answer": "H2O",
+      "answer_keywords": [
+        "h2o"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What planet is closest to the Sun?",
+      "answer": "Mercury",
+      "answer_keywords": [
+        "mercury"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is called the powerhouse of the cell?",
+      "answer": "Mitochondria",
+      "answer_keywords": [
+        "mitochondria"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "How many bones are in the adult human body?",
+      "answer": "206",
+      "answer_keywords": [
+        "206"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What gas do plants absorb from the atmosphere during photosynthesis?",
+      "answer": "Carbon dioxide",
+      "answer_keywords": [
+        "carbon dioxide",
+        "co2"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the hardest natural substance on Earth?",
+      "answer": "Diamond",
+      "answer_keywords": [
+        "diamond"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What force keeps planets in orbit around the Sun?",
+      "answer": "Gravity",
+      "answer_keywords": [
+        "gravity",
+        "gravitation"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the most abundant gas in Earth's atmosphere?",
+      "answer": "Nitrogen",
+      "answer_keywords": [
+        "nitrogen"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What organ pumps blood through the human body?",
+      "answer": "Heart",
+      "answer_keywords": [
+        "heart"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the chemical symbol for gold?",
+      "answer": "Au",
+      "answer_keywords": [
+        "au"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the largest planet in our solar system?",
+      "answer": "Jupiter",
+      "answer_keywords": [
+        "jupiter"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What type of animal is a whale?",
+      "answer": "Mammal",
+      "answer_keywords": [
+        "mammal"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What scientist developed the theory of general relativity?",
+      "answer": "Albert Einstein",
+      "answer_keywords": [
+        "einstein",
+        "albert einstein"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the name of the process by which plants make food using sunlight?",
+      "answer": "Photosynthesis",
+      "answer_keywords": [
+        "photosynthesis"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the chemical symbol for iron?",
+      "answer": "Fe",
+      "answer_keywords": [
+        "fe"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the chemical formula for table salt?",
+      "answer": "NaCl",
+      "answer_keywords": [
+        "nacl",
+        "sodium chloride"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who discovered penicillin?",
+      "answer": "Alexander Fleming",
+      "answer_keywords": [
+        "fleming",
+        "alexander fleming"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "How many chromosomes do humans normally have?",
+      "answer": "46",
+      "answer_keywords": [
+        "46"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the atomic number of carbon?",
+      "answer": "6",
+      "answer_keywords": [
+        "6"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the large bone in the human thigh?",
+      "answer": "Femur",
+      "answer_keywords": [
+        "femur"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who formulated the three laws of motion?",
+      "answer": "Isaac Newton",
+      "answer_keywords": [
+        "newton",
+        "isaac newton"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the most common element in the human body by mass?",
+      "answer": "Oxygen",
+      "answer_keywords": [
+        "oxygen"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the DNA structure discovered by Watson and Crick?",
+      "answer": "Double helix",
+      "answer_keywords": [
+        "double helix"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the unit of electrical resistance?",
+      "answer": "Ohm",
+      "answer_keywords": [
+        "ohm",
+        "ohms"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What part of the eye controls the amount of light entering it?",
+      "answer": "Iris",
+      "answer_keywords": [
+        "iris"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the boiling point of water in Celsius?",
+      "answer": "100",
+      "answer_keywords": [
+        "100",
+        "100 degrees"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What term describes animals that eat both plants and meat?",
+      "answer": "Omnivores",
+      "answer_keywords": [
+        "omnivore",
+        "omnivores"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What planet is known as the Red Planet?",
+      "answer": "Mars",
+      "answer_keywords": [
+        "mars"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the scale used to measure earthquake magnitude?",
+      "answer": "Richter scale",
+      "answer_keywords": [
+        "richter",
+        "richter scale"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What two-word term names the layer of the atmosphere where weather occurs?",
+      "answer": "Troposphere",
+      "answer_keywords": [
+        "troposphere"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the chemical symbol for tungsten?",
+      "answer": "W",
+      "answer_keywords": [
+        "w",
+        "wolfram"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the term for a positively charged ion?",
+      "answer": "Cation",
+      "answer_keywords": [
+        "cation"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the process by which a cell divides to produce two identical daughter cells?",
+      "answer": "Mitosis",
+      "answer_keywords": [
+        "mitosis"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who discovered the neutron in 1932?",
+      "answer": "James Chadwick",
+      "answer_keywords": [
+        "chadwick",
+        "james chadwick"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What protein carries oxygen in red blood cells?",
+      "answer": "Hemoglobin",
+      "answer_keywords": [
+        "hemoglobin",
+        "haemoglobin"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the pH value of a neutral solution?",
+      "answer": "7",
+      "answer_keywords": [
+        "7"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the deepest point in the ocean?",
+      "answer": "Mariana Trench",
+      "answer_keywords": [
+        "mariana trench",
+        "mariana"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the minimum amount of fissile material needed to sustain a nuclear chain reaction called?",
+      "answer": "Critical mass",
+      "answer_keywords": [
+        "critical mass"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What scientist first proposed the theory of continental drift?",
+      "answer": "Alfred Wegener",
+      "answer_keywords": [
+        "wegener",
+        "alfred wegener"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What type of star will our Sun eventually become after exhausting its fuel?",
+      "answer": "White dwarf",
+      "answer_keywords": [
+        "white dwarf"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the term for the bending of light as it passes from one medium to another?",
+      "answer": "Refraction",
+      "answer_keywords": [
+        "refraction"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who developed the periodic table of elements?",
+      "answer": "Dmitri Mendeleev",
+      "answer_keywords": [
+        "mendeleev",
+        "dmitri mendeleev"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the fundamental particle that carries the electromagnetic force?",
+      "answer": "Photon",
+      "answer_keywords": [
+        "photon"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the approximate speed of sound in air at sea level in meters per second?",
+      "answer": "343",
+      "answer_keywords": [
+        "343",
+        "340"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What layer of the atmosphere lies between approximately 12 and 50 km altitude?",
+      "answer": "Stratosphere",
+      "answer_keywords": [
+        "stratosphere"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the enzyme that unwinds the DNA double helix during replication?",
+      "answer": "Helicase",
+      "answer_keywords": [
+        "helicase"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What principle states that you cannot simultaneously know a particle's exact position and momentum?",
+      "answer": "Heisenberg Uncertainty Principle",
+      "answer_keywords": [
+        "heisenberg",
+        "uncertainty principle"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the chemical formula for sulfuric acid?",
+      "answer": "H2SO4",
+      "answer_keywords": [
+        "h2so4"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the force between quarks that holds protons and neutrons together?",
+      "answer": "Strong nuclear force",
+      "answer_keywords": [
+        "strong nuclear force",
+        "strong force"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What two scientists shared the Nobel Prize for discovering the structure of DNA?",
+      "answer": "Watson and Crick",
+      "answer_keywords": [
+        "watson",
+        "crick",
+        "watson and crick"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What molecule serves as the primary energy currency of cells?",
+      "answer": "ATP",
+      "answer_keywords": [
+        "atp",
+        "adenosine triphosphate"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the maximum mass of a stable white dwarf star, named after its discoverer?",
+      "answer": "Chandrasekhar limit",
+      "answer_keywords": [
+        "chandrasekhar",
+        "chandrasekhar limit"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What physicist first described the mathematics of black holes in 1916?",
+      "answer": "Karl Schwarzschild",
+      "answer_keywords": [
+        "schwarzschild",
+        "karl schwarzschild"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the process where a cell engulfs a particle or another cell?",
+      "answer": "Phagocytosis",
+      "answer_keywords": [
+        "phagocytosis"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What experiment demonstrated that electrons have wave properties?",
+      "answer": "Double-slit experiment",
+      "answer_keywords": [
+        "double slit",
+        "double-slit experiment"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What Nobel Prize-winning physicist proposed the many-worlds interpretation of quantum mechanics?",
+      "answer": "Hugh Everett",
+      "answer_keywords": [
+        "everett",
+        "hugh everett"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What term describes the point in a star's evolution when its core runs out of hydrogen?",
+      "answer": "Main sequence turnoff",
+      "answer_keywords": [
+        "main sequence turnoff",
+        "turnoff point"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the bond connecting phosphate groups to sugars in DNA's backbone?",
+      "answer": "Phosphodiester bond",
+      "answer_keywords": [
+        "phosphodiester"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the approximate half-life of Carbon-14 in years?",
+      "answer": "5730",
+      "answer_keywords": [
+        "5730",
+        "5,730"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the term for the temperature at which a material becomes a superconductor?",
+      "answer": "Critical temperature",
+      "answer_keywords": [
+        "critical temperature"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What equation describes how a quantum state evolves over time?",
+      "answer": "Schrödinger equation",
+      "answer_keywords": [
+        "schrodinger",
+        "schrodinger equation"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What mathematician proved Fermat's Last Theorem in 1995?",
+      "answer": "Andrew Wiles",
+      "answer_keywords": [
+        "wiles",
+        "andrew wiles"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What phenomenon correlates two particles so that measuring one instantly affects the other regardless of distance?",
+      "answer": "Quantum entanglement",
+      "answer_keywords": [
+        "quantum entanglement",
+        "entanglement"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the term for the boundary in spacetime beyond which nothing can escape a black hole?",
+      "answer": "Event horizon",
+      "answer_keywords": [
+        "event horizon"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Which physicist first proposed that light comes in discrete energy packets?",
+      "answer": "Max Planck",
+      "answer_keywords": [
+        "planck",
+        "max planck"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What quantum phenomenon allows particles to pass through energy barriers that classical physics forbids?",
+      "answer": "Quantum tunneling",
+      "answer_keywords": [
+        "quantum tunneling",
+        "tunneling"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What are the elementary particles that make up protons and neutrons called?",
+      "answer": "Quarks",
+      "answer_keywords": [
+        "quarks",
+        "quark"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the particle discovered at CERN in 2012 that gives mass to other particles?",
+      "answer": "Higgs boson",
+      "answer_keywords": [
+        "higgs",
+        "higgs boson"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the radiation emitted by black holes, as predicted by Stephen Hawking?",
+      "answer": "Hawking radiation",
+      "answer_keywords": [
+        "hawking radiation",
+        "hawking"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What theorem proved that no hidden variable theory can reproduce all predictions of quantum mechanics?",
+      "answer": "Bell's theorem",
+      "answer_keywords": [
+        "bell's theorem",
+        "bell theorem"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who first proposed the concept of entropy in thermodynamics?",
+      "answer": "Rudolf Clausius",
+      "answer_keywords": [
+        "clausius",
+        "rudolf clausius"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the hypothetical faster-than-light particle?",
+      "answer": "Tachyon",
+      "answer_keywords": [
+        "tachyon"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the term for the energy threshold below which light cannot eject electrons from a metal surface?",
+      "answer": "Work function",
+      "answer_keywords": [
+        "work function"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What quantum state describes a system existing in multiple states simultaneously?",
+      "answer": "Superposition",
+      "answer_keywords": [
+        "superposition",
+        "quantum superposition"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the coiled membrane structure in the inner ear responsible for sound transduction?",
+      "answer": "Cochlea",
+      "answer_keywords": [
+        "cochlea"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the center of an atom called?",
+      "answer": "Nucleus",
+      "answer_keywords": [
+        "nucleus"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the name of the force that keeps planets in orbit around the sun?",
+      "answer": "Gravity",
+      "answer_keywords": [
+        "gravity",
+        "gravitation"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the name of the closest star to Earth?",
+      "answer": "Sun",
+      "answer_keywords": [
+        "sun",
+        "the sun",
+        "sol"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the name of the process by which water turns into vapor?",
+      "answer": "Evaporation",
+      "answer_keywords": [
+        "evaporation",
+        "evaporate"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the chemical symbol for carbon?",
+      "answer": "C",
+      "answer_keywords": [
+        "c"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the name of the galaxy that contains our solar system?",
+      "answer": "Milky Way",
+      "answer_keywords": [
+        "milky way",
+        "milky way galaxy"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the chemical symbol for sodium?",
+      "answer": "Na",
+      "answer_keywords": [
+        "na"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the force that opposes motion between two surfaces in contact?",
+      "answer": "Friction",
+      "answer_keywords": [
+        "friction"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What unit measures electrical resistance?",
+      "answer": "Ohm",
+      "answer_keywords": [
+        "ohm",
+        "ohms"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the chemical formula for ammonia?",
+      "answer": "NH3",
+      "answer_keywords": [
+        "nh3"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the blood vessel that carries blood away from the heart?",
+      "answer": "Artery",
+      "answer_keywords": [
+        "artery",
+        "arteries"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What type of rock is formed from cooled magma?",
+      "answer": "Igneous rock",
+      "answer_keywords": [
+        "igneous",
+        "igneous rock"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the chemical symbol for silver?",
+      "answer": "Ag",
+      "answer_keywords": [
+        "ag"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the scientist who developed the theory of general relativity?",
+      "answer": "Albert Einstein",
+      "answer_keywords": [
+        "einstein",
+        "albert einstein"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the term for the study of heredity and genes?",
+      "answer": "Genetics",
+      "answer_keywords": [
+        "genetics"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the particle with a positive charge found in the nucleus of an atom?",
+      "answer": "Proton",
+      "answer_keywords": [
+        "proton"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What gas makes up approximately 78% of Earth's atmosphere?",
+      "answer": "Nitrogen",
+      "answer_keywords": [
+        "nitrogen"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the term for the minimum speed needed for an object to escape a planet's gravitational pull?",
+      "answer": "Escape velocity",
+      "answer_keywords": [
+        "escape velocity"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the organelle in a plant cell that conducts photosynthesis?",
+      "answer": "Chloroplast",
+      "answer_keywords": [
+        "chloroplast",
+        "chloroplasts"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the chemical formula for glucose?",
+      "answer": "C6H12O6",
+      "answer_keywords": [
+        "c6h12o6"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the SI unit of frequency?",
+      "answer": "Hertz",
+      "answer_keywords": [
+        "hertz",
+        "hz"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the point in a planet's orbit closest to the sun?",
+      "answer": "Perihelion",
+      "answer_keywords": [
+        "perihelion"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the quantum effect where particles can pass through a potential barrier?",
+      "answer": "Quantum tunneling",
+      "answer_keywords": [
+        "quantum tunneling",
+        "tunneling",
+        "tunnel effect"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the process by which cells divide to produce gametes?",
+      "answer": "Meiosis",
+      "answer_keywords": [
+        "meiosis"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the chemical symbol for tungsten's alternative name, wolfram?",
+      "answer": "W",
+      "answer_keywords": [
+        "w"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the weak nuclear force carrier particle?",
+      "answer": "W and Z bosons",
+      "answer_keywords": [
+        "w boson",
+        "z boson",
+        "w and z",
+        "weak bosons"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the molecular structure discovered by Watson and Crick in 1953?",
+      "answer": "Double helix",
+      "answer_keywords": [
+        "double helix",
+        "dna double helix"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the scale used to measure the acidity or alkalinity of a solution?",
+      "answer": "pH scale",
+      "answer_keywords": [
+        "ph",
+        "ph scale"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What type of bond involves the sharing of electrons between atoms?",
+      "answer": "Covalent bond",
+      "answer_keywords": [
+        "covalent",
+        "covalent bond"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the process by which a cell membrane engulfs external material?",
+      "answer": "Endocytosis",
+      "answer_keywords": [
+        "endocytosis",
+        "phagocytosis"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the term for the astronomical unit equal to the distance light travels in one year?",
+      "answer": "Light-year",
+      "answer_keywords": [
+        "light-year",
+        "light year"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the molecule that carries genetic information from DNA to the ribosome?",
+      "answer": "Messenger RNA",
+      "answer_keywords": [
+        "mrna",
+        "messenger rna",
+        "mrna"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the geological epoch we currently live in?",
+      "answer": "Holocene",
+      "answer_keywords": [
+        "holocene",
+        "anthropocene"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the wave-particle duality equation associating a particle's momentum with its wavelength?",
+      "answer": "de Broglie relation",
+      "answer_keywords": [
+        "de broglie",
+        "de broglie relation",
+        "de broglie equation"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the term for a chemical reaction that releases heat?",
+      "answer": "Exothermic",
+      "answer_keywords": [
+        "exothermic",
+        "exothermic reaction"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the dense remnant left after a massive star explodes as a supernova?",
+      "answer": "Neutron star",
+      "answer_keywords": [
+        "neutron star"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the principle stating that the position and momentum of a particle cannot both be precisely determined simultaneously?",
+      "answer": "Heisenberg Uncertainty Principle",
+      "answer_keywords": [
+        "heisenberg",
+        "uncertainty principle",
+        "heisenberg uncertainty"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the enzyme that synthesizes RNA from a DNA template?",
+      "answer": "RNA polymerase",
+      "answer_keywords": [
+        "rna polymerase",
+        "polymerase"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the branch of chemistry that studies reaction rates?",
+      "answer": "Chemical kinetics",
+      "answer_keywords": [
+        "chemical kinetics",
+        "kinetics"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the physical constant representing the ratio of a photon's energy to its frequency?",
+      "answer": "Planck's constant",
+      "answer_keywords": [
+        "planck's constant",
+        "planck constant",
+        "h"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the term for a region of spacetime where gravity is so strong that nothing can escape?",
+      "answer": "Black hole",
+      "answer_keywords": [
+        "black hole"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the paradox involving Schrödinger's cat used to illustrate quantum superposition?",
+      "answer": "Schrödinger's cat",
+      "answer_keywords": [
+        "schrodinger's cat",
+        "schrödinger's cat",
+        "schrodinger"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the chemical name of the compound with formula H2SO4?",
+      "answer": "Sulfuric acid",
+      "answer_keywords": [
+        "sulfuric acid",
+        "sulphuric acid"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the cellular organelle responsible for generating ATP through oxidative phosphorylation?",
+      "answer": "Mitochondria",
+      "answer_keywords": [
+        "mitochondria",
+        "mitochondrion"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the theorem in thermodynamics stating entropy of an isolated system always increases?",
+      "answer": "Second law of thermodynamics",
+      "answer_keywords": [
+        "second law",
+        "second law of thermodynamics"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the force-carrying particle of the electromagnetic field?",
+      "answer": "Photon",
+      "answer_keywords": [
+        "photon"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the term for the spontaneous emission of radiation by an unstable atomic nucleus?",
+      "answer": "Radioactive decay",
+      "answer_keywords": [
+        "radioactive decay",
+        "radioactivity",
+        "nuclear decay"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the mathematical framework unifying special relativity and quantum mechanics developed by Dirac?",
+      "answer": "Relativistic quantum mechanics",
+      "answer_keywords": [
+        "dirac equation",
+        "relativistic quantum mechanics",
+        "dirac"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the technique using magnetic fields and radio waves to image soft tissues?",
+      "answer": "MRI",
+      "answer_keywords": [
+        "mri",
+        "magnetic resonance imaging"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the phenomenon by which certain materials exhibit zero electrical resistance below a critical temperature?",
+      "answer": "Superconductivity",
+      "answer_keywords": [
+        "superconductivity",
+        "superconductor"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the protein complex that reads mRNA and synthesizes proteins?",
+      "answer": "Ribosome",
+      "answer_keywords": [
+        "ribosome",
+        "ribosomes"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the mathematical proof technique used by Euclid to show there are infinitely many primes?",
+      "answer": "Proof by contradiction",
+      "answer_keywords": [
+        "proof by contradiction",
+        "reductio ad absurdum",
+        "contradiction"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the symmetry principle stating that the laws of physics are the same in all inertial frames?",
+      "answer": "Principle of relativity",
+      "answer_keywords": [
+        "principle of relativity",
+        "relativity principle",
+        "lorentz invariance"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the effect by which a rotating body in a fluid experiences a force perpendicular to its motion?",
+      "answer": "Magnus effect",
+      "answer_keywords": [
+        "magnus effect",
+        "magnus"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the 1887 experiment that failed to detect the luminiferous ether?",
+      "answer": "Michelson-Morley experiment",
+      "answer_keywords": [
+        "michelson-morley",
+        "michelson morley"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the quantum field theory that describes the strong nuclear force?",
+      "answer": "Quantum chromodynamics",
+      "answer_keywords": [
+        "quantum chromodynamics",
+        "qcd"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the phenomenon where entangled particles instantaneously affect each other regardless of distance?",
+      "answer": "Quantum entanglement",
+      "answer_keywords": [
+        "quantum entanglement",
+        "entanglement"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the topological property of a continuous function related to fixed points, stated in Brouwer's theorem?",
+      "answer": "Fixed-point theorem",
+      "answer_keywords": [
+        "fixed-point theorem",
+        "brouwer",
+        "brouwer fixed point"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the protein responsible for prion diseases such as CJD and scrapie?",
+      "answer": "PrP",
+      "answer_keywords": [
+        "prp",
+        "prion protein",
+        "prpsc"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the astronomical phenomenon where a neutron star emits beams of electromagnetic radiation?",
+      "answer": "Pulsar",
+      "answer_keywords": [
+        "pulsar"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the term for the spontaneous symmetry breaking mechanism that gives elementary particles mass?",
+      "answer": "Higgs mechanism",
+      "answer_keywords": [
+        "higgs mechanism",
+        "higgs",
+        "higgs field"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the mathematical object describing a quantum system's state in Hilbert space?",
+      "answer": "State vector",
+      "answer_keywords": [
+        "state vector",
+        "wave function",
+        "ket vector"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the principle stating that no two fermions can occupy the same quantum state?",
+      "answer": "Pauli exclusion principle",
+      "answer_keywords": [
+        "pauli exclusion principle",
+        "pauli exclusion",
+        "exclusion principle"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the equation describing heat conduction derived by Fourier?",
+      "answer": "Heat equation",
+      "answer_keywords": [
+        "heat equation",
+        "fourier heat equation"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the phenomenon where light from distant galaxies is shifted toward longer wavelengths due to expansion of the universe?",
+      "answer": "Cosmological redshift",
+      "answer_keywords": [
+        "cosmological redshift",
+        "redshift",
+        "hubble redshift"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the process by which stars fuse hydrogen into helium in their cores?",
+      "answer": "Proton-proton chain",
+      "answer_keywords": [
+        "proton-proton chain",
+        "pp chain",
+        "hydrogen fusion"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the name of the colored part of the eye that controls pupil size?",
+      "answer": "Iris",
+      "answer_keywords": [
+        "iris"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the name of the force that causes objects to fall toward the ground?",
+      "answer": "Gravity",
+      "answer_keywords": [
+        "gravity",
+        "gravitation"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the term for the amount of matter in an object?",
+      "answer": "Mass",
+      "answer_keywords": [
+        "mass"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What organ in the human body filters blood and produces urine?",
+      "answer": "Kidney",
+      "answer_keywords": [
+        "kidney",
+        "kidneys"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the name of the biological molecule that carries oxygen in red blood cells?",
+      "answer": "Hemoglobin",
+      "answer_keywords": [
+        "hemoglobin",
+        "haemoglobin"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the name of the unit used to measure electric current?",
+      "answer": "Ampere",
+      "answer_keywords": [
+        "ampere",
+        "amp",
+        "amps"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What type of energy is stored in a stretched spring?",
+      "answer": "Potential energy",
+      "answer_keywords": [
+        "potential energy",
+        "elastic potential energy"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the name of the scientist who proposed the theory of evolution by natural selection?",
+      "answer": "Charles Darwin",
+      "answer_keywords": [
+        "darwin",
+        "charles darwin"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the scale that measures the magnitude of earthquakes?",
+      "answer": "Richter scale",
+      "answer_keywords": [
+        "richter scale",
+        "richter",
+        "moment magnitude scale"
+      ]
+    }
   ]
 }
