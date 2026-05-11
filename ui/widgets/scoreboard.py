@@ -72,25 +72,35 @@ class Scoreboard(QWidget):
     def __init__(self, genres: list[tuple[int, str]], parent=None) -> None:
         super().__init__(parent)
         self.setStyleSheet(f"background-color: {BG};")
+        self._genres = genres
+        self._panels: list[_PlayerPanel] = []
+        self._num_players = 0
 
-        layout = QHBoxLayout(self)
-        layout.setSpacing(16)
-
-        self._panels = [
-            _PlayerPanel(1, genres),
-            _PlayerPanel(2, genres),
-        ]
+        self._layout = QHBoxLayout(self)
+        self._layout.setSpacing(16)
 
         self.round_lbl = QLabel("Round 1")
         self.round_lbl.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.round_lbl.setFont(QFont("Sans", 14, QFont.Weight.Bold))
         self.round_lbl.setStyleSheet(f"color: {GOLD};")
 
-        layout.addWidget(self._panels[0])
-        layout.addWidget(self.round_lbl)
-        layout.addWidget(self._panels[1])
+    def _rebuild_panels(self, num_players: int) -> None:
+        while self._layout.count():
+            item = self._layout.takeAt(0)
+            if item.widget():
+                item.widget().setParent(None)
+
+        self._panels = [_PlayerPanel(i + 1, self._genres) for i in range(num_players)]
+        self._num_players = num_players
+
+        for panel in self._panels:
+            self._layout.addWidget(panel)
+        self._layout.addWidget(self.round_lbl)
 
     def refresh(self, state: GameState) -> None:
+        if len(state.players) != self._num_players:
+            self._rebuild_panels(len(state.players))
+
         for i, (panel, player) in enumerate(zip(self._panels, state.players)):
             panel.refresh(
                 name=player.name,

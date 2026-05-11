@@ -68,7 +68,9 @@ class SuddenDeathScreen(QWidget):
     # Public API                                                           #
     # ------------------------------------------------------------------ #
 
-    def show_sudden_death(self, p1_name: str, p2_name: str, score: int) -> None:
-        self._tied_label.setText(
-            f"{p1_name} and {p2_name} are tied at {score:,} points"
-        )
+    def show_sudden_death(self, tied_names: list[str], score: int) -> None:
+        if len(tied_names) == 2:
+            names_str = f"{tied_names[0]} and {tied_names[1]}"
+        else:
+            names_str = ", ".join(tied_names[:-1]) + f", and {tied_names[-1]}"
+        self._tied_label.setText(f"{names_str} are tied at {score:,} points")

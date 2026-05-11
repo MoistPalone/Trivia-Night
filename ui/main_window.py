@@ -70,8 +70,8 @@ class MainWindow(QMainWindow):
     # Game start                                                           #
     # ------------------------------------------------------------------ #
 
-    def _on_game_started(self, p1: str, p2: str) -> None:
-        self.engine.start_game(p1, p2)
+    def _on_game_started(self, names: list) -> None:
+        self.engine.start_game(names)
         self.board.refresh(self.engine.state)
         self.stack.setCurrentWidget(self.board)
 
@@ -190,8 +190,9 @@ class MainWindow(QMainWindow):
             self.stack.setCurrentWidget(self.round_summary)
         elif state.phase == GamePhase.SUDDEN_DEATH:
             self._sound.play("sudden_death")
-            p = state.players
-            self.sudden_death.show_sudden_death(p[0].name, p[1].name, p[0].score)
+            tied_names = [state.players[i].name for i in state.sudden_death_order]
+            tied_score = state.players[state.sudden_death_order[0]].score
+            self.sudden_death.show_sudden_death(tied_names, tied_score)
             self.stack.setCurrentWidget(self.sudden_death)
         elif state.phase == GamePhase.GAME_OVER:
             self._show_game_over(state)
@@ -219,10 +220,15 @@ class MainWindow(QMainWindow):
 
     def _start_sudden_death_question(self) -> None:
         state = self.engine.state
+        # Point active_player_index at the current SD turn's player
+        sd_player_idx = state.sudden_death_order[state.sudden_death_turn_index]
+        state.active_player_index = sd_player_idx
+
         genre_ids = list(self._genres.keys())
         random.shuffle(genre_ids)
         row = None
         chosen_gid = genre_ids[0]
+        diff = 1
         for gid in genre_ids:
             diff = random.randint(1, 5)
             exclude = recently_played_ids(gid, diff)
@@ -241,8 +247,7 @@ class MainWindow(QMainWindow):
         state = self.engine.state
         answering_idx = state.active_player_index
         self.engine.evaluate_sudden_death(answering_idx, correct)
-        if not correct:
-            state.active_player_index = 1 - answering_idx
+        # Engine advances sudden_death_turn_index on wrong; no manual index toggle needed
         self._sound.play("correct" if correct else "wrong")
         player = state.players[answering_idx]
         self.result.show_result(

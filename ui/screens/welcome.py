@@ -3,6 +3,7 @@ import re
 from PyQt6.QtCore import Qt, pyqtSignal
 from PyQt6.QtGui import QFont
 from PyQt6.QtWidgets import (
+    QHBoxLayout,
     QLabel,
     QLineEdit,
     QMessageBox,
@@ -18,13 +19,22 @@ TEXT = "#ffffff"
 
 _NAME_RE = re.compile(r"^[\x20-\x7E]{2,20}$")
 
+_SUBTITLES = {
+    2: "Two players. Six genres. One winner.",
+    3: "Three players. Six genres. One winner.",
+    4: "Four players. Six genres. One winner.",
+}
+
 
 class WelcomeScreen(QWidget):
-    game_started = pyqtSignal(str, str)
+    game_started = pyqtSignal(list)
 
     def __init__(self, parent=None) -> None:
         super().__init__(parent)
         self.setStyleSheet(f"background-color: {BG};")
+        self._player_count = 2
+        self._name_inputs: list[QLineEdit] = []
+        self._count_buttons: list[QPushButton] = []
         self._build()
 
     def _build(self) -> None:
@@ -38,39 +48,42 @@ class WelcomeScreen(QWidget):
         title.setStyleSheet(f"color: {GOLD};")
         layout.addWidget(title)
 
-        sub = QLabel("Two players. Six genres. One winner.")
-        sub.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        sub.setFont(QFont("Sans", 16))
-        sub.setStyleSheet(f"color: {TEXT};")
-        layout.addWidget(sub)
+        self._subtitle = QLabel(_SUBTITLES[self._player_count])
+        self._subtitle.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self._subtitle.setFont(QFont("Sans", 16))
+        self._subtitle.setStyleSheet(f"color: {TEXT};")
+        layout.addWidget(self._subtitle)
 
-        layout.addSpacing(40)
+        layout.addSpacing(24)
 
-        for label_text, attr in [("Player 1", "p1_input"), ("Player 2", "p2_input")]:
-            lbl = QLabel(label_text)
-            lbl.setFont(QFont("Sans", 13, QFont.Weight.Bold))
-            lbl.setStyleSheet(f"color: {GOLD};")
-            layout.addWidget(lbl, alignment=Qt.AlignmentFlag.AlignCenter)
+        # Player count selector
+        count_row = QHBoxLayout()
+        count_row.setSpacing(12)
+        count_row.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
-            field = QLineEdit()
-            field.setPlaceholderText(f"Enter {label_text} name")
-            field.setMaxLength(20)
-            field.setMinimumSize(320, 48)
-            field.setMaximumWidth(400)
-            field.setFont(QFont("Sans", 15))
-            field.setStyleSheet(f"""
-                QLineEdit {{
-                    background-color: {TILE};
-                    color: {TEXT};
-                    border: 2px solid #2a5a9b;
-                    border-radius: 4px;
-                    padding: 6px 14px;
-                }}
-                QLineEdit:focus {{ border-color: {GOLD}; }}
-            """)
-            setattr(self, attr, field)
-            layout.addWidget(field, alignment=Qt.AlignmentFlag.AlignCenter)
-            layout.addSpacing(8)
+        count_lbl = QLabel("Players:")
+        count_lbl.setFont(QFont("Sans", 13, QFont.Weight.Bold))
+        count_lbl.setStyleSheet(f"color: {GOLD};")
+        count_row.addWidget(count_lbl)
+
+        for n in (2, 3, 4):
+            btn = QPushButton(str(n))
+            btn.setFixedSize(52, 44)
+            btn.setFont(QFont("Sans", 15, QFont.Weight.Bold))
+            btn.setCursor(Qt.CursorShape.PointingHandCursor)
+            btn.clicked.connect(lambda _, c=n: self._set_player_count(c))
+            self._count_buttons.append(btn)
+            count_row.addWidget(btn)
+
+        layout.addLayout(count_row)
+        layout.addSpacing(8)
+
+        # Dynamic name fields container
+        self._fields_widget = QWidget()
+        self._fields_layout = QVBoxLayout(self._fields_widget)
+        self._fields_layout.setSpacing(8)
+        self._fields_layout.setContentsMargins(0, 0, 0, 0)
+        layout.addWidget(self._fields_widget)
 
         layout.addSpacing(24)
 
@@ -92,18 +105,73 @@ class WelcomeScreen(QWidget):
         start_btn.clicked.connect(self._on_start)
         layout.addWidget(start_btn, alignment=Qt.AlignmentFlag.AlignCenter)
 
+        self._refresh_count_buttons()
+        self._rebuild_name_fields()
+
+    def _set_player_count(self, count: int) -> None:
+        self._player_count = count
+        self._subtitle.setText(_SUBTITLES[count])
+        self._refresh_count_buttons()
+        self._rebuild_name_fields()
+
+    def _refresh_count_buttons(self) -> None:
+        for i, btn in enumerate(self._count_buttons):
+            n = i + 2
+            active = (n == self._player_count)
+            btn.setStyleSheet(f"""
+                QPushButton {{
+                    background-color: {"#1a3a6b" if not active else GOLD};
+                    color: {GOLD if not active else BG};
+                    border: 2px solid {GOLD if active else "#2a5a9b"};
+                    border-radius: 4px;
+                }}
+                QPushButton:hover {{ border-color: {GOLD}; }}
+            """)
+
+    def _rebuild_name_fields(self) -> None:
+        while self._fields_layout.count():
+            item = self._fields_layout.takeAt(0)
+            if item.widget():
+                item.widget().setParent(None)
+
+        self._name_inputs = []
+        for i in range(self._player_count):
+            label_text = f"Player {i + 1}"
+            lbl = QLabel(label_text)
+            lbl.setFont(QFont("Sans", 13, QFont.Weight.Bold))
+            lbl.setStyleSheet(f"color: {GOLD};")
+            self._fields_layout.addWidget(lbl, alignment=Qt.AlignmentFlag.AlignCenter)
+
+            field = QLineEdit()
+            field.setPlaceholderText(f"Enter {label_text} name")
+            field.setMaxLength(20)
+            field.setMinimumSize(320, 48)
+            field.setMaximumWidth(400)
+            field.setFont(QFont("Sans", 15))
+            field.setStyleSheet(f"""
+                QLineEdit {{
+                    background-color: {TILE};
+                    color: {TEXT};
+                    border: 2px solid #2a5a9b;
+                    border-radius: 4px;
+                    padding: 6px 14px;
+                }}
+                QLineEdit:focus {{ border-color: {GOLD}; }}
+            """)
+            self._fields_layout.addWidget(field, alignment=Qt.AlignmentFlag.AlignCenter)
+
+            self._name_inputs.append(field)
+
     def _on_start(self) -> None:
-        p1 = self.p1_input.text().strip()
-        p2 = self.p2_input.text().strip()
+        names = []
+        for i, field in enumerate(self._name_inputs):
+            name = field.text().strip()
+            if not _NAME_RE.match(name):
+                self._err(f"Player {i + 1} name must be 2–20 printable characters.")
+                return
+            names.append(name)
 
-        if not _NAME_RE.match(p1):
-            self._err("Player 1 name must be 2–20 printable characters.")
-            return
-        if not _NAME_RE.match(p2):
-            self._err("Player 2 name must be 2–20 printable characters.")
-            return
-
-        self.game_started.emit(p1, p2)
+        self.game_started.emit(names)
 
     def _err(self, msg: str) -> None:
         box = QMessageBox(self)

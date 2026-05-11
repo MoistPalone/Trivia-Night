@@ -1,6 +1,12 @@
 from PyQt6.QtCore import Qt, pyqtSignal
 from PyQt6.QtGui import QFont
-from PyQt6.QtWidgets import QLabel, QPushButton, QVBoxLayout, QWidget
+from PyQt6.QtWidgets import (
+    QHBoxLayout,
+    QLabel,
+    QPushButton,
+    QVBoxLayout,
+    QWidget,
+)
 
 from game.state import GameState
 
@@ -8,6 +14,7 @@ BG = "#0d1b2a"
 GOLD = "#c9a84c"
 TEXT_COLOR = "#e8e8e8"
 DIM = "#7788aa"
+PANEL_BG = "#0f2236"
 
 
 class GameOverScreen(QWidget):
@@ -20,7 +27,7 @@ class GameOverScreen(QWidget):
 
     def _build(self) -> None:
         layout = QVBoxLayout(self)
-        layout.setContentsMargins(80, 80, 80, 80)
+        layout.setContentsMargins(80, 60, 80, 60)
         layout.setSpacing(20)
         layout.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
@@ -41,11 +48,12 @@ class GameOverScreen(QWidget):
         self._winner_score.setStyleSheet(f"color: {TEXT_COLOR};")
         layout.addWidget(self._winner_score)
 
-        self._loser_label = QLabel("")
-        self._loser_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self._loser_label.setFont(QFont("Sans", 16))
-        self._loser_label.setStyleSheet(f"color: {DIM};")
-        layout.addWidget(self._loser_label)
+        # Standings container — populated dynamically in show_winner
+        self._standings_widget = QWidget()
+        self._standings_layout = QVBoxLayout(self._standings_widget)
+        self._standings_layout.setSpacing(8)
+        self._standings_layout.setContentsMargins(0, 8, 0, 8)
+        layout.addWidget(self._standings_widget)
 
         btn = QPushButton("Play Again")
         btn.setFont(QFont("Sans", 16, QFont.Weight.Bold))
@@ -70,8 +78,52 @@ class GameOverScreen(QWidget):
 
     def show_winner(self, state: GameState) -> None:
         winner = state.players[state.winner_index]
-        loser = state.players[1 - state.winner_index]
-
         self._winner_label.setText(f"{winner.name} Wins!")
         self._winner_score.setText(f"{winner.score:,} points")
-        self._loser_label.setText(f"{loser.name}  —  {loser.score:,} points")
+
+        # Rebuild standings
+        while self._standings_layout.count():
+            item = self._standings_layout.takeAt(0)
+            if item.widget():
+                item.widget().setParent(None)
+
+        ranked = sorted(enumerate(state.players), key=lambda t: t[1].score, reverse=True)
+        for rank, (idx, player) in enumerate(ranked, start=1):
+            row = self._standings_row(rank, player.name, player.score, idx == state.winner_index)
+            self._standings_layout.addWidget(row)
+
+    def _standings_row(self, rank: int, name: str, score: int, is_winner: bool) -> QWidget:
+        w = QWidget()
+        w.setStyleSheet(
+            f"background-color: {PANEL_BG if is_winner else 'transparent'};"
+            f"border: {'1px solid ' + GOLD if is_winner else 'none'};"
+            f"border-radius: 6px;"
+        )
+        row = QHBoxLayout(w)
+        row.setContentsMargins(20, 6, 20, 6)
+        row.setSpacing(16)
+
+        rank_lbl = QLabel(f"#{rank}")
+        rank_lbl.setFont(QFont("Sans", 14, QFont.Weight.Bold))
+        rank_lbl.setStyleSheet(f"color: {GOLD if is_winner else DIM}; border: none;")
+        row.addWidget(rank_lbl)
+
+        name_lbl = QLabel(name)
+        name_lbl.setFont(QFont("Sans", 14, QFont.Weight.Bold if is_winner else QFont.Weight.Normal))
+        name_lbl.setStyleSheet(f"color: {GOLD if is_winner else TEXT_COLOR}; border: none;")
+        row.addWidget(name_lbl)
+
+        row.addStretch()
+
+        score_lbl = QLabel(f"{score:,} pts")
+        score_lbl.setFont(QFont("Sans", 14))
+        score_lbl.setStyleSheet(f"color: {TEXT_COLOR}; border: none;")
+        row.addWidget(score_lbl)
+
+        if is_winner:
+            crown = QLabel("👑")
+            crown.setFont(QFont("Sans", 16))
+            crown.setStyleSheet("border: none;")
+            row.addWidget(crown)
+
+        return w

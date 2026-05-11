@@ -6,7 +6,7 @@ from game.state import GamePhase
 @pytest.fixture
 def engine() -> Engine:
     e = Engine()
-    e.start_game("Alice", "Bob")
+    e.start_game(["Alice", "Bob"])
     return e
 
 
@@ -28,24 +28,31 @@ def _clear_genres(engine: Engine, player_index: int, genre_ids: list[int]) -> No
 class TestStartGame:
     def test_transitions_to_board(self):
         e = Engine()
-        e.start_game("Alice", "Bob")
+        e.start_game(["Alice", "Bob"])
         assert e.state.phase == GamePhase.BOARD
 
     def test_players_created(self):
         e = Engine()
-        e.start_game("Alice", "Bob")
+        e.start_game(["Alice", "Bob"])
         assert e.state.players[0].name == "Alice"
         assert e.state.players[1].name == "Bob"
 
     def test_starts_round_one(self):
         e = Engine()
-        e.start_game("Alice", "Bob")
+        e.start_game(["Alice", "Bob"])
         assert e.state.round_number == 1
 
     def test_player_zero_goes_first(self):
         e = Engine()
-        e.start_game("Alice", "Bob")
+        e.start_game(["Alice", "Bob"])
         assert e.state.active_player_index == 0
+
+    def test_four_players_created(self):
+        e = Engine()
+        e.start_game(["Alice", "Bob", "Carol", "Dave"])
+        assert len(e.state.players) == 4
+        assert e.state.players[2].name == "Carol"
+        assert e.state.players[3].name == "Dave"
 
 
 # ------------------------------------------------------------------ #
@@ -163,6 +170,21 @@ class TestEvaluateAnswer:
         engine.evaluate_answer(correct=False)
         assert engine.state.last_result.points_awarded == 0
 
+    def test_three_player_wrong_cycles_alice_bob_carol(self):
+        e = Engine()
+        e.start_game(["Alice", "Bob", "Carol"])
+        _select(e)
+        e.evaluate_answer(correct=False)
+        assert e.state.active_player_index == 1  # Bob
+        e.advance_from_result()
+        _select(e)
+        e.evaluate_answer(correct=False)
+        assert e.state.active_player_index == 2  # Carol
+        e.advance_from_result()
+        _select(e)
+        e.evaluate_answer(correct=False)
+        assert e.state.active_player_index == 0  # back to Alice
+
 
 # ------------------------------------------------------------------ #
 # timeout                                                              #
@@ -273,7 +295,6 @@ class TestRoundEnd:
 class TestSuddenDeath:
     def test_tie_after_round_3_triggers_sudden_death(self, engine):
         engine.state.round_number = 3
-        # Set up a tie: player 0 answers correctly for 0 extra pts so scores stay equal
         engine.state.players[0].score = 500
         engine.state.players[1].score = 500
         _clear_genres(engine, 0, list(range(1, NUM_GENRES)))
@@ -282,18 +303,59 @@ class TestSuddenDeath:
         engine.advance_from_result()
         assert engine.state.phase == GamePhase.SUDDEN_DEATH
 
+    def test_tie_sets_sudden_death_order(self, engine):
+        engine.state.round_number = 3
+        engine.state.players[0].score = 500
+        engine.state.players[1].score = 500
+        _clear_genres(engine, 0, list(range(1, NUM_GENRES)))
+        engine.select_question(genre_id=NUM_GENRES, difficulty=1, question_id=1, base_points=0)
+        engine.evaluate_answer(correct=True)
+        engine.advance_from_result()
+        assert engine.state.sudden_death_order == [0, 1]
+        assert engine.state.sudden_death_turn_index == 0
+
+    def test_three_way_tie_sets_sudden_death_order(self):
+        e = Engine()
+        e.start_game(["Alice", "Bob", "Carol"])
+        e.state.round_number = 3
+        for i in range(3):
+            e.state.players[i].score = 500
+        _clear_genres(e, 0, list(range(1, NUM_GENRES)))
+        e.select_question(genre_id=NUM_GENRES, difficulty=1, question_id=1, base_points=0)
+        e.evaluate_answer(correct=True)
+        e.advance_from_result()
+        assert e.state.phase == GamePhase.SUDDEN_DEATH
+        assert set(e.state.sudden_death_order) == {0, 1, 2}
+
     def test_sudden_death_correct_ends_game(self, engine):
         engine.state.phase = GamePhase.SUDDEN_DEATH
+        engine.state.sudden_death_order = [0, 1]
         engine.evaluate_sudden_death(player_index=1, correct=True)
         assert engine.state.phase == GamePhase.GAME_OVER
         assert engine.state.winner_index == 1
 
     def test_sudden_death_wrong_stays_in_sudden_death(self, engine):
         engine.state.phase = GamePhase.SUDDEN_DEATH
+        engine.state.sudden_death_order = [0, 1]
         engine.evaluate_sudden_death(player_index=0, correct=False)
         assert engine.state.phase == GamePhase.SUDDEN_DEATH
 
+    def test_sudden_death_wrong_advances_turn_index(self, engine):
+        engine.state.phase = GamePhase.SUDDEN_DEATH
+        engine.state.sudden_death_order = [0, 1]
+        engine.state.sudden_death_turn_index = 0
+        engine.evaluate_sudden_death(player_index=0, correct=False)
+        assert engine.state.sudden_death_turn_index == 1
+
+    def test_sudden_death_wrong_wraps_turn_index(self, engine):
+        engine.state.phase = GamePhase.SUDDEN_DEATH
+        engine.state.sudden_death_order = [0, 1]
+        engine.state.sudden_death_turn_index = 1
+        engine.evaluate_sudden_death(player_index=1, correct=False)
+        assert engine.state.sudden_death_turn_index == 0  # wraps back
+
     def test_sudden_death_wrong_does_not_set_winner(self, engine):
         engine.state.phase = GamePhase.SUDDEN_DEATH
+        engine.state.sudden_death_order = [0, 1]
         engine.evaluate_sudden_death(player_index=0, correct=False)
         assert engine.state.winner_index is None

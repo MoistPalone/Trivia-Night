@@ -116,20 +116,19 @@ class RoundSummaryScreen(QWidget):
             if item.widget():
                 item.widget().deleteLater()
 
-        p0, p1 = state.players
-        s0, s1 = p0.score, p1.score
-        p0_leading = s0 > s1
-        p1_leading = s1 > s0
+        max_score = max(p.score for p in state.players)
+        leaders = [p for p in state.players if p.score == max_score]
 
-        self._panels_row.addWidget(_score_panel(p0.name, s0, p0_leading))
-        self._panels_row.addWidget(_score_panel(p1.name, s1, p1_leading))
+        for p in state.players:
+            self._panels_row.addWidget(_score_panel(p.name, p.score, p.score == max_score))
 
-        if s0 == s1:
-            self._status.setText("Scores are tied!")
-        elif p0_leading:
-            self._status.setText(f"{p0.name} is in the lead")
+        if len(leaders) == len(state.players):
+            self._status.setText("All players are tied!")
+        elif len(leaders) > 1:
+            names = " and ".join(p.name for p in leaders)
+            self._status.setText(f"{names} are tied for the lead")
         else:
-            self._status.setText(f"{p1.name} is in the lead")
+            self._status.setText(f"{leaders[0].name} is in the lead")
 
         next_round = state.round_number + 1
         if next_round == 3:

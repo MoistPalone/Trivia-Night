@@ -15,15 +15,18 @@ class Engine:
     # Setup                                                                #
     # ------------------------------------------------------------------ #
 
-    def start_game(self, p1_name: str, p2_name: str) -> None:
+    def start_game(self, names: list[str]) -> None:
         assert self.state.phase == GamePhase.WELCOME
-        self.state.players = [Player(name=p1_name), Player(name=p2_name)]
+        assert 2 <= len(names) <= 4
+        self.state.players = [Player(name=n) for n in names]
         self.state.round_number = 1
         self.state.active_player_index = 0
         self.state.board_cleared = set()
         self.state.current_question = None
         self.state.last_result = None
         self.state.winner_index = None
+        self.state.sudden_death_order = []
+        self.state.sudden_death_turn_index = 0
         self.state.phase = GamePhase.BOARD
 
     # ------------------------------------------------------------------ #
@@ -83,8 +86,8 @@ class Engine:
             player.genres_cleared.add(q.genre_id)
             self.state.board_cleared.add((q.genre_id, q.difficulty))
         else:
-            # Wrong answer: hand control to the other player
-            self.state.active_player_index = 1 - self.state.active_player_index
+            n = len(self.state.players)
+            self.state.active_player_index = (self.state.active_player_index + 1) % n
 
         self.state.last_result = ResultContext(
             correct=correct,
@@ -126,12 +129,15 @@ class Engine:
     def evaluate_sudden_death(self, player_index: int, correct: bool) -> None:
         """
         Called when a player submits an answer during Sudden Death.
-        Correct → that player wins. Wrong → stay in SUDDEN_DEATH for next question.
+        Correct → that player wins. Wrong → rotate to next tied player.
         """
         assert self.state.phase == GamePhase.SUDDEN_DEATH
         if correct:
             self.state.winner_index = player_index
             self.state.phase = GamePhase.GAME_OVER
+        else:
+            n = len(self.state.sudden_death_order)
+            self.state.sudden_death_turn_index = (self.state.sudden_death_turn_index + 1) % n
 
     # ------------------------------------------------------------------ #
     # Internal helpers                                                     #
@@ -147,9 +153,12 @@ class Engine:
             self.state.phase = GamePhase.ROUND_SUMMARY
             return
 
-        scores = [p.score for p in self.state.players]
-        if scores[0] == scores[1]:
-            self.state.phase = GamePhase.SUDDEN_DEATH
-        else:
-            self.state.winner_index = scores.index(max(scores))
+        max_score = max(p.score for p in self.state.players)
+        tied = [i for i, p in enumerate(self.state.players) if p.score == max_score]
+        if len(tied) == 1:
+            self.state.winner_index = tied[0]
             self.state.phase = GamePhase.GAME_OVER
+        else:
+            self.state.sudden_death_order = tied
+            self.state.sudden_death_turn_index = 0
+            self.state.phase = GamePhase.SUDDEN_DEATH

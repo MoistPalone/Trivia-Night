@@ -34,9 +34,11 @@ class ResultContext:
 class GameState:
     phase: GamePhase = GamePhase.WELCOME
     round_number: int = 1
-    active_player_index: int = 0  # 0 or 1
+    active_player_index: int = 0
     players: list = field(default_factory=list)
     board_cleared: set = field(default_factory=set)   # set of (genre_id, difficulty)
     current_question: Optional[QuestionContext] = None
     last_result: Optional[ResultContext] = None
     winner_index: Optional[int] = None
+    sudden_death_order: list = field(default_factory=list)   # player indices in SD rotation
+    sudden_death_turn_index: int = 0
