@@ -12,6 +12,7 @@ from ui.screens.game_over import GameOverScreen
 from ui.screens.question import QuestionScreen
 from ui.screens.result import ResultScreen
 from ui.screens.round_summary import RoundSummaryScreen
+from ui.screens.splash import SplashScreen
 from ui.screens.sudden_death import SuddenDeathScreen
 from ui.screens.welcome import WelcomeScreen
 from ui.utils.transitions import fade_to
@@ -36,6 +37,7 @@ class MainWindow(QMainWindow):
         self.stack = QStackedWidget()
         self.setCentralWidget(self.stack)
 
+        self.splash = SplashScreen()
         self.welcome = WelcomeScreen()
         self.board = BoardScreen()
         self.question = QuestionScreen()
@@ -45,6 +47,7 @@ class MainWindow(QMainWindow):
         self.game_over = GameOverScreen()
 
         for screen in (
+            self.splash,
             self.welcome,
             self.board,
             self.question,
@@ -55,6 +58,7 @@ class MainWindow(QMainWindow):
         ):
             self.stack.addWidget(screen)
 
+        self.splash.finished.connect(self._on_splash_finished)
         self.welcome.game_started.connect(self._on_game_started)
         self.board.tile_selected.connect(self._on_tile_selected)
         self.board.mute_toggled.connect(self._sound.set_muted)
@@ -67,6 +71,18 @@ class MainWindow(QMainWindow):
         self.round_summary.finished.connect(self._on_round_summary_finished)
         self.sudden_death.finished.connect(self._on_sudden_death_begin)
         self.game_over.play_again.connect(self._on_play_again)
+
+    def showEvent(self, event) -> None:
+        super().showEvent(event)
+        self.stack.setCurrentWidget(self.splash)
+        self.splash.fade_in()
+
+    # ------------------------------------------------------------------ #
+    # Splash                                                               #
+    # ------------------------------------------------------------------ #
+
+    def _on_splash_finished(self) -> None:
+        fade_to(self.stack, self.welcome)
 
     # ------------------------------------------------------------------ #
     # Game start                                                           #
