@@ -14,6 +14,7 @@ from ui.screens.result import ResultScreen
 from ui.screens.round_summary import RoundSummaryScreen
 from ui.screens.sudden_death import SuddenDeathScreen
 from ui.screens.welcome import WelcomeScreen
+from ui.utils.transitions import fade_to
 
 BG = "#0d1b2a"
 
@@ -73,7 +74,7 @@ class MainWindow(QMainWindow):
     def _on_game_started(self, names: list) -> None:
         self.engine.start_game(names)
         self.board.refresh(self.engine.state)
-        self.stack.setCurrentWidget(self.board)
+        fade_to(self.stack, self.board)
 
     # ------------------------------------------------------------------ #
     # Board → Question                                                     #
@@ -87,6 +88,7 @@ class MainWindow(QMainWindow):
         if row is None:
             return
 
+        self._sound.play("tile_select")
         self.engine.select_question(
             genre_id=genre_id,
             difficulty=difficulty,
@@ -112,7 +114,7 @@ class MainWindow(QMainWindow):
             pause_uses_remaining=pause_left,
             allow_pause=allow_pause,
         )
-        self.stack.setCurrentWidget(self.question)
+        fade_to(self.stack, self.question)
 
     # ------------------------------------------------------------------ #
     # Answer + timeout                                                     #
@@ -145,7 +147,7 @@ class MainWindow(QMainWindow):
             player_name=answering_player.name,
             correct_answer=self._current_answer,
         )
-        self.stack.setCurrentWidget(self.result)
+        fade_to(self.stack, self.result)
 
     # ------------------------------------------------------------------ #
     # Pause / Resume                                                       #
@@ -178,29 +180,32 @@ class MainWindow(QMainWindow):
             self._show_game_over(state)
             return
 
+        last_was_correct = state.last_result.correct
         self.engine.advance_from_result()
         state = self.engine.state
 
         if state.phase == GamePhase.BOARD:
+            if not last_was_correct:
+                self._sound.play("turn_change")
             self.board.refresh(state)
-            self.stack.setCurrentWidget(self.board)
+            fade_to(self.stack, self.board)
         elif state.phase == GamePhase.ROUND_SUMMARY:
             self._sound.play("round_complete")
             self.round_summary.show_summary(state)
-            self.stack.setCurrentWidget(self.round_summary)
+            fade_to(self.stack, self.round_summary)
         elif state.phase == GamePhase.SUDDEN_DEATH:
             self._sound.play("sudden_death")
             tied_names = [state.players[i].name for i in state.sudden_death_order]
             tied_score = state.players[state.sudden_death_order[0]].score
             self.sudden_death.show_sudden_death(tied_names, tied_score)
-            self.stack.setCurrentWidget(self.sudden_death)
+            fade_to(self.stack, self.sudden_death)
         elif state.phase == GamePhase.GAME_OVER:
             self._show_game_over(state)
 
     def _show_game_over(self, state) -> None:
         self._sound.play("game_over")
         self.game_over.show_winner(state)
-        self.stack.setCurrentWidget(self.game_over)
+        fade_to(self.stack, self.game_over)
 
     # ------------------------------------------------------------------ #
     # Round summary                                                        #
@@ -208,8 +213,10 @@ class MainWindow(QMainWindow):
 
     def _on_round_summary_finished(self) -> None:
         self.engine.advance_from_round_summary()
-        self.board.refresh(self.engine.state)
-        self.stack.setCurrentWidget(self.board)
+        state = self.engine.state
+        self.board.refresh(state)
+        fade_to(self.stack, self.board)
+        self.board.announce_round(state.round_number)
 
     # ------------------------------------------------------------------ #
     # Sudden death                                                         #
@@ -256,7 +263,7 @@ class MainWindow(QMainWindow):
             player_name=player.name,
             correct_answer=self._current_answer,
         )
-        self.stack.setCurrentWidget(self.result)
+        fade_to(self.stack, self.result)
 
     # ------------------------------------------------------------------ #
     # Game over                                                            #
@@ -264,4 +271,4 @@ class MainWindow(QMainWindow):
 
     def _on_play_again(self) -> None:
         self.engine = Engine()
-        self.stack.setCurrentWidget(self.welcome)
+        fade_to(self.stack, self.welcome)

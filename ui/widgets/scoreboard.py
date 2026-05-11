@@ -1,4 +1,6 @@
-from PyQt6.QtCore import Qt
+import math
+
+from PyQt6.QtCore import Qt, QTimer
 from PyQt6.QtGui import QFont
 from PyQt6.QtWidgets import QHBoxLayout, QLabel, QVBoxLayout, QWidget
 
@@ -9,8 +11,12 @@ BG = "#0d1b2a"
 TEXT = "#ffffff"
 DOT_ON = GOLD
 DOT_OFF = "#2a3a5a"
-BORDER_ACTIVE = f"3px solid {GOLD}"
 BORDER_INACTIVE = "3px solid #2a3a5a"
+
+# Pulse color range: dim gold (#c9a84c) → bright gold (#ffd97a)
+_PULSE_R = (0xc9, 0xff)
+_PULSE_G = (0xa8, 0xd9)
+_PULSE_B = (0x4c, 0x7a)
 
 
 class _PlayerPanel(QWidget):
@@ -20,6 +26,10 @@ class _PlayerPanel(QWidget):
         super().__init__(parent)
         self._genre_ids = [gid for gid, _ in genres]
         self._genre_dots: list[QLabel] = []
+        self._pulse_t = 0.0
+        self._pulse_timer = QTimer(self)
+        self._pulse_timer.setInterval(40)
+        self._pulse_timer.timeout.connect(self._tick_pulse)
         self._build(player_number)
 
     def _build(self, player_number: int) -> None:
@@ -55,16 +65,32 @@ class _PlayerPanel(QWidget):
         dots_row.addStretch()
         layout.addLayout(dots_row)
 
+    def _tick_pulse(self) -> None:
+        self._pulse_t += 0.12
+        v = 0.5 + 0.5 * math.sin(self._pulse_t)
+        r = int(_PULSE_R[0] + (_PULSE_R[1] - _PULSE_R[0]) * v)
+        g = int(_PULSE_G[0] + (_PULSE_G[1] - _PULSE_G[0]) * v)
+        b = int(_PULSE_B[0] + (_PULSE_B[1] - _PULSE_B[0]) * v)
+        color = f"#{r:02x}{g:02x}{b:02x}"
+        self.setStyleSheet(
+            f"background-color: {BG}; border: 3px solid {color}; border-radius: 6px;"
+        )
+
     def refresh(self, name: str, score: int, genres_cleared: set, active: bool) -> None:
         self.name_lbl.setText(name)
         self.score_lbl.setText(str(score))
-        border = BORDER_ACTIVE if active else BORDER_INACTIVE
-        self.setStyleSheet(
-            f"background-color: {BG}; border: {border}; border-radius: 6px;"
-        )
         for gid, dot in zip(self._genre_ids, self._genre_dots):
             dot.setStyleSheet(
                 f"color: {DOT_ON if gid in genres_cleared else DOT_OFF}; border: none;"
+            )
+        if active:
+            if not self._pulse_timer.isActive():
+                self._pulse_t = 0.0
+                self._pulse_timer.start()
+        else:
+            self._pulse_timer.stop()
+            self.setStyleSheet(
+                f"background-color: {BG}; border: {BORDER_INACTIVE}; border-radius: 6px;"
             )
 
 

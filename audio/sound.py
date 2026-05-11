@@ -16,6 +16,8 @@ _SOUND_FILES = {
     "round_complete": "round_complete.wav",
     "sudden_death": "sudden_death.wav",
     "game_over": "game_over.wav",
+    "tile_select": "tile_select.wav",
+    "turn_change": "turn_change.wav",
 }
 
 

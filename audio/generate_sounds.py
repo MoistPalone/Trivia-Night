@@ -114,6 +114,18 @@ def generate_game_over() -> None:
     _write("game_over.wav", arp + gap + chord, volume=0.6)
 
 
+def generate_tile_select() -> None:
+    # Soft short click — 600Hz, 60ms, fast fade
+    frames = _tone(600.0, 0.06, fade_frac=0.5)
+    _write("tile_select.wav", frames, volume=0.30)
+
+
+def generate_turn_change() -> None:
+    # Soft ascending two-note chime: F4 → C5
+    frames = _sequence([(349.23, 0.15), (523.25, 0.20)])
+    _write("turn_change.wav", frames, volume=0.40)
+
+
 if __name__ == "__main__":
     print("Generating sound effects…")
     generate_correct()
@@ -123,4 +135,6 @@ if __name__ == "__main__":
     generate_round_complete()
     generate_sudden_death()
     generate_game_over()
+    generate_tile_select()
+    generate_turn_change()
     print("Done.")

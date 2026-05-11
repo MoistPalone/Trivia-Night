@@ -1,4 +1,4 @@
-from PyQt6.QtCore import Qt, pyqtSignal
+from PyQt6.QtCore import QEasingCurve, QPoint, QPropertyAnimation, Qt, QTimer, pyqtSignal
 from PyQt6.QtGui import QFont
 from PyQt6.QtWidgets import (
     QGridLayout,
@@ -32,6 +32,78 @@ GENRE_COLORS: dict[int, str] = {
 
 DIFFICULTIES = [1, 2, 3, 4, 5]
 POINTS = [100, 200, 300, 400, 500]
+
+OVERLAY_BG = "#080f1a"
+
+
+class RoundAnnouncementOverlay(QWidget):
+    """Full-screen overlay that slides in, holds, then slides out announcing the new round."""
+
+    finished = pyqtSignal()
+
+    def __init__(self, parent: QWidget) -> None:
+        super().__init__(parent)
+        self.setStyleSheet(f"background-color: {OVERLAY_BG};")
+        self.hide()
+        self._anim: QPropertyAnimation | None = None
+        self._build()
+
+    def _build(self) -> None:
+        layout = QVBoxLayout(self)
+        layout.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        layout.setSpacing(16)
+
+        self._round_lbl = QLabel("")
+        self._round_lbl.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self._round_lbl.setFont(QFont("Sans", 60, QFont.Weight.Bold))
+        self._round_lbl.setStyleSheet(f"color: {GOLD};")
+        layout.addWidget(self._round_lbl)
+
+        self._sub_lbl = QLabel("")
+        self._sub_lbl.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self._sub_lbl.setFont(QFont("Sans", 22, QFont.Weight.Bold))
+        self._sub_lbl.setStyleSheet(f"color: #e8e8e8;")
+        layout.addWidget(self._sub_lbl)
+
+    def announce(self, round_number: int) -> None:
+        self._round_lbl.setText(f"ROUND {round_number}")
+        if round_number == 3:
+            self._sub_lbl.setText("★  Double Points  ★")
+            self._sub_lbl.show()
+        else:
+            self._sub_lbl.hide()
+
+        p = self.parent()
+        self.setGeometry(0, 0, p.width(), p.height())
+        self.show()
+        self.raise_()
+        self._slide(QPoint(0, -self.height()), QPoint(0, 0), 320,
+                    QEasingCurve.Type.OutCubic, self._hold)
+
+    def _hold(self) -> None:
+        QTimer.singleShot(1600, self._slide_out)
+
+    def _slide_out(self) -> None:
+        self._slide(QPoint(0, 0), QPoint(0, -self.height()), 280,
+                    QEasingCurve.Type.InCubic, self._done)
+
+    def _done(self) -> None:
+        self.hide()
+        self.finished.emit()
+
+    def _slide(self, start: QPoint, end: QPoint, ms: int,
+               curve: QEasingCurve.Type, on_finish) -> None:
+        if self._anim:
+            self._anim.stop()
+            self._anim = None
+        anim = QPropertyAnimation(self, b"pos", self)
+        anim.setDuration(ms)
+        anim.setStartValue(start)
+        anim.setEndValue(end)
+        anim.setEasingCurve(curve)
+        anim.finished.connect(on_finish)
+        anim.start()
+        self._anim = anim
 
 
 def _tile_style(cleared: bool, accent: str = GOLD) -> str:
@@ -71,6 +143,8 @@ class BoardScreen(QWidget):
         self.scoreboard = Scoreboard(genres=self._genres)
         outer.addWidget(self.scoreboard)
 
+        self._overlay = RoundAnnouncementOverlay(self)
+
         grid = QGridLayout()
         grid.setSpacing(6)
         grid.setContentsMargins(0, 0, 0, 0)
@@ -109,3 +183,8 @@ class BoardScreen(QWidget):
             btn.setEnabled(not cleared)
             btn.setStyleSheet(_tile_style(cleared=cleared, accent=GENRE_COLORS.get(gid, GOLD)))
         self.scoreboard.refresh(state)
+
+    def announce_round(self, round_number: int) -> None:
+        """Show round announcement overlay for rounds 2 and 3."""
+        if round_number > 1:
+            self._overlay.announce(round_number)
