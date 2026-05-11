@@ -126,6 +126,12 @@ def generate_turn_change() -> None:
     _write("turn_change.wav", frames, volume=0.40)
 
 
+def generate_question_ambient() -> None:
+    # Soft 6-second major triad pad (C3, E3, G3) — loops seamlessly during question timer
+    frames = _chord([130.81, 164.81, 196.00], 6.0, fade_frac=0.12)
+    _write("question_ambient.wav", frames, volume=0.22)
+
+
 if __name__ == "__main__":
     print("Generating sound effects…")
     generate_correct()
@@ -137,4 +143,5 @@ if __name__ == "__main__":
     generate_game_over()
     generate_tile_select()
     generate_turn_change()
+    generate_question_ambient()
     print("Done.")

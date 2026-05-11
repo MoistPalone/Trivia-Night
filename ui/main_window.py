@@ -57,6 +57,7 @@ class MainWindow(QMainWindow):
 
         self.welcome.game_started.connect(self._on_game_started)
         self.board.tile_selected.connect(self._on_tile_selected)
+        self.board.mute_toggled.connect(self._sound.set_muted)
         self.question.answer_submitted.connect(self._on_answer_submitted)
         self.question.timed_out.connect(self._on_timed_out)
         self.question.pause_requested.connect(self._on_pause_requested)
@@ -115,12 +116,14 @@ class MainWindow(QMainWindow):
             allow_pause=allow_pause,
         )
         fade_to(self.stack, self.question)
+        self._sound.play_loop("question_ambient")
 
     # ------------------------------------------------------------------ #
     # Answer + timeout                                                     #
     # ------------------------------------------------------------------ #
 
     def _on_answer_submitted(self, given: str) -> None:
+        self._sound.stop_loop("question_ambient")
         if self.engine.state.phase == GamePhase.SUDDEN_DEATH:
             self._handle_sudden_death_answer(given)
             return
@@ -130,6 +133,7 @@ class MainWindow(QMainWindow):
         self._show_result()
 
     def _on_timed_out(self) -> None:
+        self._sound.stop_loop("question_ambient")
         if self.engine.state.phase == GamePhase.SUDDEN_DEATH:
             self._handle_sudden_death_answer("")
             return
@@ -156,6 +160,7 @@ class MainWindow(QMainWindow):
     def _on_pause_requested(self, player_index: int) -> None:
         granted = self.engine.pause(player_index)
         if granted:
+            self._sound.stop_loop("question_ambient")
             self.question.on_pause_granted()
         else:
             self.question.on_pause_denied()
@@ -163,6 +168,7 @@ class MainWindow(QMainWindow):
     def _on_resume_requested(self) -> None:
         self.engine.resume()
         self.question.on_resume()
+        self._sound.play_loop("question_ambient")
 
     # ------------------------------------------------------------------ #
     # Result → next phase                                                  #

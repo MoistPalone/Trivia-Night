@@ -18,6 +18,7 @@ _SOUND_FILES = {
     "game_over": "game_over.wav",
     "tile_select": "tile_select.wav",
     "turn_change": "turn_change.wav",
+    "question_ambient": "question_ambient.wav",
 }
 
 
@@ -47,8 +48,29 @@ class SoundManager:
         else:
             log.debug("No sound loaded for: %s", name)
 
+    def play_loop(self, name: str) -> None:
+        if self._muted:
+            return
+        effect = self._effects.get(name)
+        if effect is not None:
+            effect.setLoopCount(QSoundEffect.Infinite)
+            effect.play()
+
+    def stop_loop(self, name: str) -> None:
+        effect = self._effects.get(name)
+        if effect is not None:
+            effect.stop()
+            effect.setLoopCount(1)
+
     def set_muted(self, muted: bool) -> None:
+        if muted:
+            for effect in self._effects.values():
+                effect.stop()
         self._muted = muted
+
+    def set_volume(self, volume: float) -> None:
+        for effect in self._effects.values():
+            effect.setVolume(volume)
 
     @property
     def muted(self) -> bool:

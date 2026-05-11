@@ -5,6 +5,7 @@ from PyQt6.QtGui import QFont
 from PyQt6.QtWidgets import (
     QGraphicsOpacityEffect,
     QGridLayout,
+    QHBoxLayout,
     QLabel,
     QPushButton,
     QSizePolicy,
@@ -230,12 +231,14 @@ class RoundAnnouncementOverlay(QWidget):
 
 class BoardScreen(QWidget):
     tile_selected = pyqtSignal(int, int)  # (genre_id, difficulty)
+    mute_toggled = pyqtSignal(bool)       # emits new muted state
 
     def __init__(self, parent=None) -> None:
         super().__init__(parent)
         self.setStyleSheet(f"background-color: {BG};")
         self._genres: list[tuple[int, str]] = get_genres()
         self._tiles: dict[tuple[int, int], TileButton] = {}
+        self._muted: bool = False
         self._build()
 
     def _build(self) -> None:
@@ -243,8 +246,28 @@ class BoardScreen(QWidget):
         outer.setContentsMargins(20, 16, 20, 16)
         outer.setSpacing(12)
 
+        # Top bar: scoreboard + mute toggle at far right
+        top_bar = QHBoxLayout()
         self.scoreboard = Scoreboard(genres=self._genres)
-        outer.addWidget(self.scoreboard)
+        top_bar.addWidget(self.scoreboard, stretch=1)
+
+        self._mute_btn = QPushButton("🔊")
+        self._mute_btn.setFixedSize(34, 34)
+        self._mute_btn.setFont(QFont("Sans", 14))
+        self._mute_btn.setToolTip("Toggle mute")
+        self._mute_btn.setStyleSheet(f"""
+            QPushButton {{
+                background-color: transparent;
+                color: {GOLD};
+                border: 1px solid #2a3a5a;
+                border-radius: 4px;
+            }}
+            QPushButton:hover {{ border-color: {GOLD}; }}
+            QPushButton:pressed {{ background-color: #1a2a3a; }}
+        """)
+        self._mute_btn.clicked.connect(self._toggle_mute)
+        top_bar.addWidget(self._mute_btn, alignment=Qt.AlignmentFlag.AlignTop)
+        outer.addLayout(top_bar)
 
         self._overlay = RoundAnnouncementOverlay(self)
 
@@ -283,6 +306,11 @@ class BoardScreen(QWidget):
             else:
                 btn.set_cleared(is_cleared)  # immediate (already cleared or not cleared)
         self.scoreboard.refresh(state)
+
+    def _toggle_mute(self) -> None:
+        self._muted = not self._muted
+        self._mute_btn.setText("🔇" if self._muted else "🔊")
+        self.mute_toggled.emit(self._muted)
 
     def announce_round(self, round_number: int) -> None:
         """Show round announcement overlay for rounds 2 and 3."""
