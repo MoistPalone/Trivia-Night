@@ -53,7 +53,7 @@ class SoundManager:
             return
         effect = self._effects.get(name)
         if effect is not None:
-            effect.setLoopCount(QSoundEffect.Infinite)
+            effect.setLoopCount(-2)  # Qt::Infinite
             effect.play()
 
     def stop_loop(self, name: str) -> None:

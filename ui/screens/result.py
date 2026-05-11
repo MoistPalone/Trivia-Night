@@ -79,7 +79,7 @@ class ResultScreen(QWidget):
             self._points_label.setText("No points awarded")
             self._answer_label.setText(f"Answer: {correct_answer}")
 
-        self._animate_icon()
+        QTimer.singleShot(260, self._animate_icon)
         QTimer.singleShot(DISPLAY_MS, self.finished.emit)
 
     def _animate_icon(self) -> None:

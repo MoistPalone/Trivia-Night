@@ -2,7 +2,7 @@ import math
 import re
 
 from PyQt6.QtCore import Qt, QTimer, pyqtSignal
-from PyQt6.QtGui import QFont
+from PyQt6.QtGui import QColor, QFont, QPainter, QRadialGradient
 from PyQt6.QtWidgets import (
     QHBoxLayout,
     QLabel,
@@ -18,10 +18,10 @@ GOLD = "#c9a84c"
 TILE = "#1a3a6b"
 TEXT = "#ffffff"
 
-# Title shimmer: dim gold → bright gold
-_SHIMMER_R = (0xc9, 0xff)
-_SHIMMER_G = (0xa8, 0xd9)
-_SHIMMER_B = (0x4c, 0x7a)
+# Title shimmer: muted amber → bright gold
+_SHIMMER_R = (0xa8, 0xff)
+_SHIMMER_G = (0x7c, 0xe0)
+_SHIMMER_B = (0x28, 0x60)
 
 _NAME_RE = re.compile(r"^[\x20-\x7E]{2,20}$")
 
@@ -37,7 +37,6 @@ class WelcomeScreen(QWidget):
 
     def __init__(self, parent=None) -> None:
         super().__init__(parent)
-        self.setStyleSheet(f"background-color: {BG};")
         self._player_count = 2
         self._name_inputs: list[QLineEdit] = []
         self._count_buttons: list[QPushButton] = []
@@ -183,8 +182,19 @@ class WelcomeScreen(QWidget):
 
         self.game_started.emit(names)
 
+    def paintEvent(self, event) -> None:
+        painter = QPainter(self)
+        cx = self.width() // 2
+        cy = self.height() * 2 // 5
+        radius = max(self.width(), self.height()) * 0.80
+        grad = QRadialGradient(cx, cy, radius)
+        grad.setColorAt(0.0, QColor(22, 52, 82))   # lighter blue-navy center
+        grad.setColorAt(0.6, QColor(13, 27, 42))   # mid BG
+        grad.setColorAt(1.0, QColor(4, 9, 18))     # very dark vignette edges
+        painter.fillRect(self.rect(), grad)
+
     def _tick_shimmer(self) -> None:
-        self._shimmer_t += 0.04
+        self._shimmer_t += 0.09
         v = 0.5 + 0.5 * math.sin(self._shimmer_t)
         r = int(_SHIMMER_R[0] + (_SHIMMER_R[1] - _SHIMMER_R[0]) * v)
         g = int(_SHIMMER_G[0] + (_SHIMMER_G[1] - _SHIMMER_G[0]) * v)

@@ -87,9 +87,19 @@ def generate_timeout() -> None:
 
 
 def generate_tick_urgent() -> None:
-    # Sharp high click — 1kHz, very short
-    frames = _tone(1046.5, 0.045, fade_frac=0.5)
-    _write("tick_urgent.wav", frames, volume=0.35)
+    # Hard clock tick: instant attack, dual-freq (1300Hz + 2600Hz), convex 22ms decay
+    n = int(SAMPLE_RATE * 0.022)
+    attack = int(SAMPLE_RATE * 0.001)  # 1ms ramp
+    frames = []
+    for i in range(n):
+        t = i / SAMPLE_RATE
+        s = 0.55 * _sine(1300.0, t) + 0.45 * _sine(2600.0, t)
+        if i < attack:
+            env = i / attack
+        else:
+            env = max(0.0, 1.0 - (i - attack) / (n - attack)) ** 2
+        frames.append(s * env)
+    _write("tick_urgent.wav", frames, volume=0.65)
 
 
 def generate_round_complete() -> None:

@@ -80,27 +80,33 @@ class TileButton(QPushButton):
         v = self._glow
         ar, ag, ab = self._accent_rgb
 
-        # Background: #1a3a6b → #22508b on full hover
-        bg = f"#{int(0x1a + 8*v):02x}{int(0x3a + 22*v):02x}{int(0x6b + 32*v):02x}"
+        # Background: #0e2040 (dark rest) → #1e5090 (bright hover)
+        bg = f"#{int(0x0e + 0x10*v):02x}{int(0x20 + 0x30*v):02x}{int(0x40 + 0x50*v):02x}"
 
-        # Side border: #2a5a9b → accent
-        border = (f"#{int(0x2a + (ar-0x2a)*v):02x}"
-                  f"{int(0x5a + (ag-0x5a)*v):02x}"
-                  f"{int(0x9b + (ab-0x9b)*v):02x}")
+        # Side border: dim blue at rest → full accent on hover
+        dim_factor = 0.35 + 0.65 * v
+        border = (f"#{min(255,int(ar*dim_factor)):02x}"
+                  f"{min(255,int(ag*dim_factor)):02x}"
+                  f"{min(255,int(ab*dim_factor)):02x}")
 
-        # Top accent: genre color at 70% dim at rest, 100% on hover
-        dim = 0.7 + 0.3 * v
-        top = f"#{min(255,int(ar*dim)):02x}{min(255,int(ag*dim)):02x}{min(255,int(ab*dim)):02x}"
+        # Top accent: genre color at 50% dim at rest, 110% (clamped) on hover
+        top_dim = 0.50 + 0.60 * v
+        top = f"#{min(255,int(ar*top_dim)):02x}{min(255,int(ag*top_dim)):02x}{min(255,int(ab*top_dim)):02x}"
+
+        # Price text brightens on hover too
+        gold_v = int(0xc9 + (0xff - 0xc9) * v)
+        gold_g = int(0xa8 + (0xd9 - 0xa8) * v)
+        text_color = f"#{gold_v:02x}{gold_g:02x}{int(0x4c + 0x2e*v):02x}"
 
         self.setStyleSheet(f"""
             QPushButton {{
                 background-color: {bg};
-                color: {GOLD};
+                color: {text_color};
                 border: 2px solid {border};
-                border-top: 3px solid {top};
+                border-top: 4px solid {top};
                 border-radius: 4px;
             }}
-            QPushButton:pressed {{ background-color: #0f2a5b; }}
+            QPushButton:pressed {{ background-color: #0a1830; }}
         """)
 
     def _apply_cleared(self) -> None:
