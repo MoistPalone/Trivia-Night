@@ -1,5 +1,6 @@
 from PyQt6.QtCore import Qt, pyqtSignal
 from PyQt6.QtGui import QFont, QKeySequence, QShortcut
+from ui.utils.transitions import paint_bg_gradient
 from PyQt6.QtWidgets import (
     QHBoxLayout,
     QLabel,
@@ -29,7 +30,6 @@ class QuestionScreen(QWidget):
 
     def __init__(self, parent=None) -> None:
         super().__init__(parent)
-        self.setStyleSheet(f"background-color: {BG};")
         self._active_player_index: int = 0
         self._paused: bool = False
         self._allow_pause: bool = True
@@ -44,14 +44,14 @@ class QuestionScreen(QWidget):
         self._meta_label = QLabel("")
         self._meta_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self._meta_label.setFont(QFont("Sans", 12))
-        self._meta_label.setStyleSheet(f"color: {GOLD};")
+        self._meta_label.setStyleSheet(f"color: {GOLD}; background: transparent;")
         outer.addWidget(self._meta_label)
 
         # Question text
         self._question_label = QLabel("")
         self._question_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self._question_label.setFont(QFont("Sans", 22, QFont.Weight.Bold))
-        self._question_label.setStyleSheet(f"color: {TEXT_COLOR};")
+        self._question_label.setStyleSheet(f"color: {TEXT_COLOR}; background: transparent;")
         self._question_label.setWordWrap(True)
         outer.addWidget(self._question_label, stretch=1)
 
@@ -107,7 +107,7 @@ class QuestionScreen(QWidget):
         self._pause_label = QLabel("")
         self._pause_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self._pause_label.setFont(QFont("Sans", 11))
-        self._pause_label.setStyleSheet(f"color: {PAUSED_COLOR};")
+        self._pause_label.setStyleSheet(f"color: {PAUSED_COLOR}; background: transparent;")
         self._pause_bar.addWidget(self._pause_label)
         outer.addLayout(self._pause_bar)
 
@@ -197,6 +197,9 @@ class QuestionScreen(QWidget):
         self._answer_input.setEnabled(False)
         self._submit_btn.setEnabled(False)
         self.timed_out.emit()
+
+    def paintEvent(self, event) -> None:
+        paint_bg_gradient(self, event)
 
     def _toggle_pause(self) -> None:
         if not self._allow_pause:

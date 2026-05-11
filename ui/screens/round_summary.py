@@ -1,5 +1,6 @@
 from PyQt6.QtCore import QEasingCurve, QPropertyAnimation, Qt, QTimer, pyqtSignal
 from PyQt6.QtGui import QFont
+from ui.utils.transitions import paint_bg_gradient
 from PyQt6.QtWidgets import (
     QGraphicsOpacityEffect,
     QHBoxLayout,
@@ -56,7 +57,6 @@ class RoundSummaryScreen(QWidget):
 
     def __init__(self, parent=None) -> None:
         super().__init__(parent)
-        self.setStyleSheet(f"background-color: {BG};")
         self._build()
 
     def _build(self) -> None:
@@ -68,7 +68,7 @@ class RoundSummaryScreen(QWidget):
         self._title = QLabel("")
         self._title.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self._title.setFont(QFont("Sans", 32, QFont.Weight.Bold))
-        self._title.setStyleSheet(f"color: {GOLD};")
+        self._title.setStyleSheet(f"color: {GOLD}; background: transparent;")
         outer.addWidget(self._title)
 
         self._panels_row = QHBoxLayout()
@@ -78,13 +78,13 @@ class RoundSummaryScreen(QWidget):
         self._status = QLabel("")
         self._status.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self._status.setFont(QFont("Sans", 14))
-        self._status.setStyleSheet(f"color: {DIM};")
+        self._status.setStyleSheet(f"color: {DIM}; background: transparent;")
         outer.addWidget(self._status)
 
         self._next_hint = QLabel("")
         self._next_hint.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self._next_hint.setFont(QFont("Sans", 13, QFont.Weight.Bold))
-        self._next_hint.setStyleSheet(f"color: {GREEN};")
+        self._next_hint.setStyleSheet(f"color: {GREEN}; background: transparent;")
         outer.addWidget(self._next_hint)
 
         btn = QPushButton("Continue")
@@ -153,3 +153,6 @@ class RoundSummaryScreen(QWidget):
             self._next_hint.setText("Round 3 — all points doubled  ★ 2×")
         else:
             self._next_hint.setText(f"Up next: Round {next_round}")
+
+    def paintEvent(self, event) -> None:
+        paint_bg_gradient(self, event)

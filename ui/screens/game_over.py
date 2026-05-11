@@ -1,5 +1,6 @@
 from PyQt6.QtCore import QEasingCurve, QPropertyAnimation, Qt, QTimer, pyqtSignal
 from PyQt6.QtGui import QFont
+from ui.utils.transitions import paint_bg_gradient
 from PyQt6.QtWidgets import (
     QGraphicsOpacityEffect,
     QHBoxLayout,
@@ -23,7 +24,6 @@ class GameOverScreen(QWidget):
 
     def __init__(self, parent=None) -> None:
         super().__init__(parent)
-        self.setStyleSheet(f"background-color: {BG};")
         self._build()
 
     def _build(self) -> None:
@@ -35,18 +35,19 @@ class GameOverScreen(QWidget):
         trophy = QLabel("🏆")
         trophy.setAlignment(Qt.AlignmentFlag.AlignCenter)
         trophy.setFont(QFont("Sans", 72))
+        trophy.setStyleSheet("background: transparent;")
         layout.addWidget(trophy)
 
         self._winner_label = QLabel("")
         self._winner_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self._winner_label.setFont(QFont("Sans", 36, QFont.Weight.Bold))
-        self._winner_label.setStyleSheet(f"color: {GOLD};")
+        self._winner_label.setStyleSheet(f"color: {GOLD}; background: transparent;")
         layout.addWidget(self._winner_label)
 
         self._winner_score = QLabel("")
         self._winner_score.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self._winner_score.setFont(QFont("Sans", 24))
-        self._winner_score.setStyleSheet(f"color: {TEXT_COLOR};")
+        self._winner_score.setStyleSheet(f"color: {TEXT_COLOR}; background: transparent;")
         layout.addWidget(self._winner_score)
 
         # Standings container — populated dynamically in show_winner
@@ -72,6 +73,9 @@ class GameOverScreen(QWidget):
         """)
         btn.clicked.connect(self.play_again.emit)
         layout.addWidget(btn, alignment=Qt.AlignmentFlag.AlignCenter)
+
+    def paintEvent(self, event) -> None:
+        paint_bg_gradient(self, event)
 
     # ------------------------------------------------------------------ #
     # Public API                                                           #

@@ -42,14 +42,14 @@ class _PlayerPanel(QWidget):
         top = QHBoxLayout()
         self.name_lbl = QLabel(f"Player {player_number}")
         self.name_lbl.setFont(QFont("Sans", 15, QFont.Weight.Bold))
-        self.name_lbl.setStyleSheet(f"color: {TEXT}; border: none;")
+        self.name_lbl.setStyleSheet(f"color: {TEXT}; border: none; background: transparent;")
 
         self.score_lbl = QLabel("0")
         self.score_lbl.setFont(QFont("Sans", 22, QFont.Weight.Bold))
         self.score_lbl.setAlignment(
             Qt.AlignmentFlag.AlignRight | Qt.AlignmentFlag.AlignVCenter
         )
-        self.score_lbl.setStyleSheet(f"color: {GOLD}; border: none;")
+        self.score_lbl.setStyleSheet(f"color: {GOLD}; border: none; background: transparent;")
 
         top.addWidget(self.name_lbl)
         top.addStretch()
@@ -61,7 +61,7 @@ class _PlayerPanel(QWidget):
         for _ in self._genre_ids:
             dot = QLabel("●")
             dot.setFont(QFont("Sans", 12))
-            dot.setStyleSheet(f"color: {DOT_OFF}; border: none;")
+            dot.setStyleSheet(f"color: {DOT_OFF}; border: none; background: transparent;")
             self._genre_dots.append(dot)
             dots_row.addWidget(dot)
         dots_row.addStretch()
@@ -102,7 +102,7 @@ class _PlayerPanel(QWidget):
         self._update_score(score)
         for gid, dot in zip(self._genre_ids, self._genre_dots):
             dot.setStyleSheet(
-                f"color: {DOT_ON if gid in genres_cleared else DOT_OFF}; border: none;"
+                f"color: {DOT_ON if gid in genres_cleared else DOT_OFF}; border: none; background: transparent;"
             )
         if active:
             if not self._pulse_timer.isActive():
@@ -118,7 +118,6 @@ class _PlayerPanel(QWidget):
 class Scoreboard(QWidget):
     def __init__(self, genres: list[tuple[int, str]], parent=None) -> None:
         super().__init__(parent)
-        self.setStyleSheet(f"background-color: {BG};")
         self._genres = genres
         self._panels: list[_PlayerPanel] = []
         self._num_players = 0
@@ -129,7 +128,7 @@ class Scoreboard(QWidget):
         self.round_lbl = QLabel("Round 1")
         self.round_lbl.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.round_lbl.setFont(QFont("Sans", 14, QFont.Weight.Bold))
-        self.round_lbl.setStyleSheet(f"color: {GOLD};")
+        self.round_lbl.setStyleSheet(f"color: {GOLD}; background: transparent;")
 
     def _rebuild_panels(self, num_players: int) -> None:
         while self._layout.count():

@@ -88,20 +88,19 @@ def generate_timeout() -> None:
 
 
 def generate_tick_urgent() -> None:
-    # Mechanical clock tick: 6ms white-noise transient + 14ms 2800Hz ring decay.
-    # White noise gives the broadband "click" character; pure sine tones sound like hums.
+    # Short electronic blip — distinct from the ambient ticking clock so it registers
+    # as an urgency accent rather than a duplicate tick in the last 10 seconds.
+    # Two stacked harmonics (600 Hz + 1200 Hz), 2ms snap attack, 43ms exponential decay.
     sr = SAMPLE_RATE
-    noise_n = int(sr * 0.006)   # 6ms noise burst (the "click")
-    ring_n = int(sr * 0.014)    # 14ms tonal ring decay (the "tick" body)
+    n = int(sr * 0.045)
+    attack_n = int(sr * 0.002)
     frames: list[float] = []
-    for i in range(noise_n):
-        env = (1.0 - i / noise_n) ** 0.4   # fast convex decay
-        frames.append((2.0 * random.random() - 1.0) * env)
-    for i in range(ring_n):
-        t = (noise_n + i) / sr
-        env = (1.0 - i / ring_n) ** 2
-        frames.append(_sine(2800.0, t) * env * 0.5)
-    _write("tick_urgent.wav", frames, volume=0.80)
+    for i in range(n):
+        t = i / sr
+        env = (i / attack_n) if i < attack_n else ((n - i) / (n - attack_n)) ** 1.4
+        s = 0.6 * _sine(600.0, t) + 0.4 * _sine(1200.0, t)
+        frames.append(s * env)
+    _write("tick_urgent.wav", frames, volume=0.65)
 
 
 def generate_round_complete() -> None:
@@ -139,7 +138,9 @@ def generate_turn_change() -> None:
 
 
 def generate_question_ambient() -> None:
-    # Soft 6-second major triad pad (C3, E3, G3) — loops seamlessly during question timer
+    # Fallback placeholder only — production uses the CC0 "Ticking Clock" WAV
+    # by Michel Baradari (opengameart.org/content/ticking-clock-0, CC0 1.0).
+    # Only call this if you need to regenerate a placeholder without the external file.
     frames = _chord([130.81, 164.81, 196.00], 6.0, fade_frac=0.12)
     _write("question_ambient.wav", frames, volume=0.22)
 
@@ -155,5 +156,5 @@ if __name__ == "__main__":
     generate_game_over()
     generate_tile_select()
     generate_turn_change()
-    generate_question_ambient()
+    # question_ambient.wav is the CC0 ticking clock from OpenGameArt — do not overwrite
     print("Done.")

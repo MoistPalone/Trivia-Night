@@ -2,6 +2,7 @@ from PyQt6.QtCore import (
     QEasingCurve, QPoint, QPropertyAnimation, Qt, QTimer, QVariantAnimation, pyqtSignal,
 )
 from PyQt6.QtGui import QFont
+from ui.utils.transitions import paint_bg_gradient
 from PyQt6.QtWidgets import (
     QGraphicsOpacityEffect,
     QGridLayout,
@@ -241,7 +242,6 @@ class BoardScreen(QWidget):
 
     def __init__(self, parent=None) -> None:
         super().__init__(parent)
-        self.setStyleSheet(f"background-color: {BG};")
         self._genres: list[tuple[int, str]] = get_genres()
         self._tiles: dict[tuple[int, int], TileButton] = {}
         self._muted: bool = False
@@ -286,7 +286,7 @@ class BoardScreen(QWidget):
             lbl = QLabel(name.upper())
             lbl.setAlignment(Qt.AlignmentFlag.AlignCenter)
             lbl.setFont(QFont("Sans", 12, QFont.Weight.Bold))
-            lbl.setStyleSheet(f"color: {GOLD}; padding: 6px 2px;")
+            lbl.setStyleSheet(f"color: {GOLD}; padding: 6px 2px; background: transparent;")
             lbl.setWordWrap(True)
             grid.addWidget(lbl, 0, col)
 
@@ -317,6 +317,9 @@ class BoardScreen(QWidget):
         self._muted = not self._muted
         self._mute_btn.setText("🔇" if self._muted else "🔊")
         self.mute_toggled.emit(self._muted)
+
+    def paintEvent(self, event) -> None:
+        paint_bg_gradient(self, event)
 
     def announce_round(self, round_number: int) -> None:
         """Show round announcement overlay for rounds 2 and 3."""
