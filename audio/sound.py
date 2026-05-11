@@ -1,12 +1,13 @@
 import logging
-from pathlib import Path
 
 from PyQt6.QtCore import QUrl
 from PyQt6.QtMultimedia import QSoundEffect
 
+from bundle_path import bundle_path
+
 log = logging.getLogger(__name__)
 
-SOUNDS_DIR = Path(__file__).parent.parent / "assets" / "sounds"
+SOUNDS_DIR = bundle_path("assets", "sounds")
 
 _SOUND_FILES = {
     "correct": "correct.wav",

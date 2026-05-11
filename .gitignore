@@ -6,3 +6,5 @@ assets/music/
 .pytest_cache/
 .venv/
 .claude/
+build/
+dist/

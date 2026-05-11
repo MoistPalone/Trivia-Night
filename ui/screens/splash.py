@@ -1,6 +1,4 @@
 import math
-from pathlib import Path
-
 from PyQt6.QtCore import (
     QEasingCurve, QPropertyAnimation, Qt, QTimer, pyqtSignal,
 )
@@ -14,7 +12,8 @@ _PILL_CY = 0.690
 _PILL_W  = 0.145   # fraction of image width
 _PILL_H  = 0.065   # fraction of image height
 
-_ASSETS = Path(__file__).parent.parent.parent / "assets" / "images" / "splash.png"
+from bundle_path import bundle_path
+_ASSETS = bundle_path("assets", "images", "splash.png")
 
 
 class SplashScreen(QWidget):

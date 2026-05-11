@@ -1,7 +1,9 @@
 import sqlite3
 from pathlib import Path
 
-DB_PATH = Path(__file__).parent / "questions.db"
+from bundle_path import bundle_path
+
+DB_PATH = bundle_path("data", "questions.db")
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS genres (
