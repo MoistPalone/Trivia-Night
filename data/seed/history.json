@@ -1460,6 +1460,1809 @@
       "answer_keywords": [
         "1648"
       ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who wrote the Declaration of Independence?",
+      "answer": "Thomas Jefferson",
+      "answer_keywords": [
+        "jefferson",
+        "thomas jefferson"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What wall divided East and West Berlin during the Cold War?",
+      "answer": "Berlin Wall",
+      "answer_keywords": [
+        "berlin wall"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What ancient city was buried by Mount Vesuvius in AD 79?",
+      "answer": "Pompeii",
+      "answer_keywords": [
+        "pompeii"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who led India's independence movement against British rule?",
+      "answer": "Mahatma Gandhi",
+      "answer_keywords": [
+        "gandhi",
+        "mahatma gandhi"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "In what year did World War I begin?",
+      "answer": "1914",
+      "answer_keywords": [
+        "1914"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "answer": "Marie Curie",
+      "answer_keywords": [
+        "curie",
+        "marie curie"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who discovered America in 1492?",
+      "answer": "Christopher Columbus",
+      "answer_keywords": [
+        "columbus",
+        "christopher columbus"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the first Black president of South Africa?",
+      "answer": "Nelson Mandela",
+      "answer_keywords": [
+        "mandela",
+        "nelson mandela"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What year did the American Civil War end?",
+      "answer": "1865",
+      "answer_keywords": [
+        "1865"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the British Prime Minister during most of World War II?",
+      "answer": "Winston Churchill",
+      "answer_keywords": [
+        "churchill",
+        "winston churchill"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the first woman Prime Minister of the United Kingdom?",
+      "answer": "Margaret Thatcher",
+      "answer_keywords": [
+        "thatcher",
+        "margaret thatcher"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "In what year did the United States declare independence?",
+      "answer": "1776",
+      "answer_keywords": [
+        "1776"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the leader of the Soviet Union during World War II?",
+      "answer": "Joseph Stalin",
+      "answer_keywords": [
+        "stalin",
+        "joseph stalin"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "In what year did the Soviet Union collapse?",
+      "answer": "1991",
+      "answer_keywords": [
+        "1991"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What ship did Charles Darwin sail on his voyage of discovery?",
+      "answer": "HMS Beagle",
+      "answer_keywords": [
+        "beagle",
+        "hms beagle"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What document signed in 1215 limited the power of the English king?",
+      "answer": "Magna Carta",
+      "answer_keywords": [
+        "magna carta"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the first ruler of the Mongol Empire?",
+      "answer": "Genghis Khan",
+      "answer_keywords": [
+        "genghis khan",
+        "genghis"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What country first gave women the right to vote?",
+      "answer": "New Zealand",
+      "answer_keywords": [
+        "new zealand"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who led the Cuban Revolution?",
+      "answer": "Fidel Castro",
+      "answer_keywords": [
+        "castro",
+        "fidel castro"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What ancient structure was built to protect northern China from invasion?",
+      "answer": "Great Wall of China",
+      "answer_keywords": [
+        "great wall",
+        "great wall of china"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "In what year did Japan attack Pearl Harbor?",
+      "answer": "1941",
+      "answer_keywords": [
+        "1941"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What disease killed roughly one-third of Europe's population in the 14th century?",
+      "answer": "Black Death",
+      "answer_keywords": [
+        "black death",
+        "bubonic plague",
+        "plague"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What year did the French Revolution begin?",
+      "answer": "1789",
+      "answer_keywords": [
+        "1789"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the pharaoh famous for ordering the Great Pyramid at Giza?",
+      "answer": "Khufu",
+      "answer_keywords": [
+        "khufu",
+        "cheops"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What country dropped atomic bombs on Japan in 1945?",
+      "answer": "United States",
+      "answer_keywords": [
+        "united states",
+        "usa",
+        "america"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who invented the telephone?",
+      "answer": "Alexander Graham Bell",
+      "answer_keywords": [
+        "bell",
+        "alexander graham bell"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What empire was ruled by Julius Caesar?",
+      "answer": "Roman Empire",
+      "answer_keywords": [
+        "roman empire",
+        "rome"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was assassinated in Dallas in November 1963?",
+      "answer": "John F. Kennedy",
+      "answer_keywords": [
+        "kennedy",
+        "jfk",
+        "john f kennedy",
+        "john kennedy"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What year was the Eiffel Tower completed?",
+      "answer": "1889",
+      "answer_keywords": [
+        "1889"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What revolution established the first communist state in Russia?",
+      "answer": "Russian Revolution",
+      "answer_keywords": [
+        "russian revolution",
+        "bolshevik revolution"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who commanded Allied forces on D-Day?",
+      "answer": "Dwight D. Eisenhower",
+      "answer_keywords": [
+        "eisenhower",
+        "dwight eisenhower"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What was the name of the first artificial satellite launched into space?",
+      "answer": "Sputnik",
+      "answer_keywords": [
+        "sputnik"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What country built the Panama Canal?",
+      "answer": "United States",
+      "answer_keywords": [
+        "united states",
+        "usa",
+        "america"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the last emperor of China?",
+      "answer": "Puyi",
+      "answer_keywords": [
+        "puyi"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What war ended with the Treaty of Versailles?",
+      "answer": "World War I",
+      "answer_keywords": [
+        "world war i",
+        "world war 1",
+        "wwi",
+        "ww1",
+        "first world war"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "In what year did India gain independence from Britain?",
+      "answer": "1947",
+      "answer_keywords": [
+        "1947"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the first Roman emperor?",
+      "answer": "Augustus",
+      "answer_keywords": [
+        "augustus",
+        "augustus caesar"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What year did the Russian Revolution occur?",
+      "answer": "1917",
+      "answer_keywords": [
+        "1917"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who led the Bolshevik Revolution in Russia?",
+      "answer": "Vladimir Lenin",
+      "answer_keywords": [
+        "lenin",
+        "vladimir lenin"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What treaty ended World War I?",
+      "answer": "Treaty of Versailles",
+      "answer_keywords": [
+        "versailles",
+        "treaty of versailles"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What battle ended Napoleon's rule in 1815?",
+      "answer": "Battle of Waterloo",
+      "answer_keywords": [
+        "waterloo",
+        "battle of waterloo"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What year did the Great Depression begin?",
+      "answer": "1929",
+      "answer_keywords": [
+        "1929"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the Greek philosopher who tutored Alexander the Great?",
+      "answer": "Aristotle",
+      "answer_keywords": [
+        "aristotle"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What year did the Great Fire of London occur?",
+      "answer": "1666",
+      "answer_keywords": [
+        "1666"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What was the name of the policy of racial segregation in South Africa?",
+      "answer": "Apartheid",
+      "answer_keywords": [
+        "apartheid"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What ancient trade route connected China to the Mediterranean?",
+      "answer": "Silk Road",
+      "answer_keywords": [
+        "silk road"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who led the Norman invasion of England in 1066?",
+      "answer": "William the Conqueror",
+      "answer_keywords": [
+        "william",
+        "william the conqueror"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What year did the United States enter World War II?",
+      "answer": "1941",
+      "answer_keywords": [
+        "1941"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What civilization built Machu Picchu?",
+      "answer": "Inca",
+      "answer_keywords": [
+        "inca",
+        "incas"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was assassinated at Ford's Theatre in 1865?",
+      "answer": "Abraham Lincoln",
+      "answer_keywords": [
+        "lincoln",
+        "abraham lincoln"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What was the name of the ship on which the Pilgrims sailed to America?",
+      "answer": "Mayflower",
+      "answer_keywords": [
+        "mayflower"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the last Tsar of Russia?",
+      "answer": "Nicholas II",
+      "answer_keywords": [
+        "nicholas ii",
+        "nicholas",
+        "tsar nicholas"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who invented the printing press?",
+      "answer": "Johannes Gutenberg",
+      "answer_keywords": [
+        "gutenberg",
+        "johannes gutenberg"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What war was fought between Britain and Argentina in 1982?",
+      "answer": "Falklands War",
+      "answer_keywords": [
+        "falklands",
+        "falklands war"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "In what year was the United Nations founded?",
+      "answer": "1945",
+      "answer_keywords": [
+        "1945"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What city was the capital of the Byzantine Empire?",
+      "answer": "Constantinople",
+      "answer_keywords": [
+        "constantinople"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the first explorer to reach the South Pole?",
+      "answer": "Roald Amundsen",
+      "answer_keywords": [
+        "amundsen",
+        "roald amundsen"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What ancient Greek city-state was famous for its warrior culture?",
+      "answer": "Sparta",
+      "answer_keywords": [
+        "sparta"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "In what year did the first moon landing occur?",
+      "answer": "1969",
+      "answer_keywords": [
+        "1969"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What Roman general crossed the Rubicon in 49 BC?",
+      "answer": "Julius Caesar",
+      "answer_keywords": [
+        "caesar",
+        "julius caesar"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What country was divided into North and South after World War II?",
+      "answer": "Korea",
+      "answer_keywords": [
+        "korea"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who founded the religion of Islam?",
+      "answer": "Muhammad",
+      "answer_keywords": [
+        "muhammad",
+        "mohammed"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What was the name of the D-Day invasion in June 1944?",
+      "answer": "Operation Overlord",
+      "answer_keywords": [
+        "overlord",
+        "operation overlord"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the first Prime Minister of Canada?",
+      "answer": "John A. Macdonald",
+      "answer_keywords": [
+        "macdonald",
+        "john macdonald",
+        "john a macdonald"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What empire did Tamerlane build in the 14th century?",
+      "answer": "Timurid Empire",
+      "answer_keywords": [
+        "timurid",
+        "timurid empire"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the female pharaoh who ruled ancient Egypt for over 20 years?",
+      "answer": "Hatshepsut",
+      "answer_keywords": [
+        "hatshepsut"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What year did the Korean War end?",
+      "answer": "1953",
+      "answer_keywords": [
+        "1953"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What city was divided by a wall from 1961 to 1989?",
+      "answer": "Berlin",
+      "answer_keywords": [
+        "berlin"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the first Chancellor of West Germany after WWII?",
+      "answer": "Konrad Adenauer",
+      "answer_keywords": [
+        "adenauer",
+        "konrad adenauer"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What year did the Vietnam War end?",
+      "answer": "1975",
+      "answer_keywords": [
+        "1975"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the first president of the United States to resign?",
+      "answer": "Richard Nixon",
+      "answer_keywords": [
+        "nixon",
+        "richard nixon"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What country launched the first human spaceflight?",
+      "answer": "Soviet Union",
+      "answer_keywords": [
+        "soviet union",
+        "ussr",
+        "russia"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "In what year did the Cuban Missile Crisis occur?",
+      "answer": "1962",
+      "answer_keywords": [
+        "1962"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the last British monarch to personally lead troops in battle?",
+      "answer": "George II",
+      "answer_keywords": [
+        "george ii",
+        "george 2"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What year did the Ottoman Empire fall?",
+      "answer": "1922",
+      "answer_keywords": [
+        "1922"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the Mongol ruler who conquered most of Asia and Eastern Europe?",
+      "answer": "Kublai Khan",
+      "answer_keywords": [
+        "kublai khan",
+        "kublai"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What battle in 732 AD stopped the Muslim advance into Western Europe?",
+      "answer": "Battle of Tours",
+      "answer_keywords": [
+        "tours",
+        "battle of tours",
+        "battle of poitiers"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What ancient library was considered the greatest repository of knowledge in the ancient world?",
+      "answer": "Library of Alexandria",
+      "answer_keywords": [
+        "library of alexandria",
+        "alexandria"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the Byzantine emperor who codified Roman law?",
+      "answer": "Justinian I",
+      "answer_keywords": [
+        "justinian",
+        "justinian i"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What was the name of the Norse explorer who reached North America around 1000 AD?",
+      "answer": "Leif Erikson",
+      "answer_keywords": [
+        "leif erikson",
+        "leif",
+        "erikson"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What year did the Spanish Armada attempt to invade England?",
+      "answer": "1588",
+      "answer_keywords": [
+        "1588"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the Aztec emperor when Hernán Cortés arrived in Mexico?",
+      "answer": "Moctezuma II",
+      "answer_keywords": [
+        "moctezuma",
+        "moctezuma ii",
+        "montezuma"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What was the name of the first permanent English settlement in America?",
+      "answer": "Jamestown",
+      "answer_keywords": [
+        "jamestown"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who assassinated Archduke Franz Ferdinand, triggering World War I?",
+      "answer": "Gavrilo Princip",
+      "answer_keywords": [
+        "princip",
+        "gavrilo princip"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What empire did Suleiman the Magnificent rule?",
+      "answer": "Ottoman Empire",
+      "answer_keywords": [
+        "ottoman",
+        "ottoman empire"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "In what year did the Thirty Years' War end?",
+      "answer": "1648",
+      "answer_keywords": [
+        "1648"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What was the name of the first trans-continental railroad in the United States?",
+      "answer": "First Transcontinental Railroad",
+      "answer_keywords": [
+        "transcontinental railroad",
+        "first transcontinental railroad"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first Mughal emperor of India?",
+      "answer": "Babur",
+      "answer_keywords": [
+        "babur"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What was the code name for the Allied invasion of North Africa in 1942?",
+      "answer": "Operation Torch",
+      "answer_keywords": [
+        "torch",
+        "operation torch"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Which Prussian statesman unified the German states in 1871?",
+      "answer": "Otto von Bismarck",
+      "answer_keywords": [
+        "bismarck",
+        "otto von bismarck"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What treaty ended the American Revolutionary War?",
+      "answer": "Treaty of Paris",
+      "answer_keywords": [
+        "treaty of paris",
+        "paris"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first person to sail around the world?",
+      "answer": "Ferdinand Magellan",
+      "answer_keywords": [
+        "magellan",
+        "ferdinand magellan"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What year did Mao Zedong establish the People's Republic of China?",
+      "answer": "1949",
+      "answer_keywords": [
+        "1949"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What ancient civilization built the Colosseum?",
+      "answer": "Romans",
+      "answer_keywords": [
+        "romans",
+        "rome",
+        "roman"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first viceroy of New Spain?",
+      "answer": "Antonio de Mendoza",
+      "answer_keywords": [
+        "mendoza",
+        "antonio de mendoza"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What year did the Meiji Restoration begin in Japan?",
+      "answer": "1868",
+      "answer_keywords": [
+        "1868"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What was the first country to industrialise?",
+      "answer": "Britain",
+      "answer_keywords": [
+        "britain",
+        "england",
+        "united kingdom",
+        "great britain"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who wrote the 95 Theses that sparked the Protestant Reformation?",
+      "answer": "Martin Luther",
+      "answer_keywords": [
+        "luther",
+        "martin luther"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What year did the Rwandan genocide occur?",
+      "answer": "1994",
+      "answer_keywords": [
+        "1994"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who commanded the Confederate Army during the American Civil War?",
+      "answer": "Robert E. Lee",
+      "answer_keywords": [
+        "lee",
+        "robert e lee",
+        "robert lee"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What year did Prohibition begin in the United States?",
+      "answer": "1920",
+      "answer_keywords": [
+        "1920"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first person executed for war crimes after World War II?",
+      "answer": "Joachim von Ribbentrop",
+      "answer_keywords": [
+        "ribbentrop",
+        "von ribbentrop"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What was the name of the ship that carried the first Pilgrims to America?",
+      "answer": "Mayflower",
+      "answer_keywords": [
+        "mayflower"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who led the Haitian Revolution?",
+      "answer": "Toussaint Louverture",
+      "answer_keywords": [
+        "toussaint",
+        "louverture",
+        "toussaint louverture"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What year did the Suez Crisis occur?",
+      "answer": "1956",
+      "answer_keywords": [
+        "1956"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first Sultan of the Ottoman Empire?",
+      "answer": "Osman I",
+      "answer_keywords": [
+        "osman",
+        "osman i"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What ancient civilization built Stonehenge?",
+      "answer": "Neolithic people",
+      "answer_keywords": [
+        "neolithic",
+        "neolithic people",
+        "ancient britons"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What battle in 1588 saw England defeat the Spanish Armada?",
+      "answer": "Battle of Gravelines",
+      "answer_keywords": [
+        "gravelines",
+        "battle of gravelines"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the founder of the Maurya Empire in India?",
+      "answer": "Chandragupta Maurya",
+      "answer_keywords": [
+        "chandragupta",
+        "chandragupta maurya"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What year did the Space Race begin?",
+      "answer": "1957",
+      "answer_keywords": [
+        "1957"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first Plantagenet King of England?",
+      "answer": "Henry II",
+      "answer_keywords": [
+        "henry ii",
+        "henry 2"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What was the name of the last Byzantine emperor?",
+      "answer": "Constantine XI",
+      "answer_keywords": [
+        "constantine xi",
+        "constantine 11"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "In what year did the Siege of Vienna take place?",
+      "answer": "1683",
+      "answer_keywords": [
+        "1683"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the Polish astronomer who proposed the heliocentric model?",
+      "answer": "Nicolaus Copernicus",
+      "answer_keywords": [
+        "copernicus",
+        "nicolaus copernicus"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What was the name of the first permanent Dutch settlement in South Africa?",
+      "answer": "Cape Colony",
+      "answer_keywords": [
+        "cape colony",
+        "cape town"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who led the Maratha Confederacy against Mughal rule?",
+      "answer": "Shivaji",
+      "answer_keywords": [
+        "shivaji"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What year did the Reign of Terror end during the French Revolution?",
+      "answer": "1794",
+      "answer_keywords": [
+        "1794"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the first Holy Roman Emperor?",
+      "answer": "Charlemagne",
+      "answer_keywords": [
+        "charlemagne",
+        "charles the great"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What was the name of the German Confederation formed after the Napoleonic Wars?",
+      "answer": "German Confederation",
+      "answer_keywords": [
+        "german confederation"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who led the Zulu resistance against British forces at the Battle of Isandlwana?",
+      "answer": "Cetshwayo",
+      "answer_keywords": [
+        "cetshwayo",
+        "cetshwayo kaMpande"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What year was the Edict of Milan issued?",
+      "answer": "313",
+      "answer_keywords": [
+        "313",
+        "ad 313"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the Carthaginian general who crossed the Alps with elephants?",
+      "answer": "Hannibal",
+      "answer_keywords": [
+        "hannibal",
+        "hannibal barca"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What was the capital of the Inca Empire?",
+      "answer": "Cusco",
+      "answer_keywords": [
+        "cusco",
+        "cuzco"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "In what year was the Congress of Vienna held?",
+      "answer": "1815",
+      "answer_keywords": [
+        "1815"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the first Prime Minister of Australia?",
+      "answer": "Edmund Barton",
+      "answer_keywords": [
+        "barton",
+        "edmund barton"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What was the name of the first permanent European settlement in the Americas?",
+      "answer": "La Navidad",
+      "answer_keywords": [
+        "la navidad",
+        "navidad"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who commanded the Japanese attack on Pearl Harbor?",
+      "answer": "Chuichi Nagumo",
+      "answer_keywords": [
+        "nagumo",
+        "chuichi nagumo"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What was the name of the agreement that divided post-war Germany?",
+      "answer": "Potsdam Agreement",
+      "answer_keywords": [
+        "potsdam",
+        "potsdam agreement",
+        "potsdam conference"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the last Aztec emperor?",
+      "answer": "Cuauhtémoc",
+      "answer_keywords": [
+        "cuauhtemoc"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What year was the Emancipation Proclamation issued?",
+      "answer": "1863",
+      "answer_keywords": [
+        "1863"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who founded the Sikh religion?",
+      "answer": "Guru Nanak",
+      "answer_keywords": [
+        "nanak",
+        "guru nanak"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What was the name of the first African country to gain independence in the modern era?",
+      "answer": "Liberia",
+      "answer_keywords": [
+        "liberia"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the first Governor-General of Canada?",
+      "answer": "Viscount Monck",
+      "answer_keywords": [
+        "monck",
+        "viscount monck",
+        "charles monck"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What year did the Boer War end?",
+      "answer": "1902",
+      "answer_keywords": [
+        "1902"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the Russian tsar who westernised Russia in the early 18th century?",
+      "answer": "Peter the Great",
+      "answer_keywords": [
+        "peter the great",
+        "peter i"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What was the name of the secret society behind the assassination of Archduke Franz Ferdinand?",
+      "answer": "Black Hand",
+      "answer_keywords": [
+        "black hand"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the first female Chancellor of Germany?",
+      "answer": "Angela Merkel",
+      "answer_keywords": [
+        "merkel",
+        "angela merkel"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What was the German name for the blitzkrieg advance through the Ardennes in 1940?",
+      "answer": "Fall Gelb",
+      "answer_keywords": [
+        "fall gelb",
+        "case yellow"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the Shogun who unified Japan in the late 16th century?",
+      "answer": "Toyotomi Hideyoshi",
+      "answer_keywords": [
+        "hideyoshi",
+        "toyotomi hideyoshi"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What year did the Warsaw Pact dissolve?",
+      "answer": "1991",
+      "answer_keywords": [
+        "1991"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who wrote the Wealth of Nations?",
+      "answer": "Adam Smith",
+      "answer_keywords": [
+        "adam smith",
+        "smith"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What was the code name for the Nazi invasion of the Soviet Union?",
+      "answer": "Operation Barbarossa",
+      "answer_keywords": [
+        "barbarossa",
+        "operation barbarossa"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "In what year did the Battle of Hastings take place?",
+      "answer": "1066",
+      "answer_keywords": [
+        "1066"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What was the last dynasty to rule China?",
+      "answer": "Qing Dynasty",
+      "answer_keywords": [
+        "qing",
+        "qing dynasty"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the Roman emperor during the Great Fire of Rome?",
+      "answer": "Nero",
+      "answer_keywords": [
+        "nero"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What year was the Declaration of the Rights of Man adopted in France?",
+      "answer": "1789",
+      "answer_keywords": [
+        "1789"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the first President of Mexico?",
+      "answer": "Guadalupe Victoria",
+      "answer_keywords": [
+        "guadalupe victoria",
+        "victoria"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What medieval fortress served as the main residence of the French kings before Versailles?",
+      "answer": "Louvre",
+      "answer_keywords": [
+        "louvre"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What was the name of the conspiracy to assassinate Hitler in July 1944?",
+      "answer": "Operation Valkyrie",
+      "answer_keywords": [
+        "valkyrie",
+        "operation valkyrie"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the Macedonian general who founded the city of Alexandria?",
+      "answer": "Alexander the Great",
+      "answer_keywords": [
+        "alexander",
+        "alexander the great"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What year did the Battle of Thermopylae take place?",
+      "answer": "480 BC",
+      "answer_keywords": [
+        "480 bc",
+        "480"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the last Sikh Guru?",
+      "answer": "Guru Gobind Singh",
+      "answer_keywords": [
+        "gobind singh",
+        "guru gobind singh"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What was the name of the treaty that ended the Thirty Years' War?",
+      "answer": "Peace of Westphalia",
+      "answer_keywords": [
+        "westphalia",
+        "peace of westphalia"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What year was the first Crusade launched?",
+      "answer": "1096",
+      "answer_keywords": [
+        "1096"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the French cardinal who effectively governed France under Louis XIII?",
+      "answer": "Cardinal Richelieu",
+      "answer_keywords": [
+        "richelieu",
+        "cardinal richelieu"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What was the name of the last naval battle of the Age of Sail?",
+      "answer": "Battle of Navarino",
+      "answer_keywords": [
+        "navarino",
+        "battle of navarino"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "In what year did the Meiji Constitution come into effect in Japan?",
+      "answer": "1890",
+      "answer_keywords": [
+        "1890"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the Persian king defeated at the Battle of Marathon?",
+      "answer": "Darius I",
+      "answer_keywords": [
+        "darius",
+        "darius i",
+        "darius the great"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What was the name of the first European country to abolish the slave trade?",
+      "answer": "Denmark",
+      "answer_keywords": [
+        "denmark"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the last ruling Pharaoh of ancient Egypt?",
+      "answer": "Cleopatra VII",
+      "answer_keywords": [
+        "cleopatra",
+        "cleopatra vii"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What year did the Battle of Lepanto take place?",
+      "answer": "1571",
+      "answer_keywords": [
+        "1571"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the Frankish king who established the Carolingian Empire?",
+      "answer": "Charlemagne",
+      "answer_keywords": [
+        "charlemagne",
+        "charles the great"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What was the name of the Byzantine emperor who ordered the construction of the Hagia Sophia?",
+      "answer": "Justinian I",
+      "answer_keywords": [
+        "justinian",
+        "justinian i"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "In what year was the Magna Carta reissued in its final form?",
+      "answer": "1225",
+      "answer_keywords": [
+        "1225"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the founder of the Achaemenid Persian Empire?",
+      "answer": "Cyrus the Great",
+      "answer_keywords": [
+        "cyrus",
+        "cyrus the great"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What was the name of the Aztec capital city?",
+      "answer": "Tenochtitlan",
+      "answer_keywords": [
+        "tenochtitlan"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What year did the Peloponnesian War end?",
+      "answer": "404 BC",
+      "answer_keywords": [
+        "404 bc",
+        "404"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the last Ottoman Sultan?",
+      "answer": "Mehmed VI",
+      "answer_keywords": [
+        "mehmed vi",
+        "mehmed 6"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What was the name of the Ming Dynasty admiral who led massive naval expeditions?",
+      "answer": "Zheng He",
+      "answer_keywords": [
+        "zheng he"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "In what year was the Treaty of Tordesillas signed?",
+      "answer": "1494",
+      "answer_keywords": [
+        "1494"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the Roman general who destroyed Carthage in 146 BC?",
+      "answer": "Scipio Aemilianus",
+      "answer_keywords": [
+        "scipio",
+        "scipio aemilianus"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What was the name of the empire that Attila the Hun led?",
+      "answer": "Hunnic Empire",
+      "answer_keywords": [
+        "hunnic empire",
+        "hunnic",
+        "huns"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the first Caliph of Islam after Muhammad?",
+      "answer": "Abu Bakr",
+      "answer_keywords": [
+        "abu bakr"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What year did the Hundred Years' War end?",
+      "answer": "1453",
+      "answer_keywords": [
+        "1453"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the founder of the Gupta Empire in India?",
+      "answer": "Chandragupta I",
+      "answer_keywords": [
+        "chandragupta i",
+        "chandragupta"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What was the name of the secret agreement between Britain and France that divided the Middle East after WWI?",
+      "answer": "Sykes-Picot Agreement",
+      "answer_keywords": [
+        "sykes-picot",
+        "sykes picot"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the last Habsburg Emperor of Austria?",
+      "answer": "Charles I",
+      "answer_keywords": [
+        "charles i",
+        "karl i"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What was the name of the Soviet secret police under Stalin?",
+      "answer": "NKVD",
+      "answer_keywords": [
+        "nkvd"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "In what year did the Taiping Rebellion begin in China?",
+      "answer": "1850",
+      "answer_keywords": [
+        "1850"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the Visigothic king who sacked Rome in 410 AD?",
+      "answer": "Alaric",
+      "answer_keywords": [
+        "alaric",
+        "alaric i"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What was the name of the first African American regiment in the US Civil War?",
+      "answer": "54th Massachusetts Infantry",
+      "answer_keywords": [
+        "54th massachusetts",
+        "54th regiment",
+        "54th massachusetts infantry"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the founder of the Mali Empire?",
+      "answer": "Sundiata Keita",
+      "answer_keywords": [
+        "sundiata",
+        "sundiata keita"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What year did the Battle of Agincourt take place?",
+      "answer": "1415",
+      "answer_keywords": [
+        "1415"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the first President of the Republic of Turkey?",
+      "answer": "Mustafa Kemal Ataturk",
+      "answer_keywords": [
+        "ataturk",
+        "mustafa kemal",
+        "kemal ataturk"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What was the name of the Mongol capital city?",
+      "answer": "Karakorum",
+      "answer_keywords": [
+        "karakorum"
+      ]
     }
   ]
 }

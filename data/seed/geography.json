@@ -1452,6 +1452,1742 @@
         "okhotsk",
         "sea of okhotsk"
       ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the capital of France?",
+      "answer": "Paris",
+      "answer_keywords": [
+        "paris"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the largest country in the world by area?",
+      "answer": "Russia",
+      "answer_keywords": [
+        "russia"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the longest river in the world?",
+      "answer": "Nile",
+      "answer_keywords": [
+        "nile",
+        "nile river"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "On which continent is Egypt located?",
+      "answer": "Africa",
+      "answer_keywords": [
+        "africa"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the capital of Japan?",
+      "answer": "Tokyo",
+      "answer_keywords": [
+        "tokyo"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the smallest country in the world?",
+      "answer": "Vatican City",
+      "answer_keywords": [
+        "vatican",
+        "vatican city"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What ocean is the largest in the world?",
+      "answer": "Pacific Ocean",
+      "answer_keywords": [
+        "pacific",
+        "pacific ocean"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the capital of Australia?",
+      "answer": "Canberra",
+      "answer_keywords": [
+        "canberra"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What mountain range contains Mount Everest?",
+      "answer": "Himalayas",
+      "answer_keywords": [
+        "himalayas",
+        "himalayan mountains"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the capital of Canada?",
+      "answer": "Ottawa",
+      "answer_keywords": [
+        "ottawa"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the largest desert in the world?",
+      "answer": "Sahara",
+      "answer_keywords": [
+        "sahara",
+        "sahara desert"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What country has the most people in the world?",
+      "answer": "India",
+      "answer_keywords": [
+        "india"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the capital of Brazil?",
+      "answer": "Brasília",
+      "answer_keywords": [
+        "brasilia",
+        "brasília"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the largest lake in Africa?",
+      "answer": "Lake Victoria",
+      "answer_keywords": [
+        "victoria",
+        "lake victoria"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What country is the Amazon rainforest mostly in?",
+      "answer": "Brazil",
+      "answer_keywords": [
+        "brazil"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the capital of South Africa?",
+      "answer": "Pretoria",
+      "answer_keywords": [
+        "pretoria"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What river flows through Egypt?",
+      "answer": "Nile",
+      "answer_keywords": [
+        "nile"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the capital of Germany?",
+      "answer": "Berlin",
+      "answer_keywords": [
+        "berlin"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the tallest mountain in the world?",
+      "answer": "Mount Everest",
+      "answer_keywords": [
+        "everest",
+        "mount everest"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the capital of China?",
+      "answer": "Beijing",
+      "answer_keywords": [
+        "beijing"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the capital of Mexico?",
+      "answer": "Mexico City",
+      "answer_keywords": [
+        "mexico city"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the largest country in South America?",
+      "answer": "Brazil",
+      "answer_keywords": [
+        "brazil"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What sea lies between Europe and Africa?",
+      "answer": "Mediterranean Sea",
+      "answer_keywords": [
+        "mediterranean",
+        "mediterranean sea"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the capital of India?",
+      "answer": "New Delhi",
+      "answer_keywords": [
+        "new delhi",
+        "delhi"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What continent is the largest by area?",
+      "answer": "Asia",
+      "answer_keywords": [
+        "asia"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the capital of Italy?",
+      "answer": "Rome",
+      "answer_keywords": [
+        "rome"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the longest mountain range in the world?",
+      "answer": "Andes",
+      "answer_keywords": [
+        "andes"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the capital of Spain?",
+      "answer": "Madrid",
+      "answer_keywords": [
+        "madrid"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What country does the Amazon river flow through?",
+      "answer": "Brazil",
+      "answer_keywords": [
+        "brazil"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the capital of Egypt?",
+      "answer": "Cairo",
+      "answer_keywords": [
+        "cairo"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the deepest lake in the world?",
+      "answer": "Lake Baikal",
+      "answer_keywords": [
+        "baikal",
+        "lake baikal"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the capital of Russia?",
+      "answer": "Moscow",
+      "answer_keywords": [
+        "moscow"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What two continents does the Panama Canal connect?",
+      "answer": "North and South America",
+      "answer_keywords": [
+        "north america",
+        "south america",
+        "north and south america"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the capital of Argentina?",
+      "answer": "Buenos Aires",
+      "answer_keywords": [
+        "buenos aires"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the driest desert in the world?",
+      "answer": "Atacama Desert",
+      "answer_keywords": [
+        "atacama",
+        "atacama desert"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What body of water separates England from France?",
+      "answer": "English Channel",
+      "answer_keywords": [
+        "english channel",
+        "channel"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the capital of Kenya?",
+      "answer": "Nairobi",
+      "answer_keywords": [
+        "nairobi"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the capital of Nigeria?",
+      "answer": "Abuja",
+      "answer_keywords": [
+        "abuja"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the longest river in Europe?",
+      "answer": "Volga",
+      "answer_keywords": [
+        "volga",
+        "volga river"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What country has the most natural lakes in the world?",
+      "answer": "Canada",
+      "answer_keywords": [
+        "canada"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the capital of Pakistan?",
+      "answer": "Islamabad",
+      "answer_keywords": [
+        "islamabad"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the largest island in the world?",
+      "answer": "Greenland",
+      "answer_keywords": [
+        "greenland"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What country does the Danube river empty into the Black Sea from?",
+      "answer": "Romania",
+      "answer_keywords": [
+        "romania"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the capital of Turkey?",
+      "answer": "Ankara",
+      "answer_keywords": [
+        "ankara"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the strait that separates Europe from Asia in Turkey?",
+      "answer": "Bosphorus",
+      "answer_keywords": [
+        "bosphorus",
+        "bosporus"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What country is home to the fjords of Scandinavia?",
+      "answer": "Norway",
+      "answer_keywords": [
+        "norway"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the capital of Saudi Arabia?",
+      "answer": "Riyadh",
+      "answer_keywords": [
+        "riyadh"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the southernmost continent?",
+      "answer": "Antarctica",
+      "answer_keywords": [
+        "antarctica"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What country owns the Canary Islands?",
+      "answer": "Spain",
+      "answer_keywords": [
+        "spain"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the capital of Indonesia?",
+      "answer": "Jakarta",
+      "answer_keywords": [
+        "jakarta"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What two countries share the world's longest international border?",
+      "answer": "Canada and United States",
+      "answer_keywords": [
+        "canada",
+        "united states",
+        "canada and usa"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the island group that includes Tahiti?",
+      "answer": "French Polynesia",
+      "answer_keywords": [
+        "french polynesia"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What country has the most volcanoes?",
+      "answer": "Indonesia",
+      "answer_keywords": [
+        "indonesia"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the capital of Ukraine?",
+      "answer": "Kyiv",
+      "answer_keywords": [
+        "kyiv",
+        "kiev"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the sea between Italy and the Balkans?",
+      "answer": "Adriatic Sea",
+      "answer_keywords": [
+        "adriatic",
+        "adriatic sea"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What country is home to Patagonia?",
+      "answer": "Argentina",
+      "answer_keywords": [
+        "argentina"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the highest waterfall in the world?",
+      "answer": "Angel Falls",
+      "answer_keywords": [
+        "angel falls"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What country does the island of Corsica belong to?",
+      "answer": "France",
+      "answer_keywords": [
+        "france"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the capital of the Philippines?",
+      "answer": "Manila",
+      "answer_keywords": [
+        "manila"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the plateau that covers most of Tibet?",
+      "answer": "Tibetan Plateau",
+      "answer_keywords": [
+        "tibetan plateau",
+        "tibet plateau"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What ocean lies between Africa and Australia?",
+      "answer": "Indian Ocean",
+      "answer_keywords": [
+        "indian ocean"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What country is the Serengeti National Park in?",
+      "answer": "Tanzania",
+      "answer_keywords": [
+        "tanzania"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the capital of Iran?",
+      "answer": "Tehran",
+      "answer_keywords": [
+        "tehran"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the world's largest coral reef system?",
+      "answer": "Great Barrier Reef",
+      "answer_keywords": [
+        "great barrier reef"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the peninsula that includes Spain and Portugal?",
+      "answer": "Iberian Peninsula",
+      "answer_keywords": [
+        "iberian",
+        "iberian peninsula"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What country is home to the city of Marrakech?",
+      "answer": "Morocco",
+      "answer_keywords": [
+        "morocco"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the capital of Sweden?",
+      "answer": "Stockholm",
+      "answer_keywords": [
+        "stockholm"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the world's largest archipelago?",
+      "answer": "Indonesia",
+      "answer_keywords": [
+        "indonesia"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the capital of Poland?",
+      "answer": "Warsaw",
+      "answer_keywords": [
+        "warsaw"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the mountain range that runs through the centre of Europe?",
+      "answer": "Alps",
+      "answer_keywords": [
+        "alps"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What country is home to the Gobi Desert?",
+      "answer": "Mongolia",
+      "answer_keywords": [
+        "mongolia"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the capital of South Korea?",
+      "answer": "Seoul",
+      "answer_keywords": [
+        "seoul"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What river runs through the heart of Paris?",
+      "answer": "Seine",
+      "answer_keywords": [
+        "seine",
+        "seine river"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the sea located north of Egypt?",
+      "answer": "Mediterranean Sea",
+      "answer_keywords": [
+        "mediterranean",
+        "mediterranean sea"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the capital of Kazakhstan?",
+      "answer": "Astana",
+      "answer_keywords": [
+        "astana",
+        "nur-sultan"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the deepest point in the ocean?",
+      "answer": "Challenger Deep",
+      "answer_keywords": [
+        "challenger deep",
+        "mariana trench"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What country has the most coastline in the world?",
+      "answer": "Canada",
+      "answer_keywords": [
+        "canada"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the capital of Ethiopia?",
+      "answer": "Addis Ababa",
+      "answer_keywords": [
+        "addis ababa"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the longest river in South America?",
+      "answer": "Amazon",
+      "answer_keywords": [
+        "amazon",
+        "amazon river"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What country is the Namib Desert in?",
+      "answer": "Namibia",
+      "answer_keywords": [
+        "namibia"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the sea that borders Russia to the north?",
+      "answer": "Arctic Ocean",
+      "answer_keywords": [
+        "arctic ocean",
+        "arctic"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the capital of Venezuela?",
+      "answer": "Caracas",
+      "answer_keywords": [
+        "caracas"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the largest lake in North America?",
+      "answer": "Lake Superior",
+      "answer_keywords": [
+        "lake superior",
+        "superior"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the capital of Algeria?",
+      "answer": "Algiers",
+      "answer_keywords": [
+        "algiers"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What country is the Mekong River Delta in?",
+      "answer": "Vietnam",
+      "answer_keywords": [
+        "vietnam"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the island country located southeast of India?",
+      "answer": "Sri Lanka",
+      "answer_keywords": [
+        "sri lanka"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the capital of Myanmar?",
+      "answer": "Naypyidaw",
+      "answer_keywords": [
+        "naypyidaw"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the largest bay in the world?",
+      "answer": "Bay of Bengal",
+      "answer_keywords": [
+        "bay of bengal",
+        "bengal"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What African country was formerly known as Abyssinia?",
+      "answer": "Ethiopia",
+      "answer_keywords": [
+        "ethiopia"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the mountain range that separates Europe from Asia?",
+      "answer": "Ural Mountains",
+      "answer_keywords": [
+        "ural",
+        "ural mountains"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the capital of Colombia?",
+      "answer": "Bogotá",
+      "answer_keywords": [
+        "bogota",
+        "bogotá"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the peninsula that contains Norway, Sweden, and Denmark?",
+      "answer": "Scandinavian Peninsula",
+      "answer_keywords": [
+        "scandinavian",
+        "scandinavian peninsula"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What country is home to the city of Kathmandu?",
+      "answer": "Nepal",
+      "answer_keywords": [
+        "nepal"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the world's largest freshwater lake by volume?",
+      "answer": "Lake Baikal",
+      "answer_keywords": [
+        "baikal",
+        "lake baikal"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the capital of the Democratic Republic of Congo?",
+      "answer": "Kinshasa",
+      "answer_keywords": [
+        "kinshasa"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the only sea without any coastline?",
+      "answer": "Sargasso Sea",
+      "answer_keywords": [
+        "sargasso",
+        "sargasso sea"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What country is home to the Kalahari Desert?",
+      "answer": "Botswana",
+      "answer_keywords": [
+        "botswana"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the capital of Thailand?",
+      "answer": "Bangkok",
+      "answer_keywords": [
+        "bangkok"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the mountain range that forms the spine of Italy?",
+      "answer": "Apennines",
+      "answer_keywords": [
+        "apennines",
+        "apennine mountains"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What country is home to the Okavango Delta?",
+      "answer": "Botswana",
+      "answer_keywords": [
+        "botswana"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the capital of Peru?",
+      "answer": "Lima",
+      "answer_keywords": [
+        "lima"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the peninsula that contains India?",
+      "answer": "Indian subcontinent",
+      "answer_keywords": [
+        "indian subcontinent",
+        "deccan peninsula"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the longest river in North America?",
+      "answer": "Missouri River",
+      "answer_keywords": [
+        "missouri",
+        "missouri river"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What country is the landlocked nation of Lesotho surrounded by?",
+      "answer": "South Africa",
+      "answer_keywords": [
+        "south africa"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the capital of New Zealand?",
+      "answer": "Wellington",
+      "answer_keywords": [
+        "wellington"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the narrow strip of land connecting North and South America?",
+      "answer": "Isthmus of Panama",
+      "answer_keywords": [
+        "isthmus of panama",
+        "panama"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the capital of Cuba?",
+      "answer": "Havana",
+      "answer_keywords": [
+        "havana"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the world's largest hot desert?",
+      "answer": "Sahara",
+      "answer_keywords": [
+        "sahara",
+        "sahara desert"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the lake on the border of Peru and Bolivia?",
+      "answer": "Lake Titicaca",
+      "answer_keywords": [
+        "titicaca",
+        "lake titicaca"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the capital of Portugal?",
+      "answer": "Lisbon",
+      "answer_keywords": [
+        "lisbon"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What sea lies between the Arabian Peninsula and East Africa?",
+      "answer": "Red Sea",
+      "answer_keywords": [
+        "red sea"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the capital of Burkina Faso?",
+      "answer": "Ouagadougou",
+      "answer_keywords": [
+        "ouagadougou"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the active volcano on the island of Sicily?",
+      "answer": "Mount Etna",
+      "answer_keywords": [
+        "etna",
+        "mount etna"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What country is home to the Sundarbans mangrove forest?",
+      "answer": "Bangladesh",
+      "answer_keywords": [
+        "bangladesh"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the large salt flat in Bolivia?",
+      "answer": "Salar de Uyuni",
+      "answer_keywords": [
+        "salar de uyuni",
+        "uyuni"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the capital of Mozambique?",
+      "answer": "Maputo",
+      "answer_keywords": [
+        "maputo"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the sea between Australia and New Zealand?",
+      "answer": "Tasman Sea",
+      "answer_keywords": [
+        "tasman",
+        "tasman sea"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What country is home to the Thar Desert?",
+      "answer": "India",
+      "answer_keywords": [
+        "india"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the capital of Uzbekistan?",
+      "answer": "Tashkent",
+      "answer_keywords": [
+        "tashkent"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the deepest lake in Africa?",
+      "answer": "Lake Tanganyika",
+      "answer_keywords": [
+        "tanganyika",
+        "lake tanganyika"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What country is home to the Dolomites mountain range?",
+      "answer": "Italy",
+      "answer_keywords": [
+        "italy"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the strait between the Black Sea and the Mediterranean?",
+      "answer": "Dardanelles",
+      "answer_keywords": [
+        "dardanelles"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the capital of Angola?",
+      "answer": "Luanda",
+      "answer_keywords": [
+        "luanda"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the largest river delta in the world?",
+      "answer": "Ganges-Brahmaputra Delta",
+      "answer_keywords": [
+        "ganges delta",
+        "ganges-brahmaputra",
+        "sundarbans delta"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What country owns Franz Josef Land?",
+      "answer": "Russia",
+      "answer_keywords": [
+        "russia"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the mountain range that divides France and Spain?",
+      "answer": "Pyrenees",
+      "answer_keywords": [
+        "pyrenees"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the capital of Chad?",
+      "answer": "N'Djamena",
+      "answer_keywords": [
+        "ndjamena",
+        "n'djamena"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the lowest point on the Earth's surface?",
+      "answer": "Dead Sea",
+      "answer_keywords": [
+        "dead sea"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What country is home to the Bwindi Impenetrable Forest?",
+      "answer": "Uganda",
+      "answer_keywords": [
+        "uganda"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the sea between the Arabian Peninsula and Iran?",
+      "answer": "Persian Gulf",
+      "answer_keywords": [
+        "persian gulf"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What country is home to the Kavango-Zambezi transfrontier park?",
+      "answer": "Botswana",
+      "answer_keywords": [
+        "botswana"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the capital of Cambodia?",
+      "answer": "Phnom Penh",
+      "answer_keywords": [
+        "phnom penh"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the only country that borders both the Atlantic and Indian Oceans?",
+      "answer": "South Africa",
+      "answer_keywords": [
+        "south africa"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the capital of Ecuador?",
+      "answer": "Quito",
+      "answer_keywords": [
+        "quito"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the highest navigable lake in the world?",
+      "answer": "Lake Titicaca",
+      "answer_keywords": [
+        "titicaca",
+        "lake titicaca"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What country is home to the Bungle Bungle Range?",
+      "answer": "Australia",
+      "answer_keywords": [
+        "australia"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the capital of Laos?",
+      "answer": "Vientiane",
+      "answer_keywords": [
+        "vientiane"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the sea between the Malay Peninsula and Borneo?",
+      "answer": "South China Sea",
+      "answer_keywords": [
+        "south china sea"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What country is the Altai Mountain range primarily in?",
+      "answer": "Russia",
+      "answer_keywords": [
+        "russia"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the capital of Cameroon?",
+      "answer": "Yaoundé",
+      "answer_keywords": [
+        "yaounde",
+        "yaoundé"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the archipelago that includes the Galápagos Islands?",
+      "answer": "Galápagos Islands",
+      "answer_keywords": [
+        "galapagos",
+        "galápagos islands"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What country is home to the Vredefort crater?",
+      "answer": "South Africa",
+      "answer_keywords": [
+        "south africa"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the capital of Bolivia?",
+      "answer": "Sucre",
+      "answer_keywords": [
+        "sucre"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the channel separating the UK from continental Europe?",
+      "answer": "English Channel",
+      "answer_keywords": [
+        "english channel",
+        "channel"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the world's largest estuary?",
+      "answer": "Río de la Plata",
+      "answer_keywords": [
+        "rio de la plata",
+        "la plata"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What country is the island of Borneo split between?",
+      "answer": "Malaysia, Indonesia and Brunei",
+      "answer_keywords": [
+        "malaysia",
+        "indonesia",
+        "brunei"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the capital of Sierra Leone?",
+      "answer": "Freetown",
+      "answer_keywords": [
+        "freetown"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the wind that blows across the Sahara into the Mediterranean?",
+      "answer": "Sirocco",
+      "answer_keywords": [
+        "sirocco"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the capital of Nauru?",
+      "answer": "Yaren",
+      "answer_keywords": [
+        "yaren"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the river that forms the border between Zambia and Zimbabwe?",
+      "answer": "Zambezi",
+      "answer_keywords": [
+        "zambezi",
+        "zambezi river"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the capital of Kiribati?",
+      "answer": "South Tarawa",
+      "answer_keywords": [
+        "tarawa",
+        "south tarawa"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the highest peak in Africa?",
+      "answer": "Mount Kilimanjaro",
+      "answer_keywords": [
+        "kilimanjaro",
+        "mount kilimanjaro"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the capital of Djibouti?",
+      "answer": "Djibouti",
+      "answer_keywords": [
+        "djibouti"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What country is home to the Sossusvlei sand dunes?",
+      "answer": "Namibia",
+      "answer_keywords": [
+        "namibia"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the deep trench off the coast of Japan?",
+      "answer": "Japan Trench",
+      "answer_keywords": [
+        "japan trench"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the capital of Vanuatu?",
+      "answer": "Port Vila",
+      "answer_keywords": [
+        "port vila",
+        "vila"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the only country entirely within another country besides Vatican City?",
+      "answer": "San Marino",
+      "answer_keywords": [
+        "san marino"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the capital of Bhutan?",
+      "answer": "Thimphu",
+      "answer_keywords": [
+        "thimphu"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the coldest permanently inhabited place on Earth?",
+      "answer": "Oymyakon",
+      "answer_keywords": [
+        "oymyakon"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the only river that flows through all of the Great Lakes?",
+      "answer": "St. Lawrence River",
+      "answer_keywords": [
+        "st lawrence",
+        "saint lawrence",
+        "st. lawrence river"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the capital of Eritrea?",
+      "answer": "Asmara",
+      "answer_keywords": [
+        "asmara"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the strait between Alaska and Russia?",
+      "answer": "Bering Strait",
+      "answer_keywords": [
+        "bering strait",
+        "bering"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the capital of Palau?",
+      "answer": "Ngerulmud",
+      "answer_keywords": [
+        "ngerulmud"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the African country with no shared land borders?",
+      "answer": "Madagascar",
+      "answer_keywords": [
+        "madagascar"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the capital of Turkmenistan?",
+      "answer": "Ashgabat",
+      "answer_keywords": [
+        "ashgabat",
+        "ashkhabad"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the largest atoll in the world?",
+      "answer": "Lifou",
+      "answer_keywords": [
+        "lifou"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the capital of Suriname?",
+      "answer": "Paramaribo",
+      "answer_keywords": [
+        "paramaribo"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the only country in the world with no rivers?",
+      "answer": "Saudi Arabia",
+      "answer_keywords": [
+        "saudi arabia"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the capital of the Federated States of Micronesia?",
+      "answer": "Palikir",
+      "answer_keywords": [
+        "palikir"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the longest mountain range underwater?",
+      "answer": "Mid-Ocean Ridge",
+      "answer_keywords": [
+        "mid-ocean ridge",
+        "mid ocean ridge"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the capital of Equatorial Guinea?",
+      "answer": "Malabo",
+      "answer_keywords": [
+        "malabo"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the biome characterized by permafrost and low-growing vegetation?",
+      "answer": "Tundra",
+      "answer_keywords": [
+        "tundra"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What country is home to the Virunga Mountains?",
+      "answer": "Rwanda",
+      "answer_keywords": [
+        "rwanda"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the capital of the Marshall Islands?",
+      "answer": "Majuro",
+      "answer_keywords": [
+        "majuro"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the deepest point in the Indian Ocean?",
+      "answer": "Java Trench",
+      "answer_keywords": [
+        "java trench",
+        "sunda trench"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the capital of Tonga?",
+      "answer": "Nuku'alofa",
+      "answer_keywords": [
+        "nukualofa",
+        "nuku'alofa"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the sea enclosed almost entirely within the Arabian Peninsula?",
+      "answer": "Arabian Sea",
+      "answer_keywords": [
+        "arabian sea"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the capital of Guinea-Bissau?",
+      "answer": "Bissau",
+      "answer_keywords": [
+        "bissau"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the world's flattest country?",
+      "answer": "Maldives",
+      "answer_keywords": [
+        "maldives"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the capital of Comoros?",
+      "answer": "Moroni",
+      "answer_keywords": [
+        "moroni"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the oceanic ridge that runs between Iceland and Antarctica?",
+      "answer": "Mid-Atlantic Ridge",
+      "answer_keywords": [
+        "mid-atlantic ridge",
+        "mid atlantic ridge"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the capital of São Tomé and Príncipe?",
+      "answer": "São Tomé",
+      "answer_keywords": [
+        "sao tome",
+        "são tomé"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the lake on the border of Kazakhstan and Uzbekistan that is now mostly dry?",
+      "answer": "Aral Sea",
+      "answer_keywords": [
+        "aral sea",
+        "aral"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the capital of Samoa?",
+      "answer": "Apia",
+      "answer_keywords": [
+        "apia"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the coldest desert in the world?",
+      "answer": "Antarctic Desert",
+      "answer_keywords": [
+        "antarctic desert",
+        "antarctica"
+      ]
     }
   ]
 }

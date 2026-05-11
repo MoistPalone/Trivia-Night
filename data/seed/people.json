@@ -1504,6 +1504,1876 @@
         "alexander the great",
         "alexander"
       ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the founder of Microsoft?",
+      "answer": "Bill Gates",
+      "answer_keywords": [
+        "bill gates",
+        "gates"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who wrote Romeo and Juliet?",
+      "answer": "William Shakespeare",
+      "answer_keywords": [
+        "shakespeare",
+        "william shakespeare"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the first person to walk on the moon?",
+      "answer": "Neil Armstrong",
+      "answer_keywords": [
+        "armstrong",
+        "neil armstrong"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the founder of Apple?",
+      "answer": "Steve Jobs",
+      "answer_keywords": [
+        "steve jobs",
+        "jobs"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who painted the Mona Lisa?",
+      "answer": "Leonardo da Vinci",
+      "answer_keywords": [
+        "da vinci",
+        "leonardo da vinci",
+        "leonardo"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who wrote the Harry Potter series?",
+      "answer": "J.K. Rowling",
+      "answer_keywords": [
+        "rowling",
+        "j.k. rowling",
+        "jk rowling"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "answer": "Marie Curie",
+      "answer_keywords": [
+        "curie",
+        "marie curie"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the 44th President of the United States?",
+      "answer": "Barack Obama",
+      "answer_keywords": [
+        "obama",
+        "barack obama"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who discovered gravity (according to the famous apple story)?",
+      "answer": "Isaac Newton",
+      "answer_keywords": [
+        "newton",
+        "isaac newton"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the founder of Facebook?",
+      "answer": "Mark Zuckerberg",
+      "answer_keywords": [
+        "zuckerberg",
+        "mark zuckerberg"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who invented the light bulb?",
+      "answer": "Thomas Edison",
+      "answer_keywords": [
+        "edison",
+        "thomas edison"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who led the civil rights movement in the United States?",
+      "answer": "Martin Luther King Jr.",
+      "answer_keywords": [
+        "martin luther king",
+        "mlk",
+        "king"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the first Queen of England?",
+      "answer": "Mary I",
+      "answer_keywords": [
+        "mary i",
+        "mary",
+        "bloody mary"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who wrote A Brief History of Time?",
+      "answer": "Stephen Hawking",
+      "answer_keywords": [
+        "hawking",
+        "stephen hawking"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the first female Prime Minister of the UK?",
+      "answer": "Margaret Thatcher",
+      "answer_keywords": [
+        "thatcher",
+        "margaret thatcher"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who wrote The Origin of Species?",
+      "answer": "Charles Darwin",
+      "answer_keywords": [
+        "darwin",
+        "charles darwin"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the first person in space?",
+      "answer": "Yuri Gagarin",
+      "answer_keywords": [
+        "gagarin",
+        "yuri gagarin"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who is considered the father of modern physics?",
+      "answer": "Albert Einstein",
+      "answer_keywords": [
+        "einstein",
+        "albert einstein"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who founded the Red Cross?",
+      "answer": "Henry Dunant",
+      "answer_keywords": [
+        "dunant",
+        "henry dunant"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the first US female Secretary of State?",
+      "answer": "Madeleine Albright",
+      "answer_keywords": [
+        "albright",
+        "madeleine albright"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who invented the World Wide Web?",
+      "answer": "Tim Berners-Lee",
+      "answer_keywords": [
+        "berners-lee",
+        "tim berners-lee"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the first woman to fly solo across the Atlantic?",
+      "answer": "Amelia Earhart",
+      "answer_keywords": [
+        "earhart",
+        "amelia earhart"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the longest-serving leader of the Soviet Union?",
+      "answer": "Joseph Stalin",
+      "answer_keywords": [
+        "stalin",
+        "joseph stalin"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who wrote Hamlet?",
+      "answer": "William Shakespeare",
+      "answer_keywords": [
+        "shakespeare",
+        "william shakespeare"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who discovered the structure of DNA?",
+      "answer": "Watson and Crick",
+      "answer_keywords": [
+        "watson",
+        "crick",
+        "watson and crick"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the first person to reach the South Pole?",
+      "answer": "Roald Amundsen",
+      "answer_keywords": [
+        "amundsen",
+        "roald amundsen"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the founder of Amazon?",
+      "answer": "Jeff Bezos",
+      "answer_keywords": [
+        "bezos",
+        "jeff bezos"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who wrote Les Misérables?",
+      "answer": "Victor Hugo",
+      "answer_keywords": [
+        "hugo",
+        "victor hugo"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the first female US Supreme Court Justice?",
+      "answer": "Sandra Day O'Connor",
+      "answer_keywords": [
+        "o'connor",
+        "sandra day o'connor",
+        "sandra o'connor"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who is known as the father of modern medicine?",
+      "answer": "Hippocrates",
+      "answer_keywords": [
+        "hippocrates"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the first person to circumnavigate the globe?",
+      "answer": "Ferdinand Magellan",
+      "answer_keywords": [
+        "magellan",
+        "ferdinand magellan"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who wrote Pride and Prejudice?",
+      "answer": "Jane Austen",
+      "answer_keywords": [
+        "austen",
+        "jane austen"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the first president of the Russian Federation?",
+      "answer": "Boris Yeltsin",
+      "answer_keywords": [
+        "yeltsin",
+        "boris yeltsin"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who invented the telephone?",
+      "answer": "Alexander Graham Bell",
+      "answer_keywords": [
+        "bell",
+        "alexander graham bell"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the first Chancellor of Germany?",
+      "answer": "Otto von Bismarck",
+      "answer_keywords": [
+        "bismarck",
+        "otto von bismarck"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who wrote the Iliad and the Odyssey?",
+      "answer": "Homer",
+      "answer_keywords": [
+        "homer"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who was the first person to break the sound barrier?",
+      "answer": "Chuck Yeager",
+      "answer_keywords": [
+        "yeager",
+        "chuck yeager"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the first ruler of a unified Egypt?",
+      "answer": "Narmer",
+      "answer_keywords": [
+        "narmer",
+        "menes"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who wrote the Communist Manifesto?",
+      "answer": "Karl Marx",
+      "answer_keywords": [
+        "marx",
+        "karl marx"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the first female Nobel laureate in Physics?",
+      "answer": "Marie Curie",
+      "answer_keywords": [
+        "curie",
+        "marie curie"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the last Tsar of Russia?",
+      "answer": "Nicholas II",
+      "answer_keywords": [
+        "nicholas ii",
+        "nicholas",
+        "tsar nicholas"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the founder of psychoanalysis?",
+      "answer": "Sigmund Freud",
+      "answer_keywords": [
+        "freud",
+        "sigmund freud"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the first person to climb Mount Everest?",
+      "answer": "Edmund Hillary",
+      "answer_keywords": [
+        "hillary",
+        "edmund hillary"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who wrote 1984?",
+      "answer": "George Orwell",
+      "answer_keywords": [
+        "orwell",
+        "george orwell"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the founder of the Mongol Empire?",
+      "answer": "Genghis Khan",
+      "answer_keywords": [
+        "genghis khan",
+        "genghis"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who developed the polio vaccine?",
+      "answer": "Jonas Salk",
+      "answer_keywords": [
+        "salk",
+        "jonas salk"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the founder of the Ottoman Empire?",
+      "answer": "Osman I",
+      "answer_keywords": [
+        "osman",
+        "osman i"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who wrote Don Quixote?",
+      "answer": "Miguel de Cervantes",
+      "answer_keywords": [
+        "cervantes",
+        "miguel de cervantes"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the first female president of a country?",
+      "answer": "Vigdís Finnbogadóttir",
+      "answer_keywords": [
+        "finnbogadottir",
+        "vigdis finnbogadottir"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the founder of the Sikh religion?",
+      "answer": "Guru Nanak",
+      "answer_keywords": [
+        "nanak",
+        "guru nanak"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who wrote The Prince?",
+      "answer": "Niccolò Machiavelli",
+      "answer_keywords": [
+        "machiavelli",
+        "niccolò machiavelli",
+        "niccolo machiavelli"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the first woman to win the Booker Prize?",
+      "answer": "Bernice Rubens",
+      "answer_keywords": [
+        "rubens",
+        "bernice rubens"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who founded the nursing profession?",
+      "answer": "Florence Nightingale",
+      "answer_keywords": [
+        "nightingale",
+        "florence nightingale"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the first president of South Africa after Apartheid?",
+      "answer": "Nelson Mandela",
+      "answer_keywords": [
+        "mandela",
+        "nelson mandela"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who wrote One Hundred Years of Solitude?",
+      "answer": "Gabriel García Márquez",
+      "answer_keywords": [
+        "garcia marquez",
+        "gabriel garcia marquez"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the first person to orbit Earth?",
+      "answer": "Yuri Gagarin",
+      "answer_keywords": [
+        "gagarin",
+        "yuri gagarin"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who wrote The Republic?",
+      "answer": "Plato",
+      "answer_keywords": [
+        "plato"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the founder of Islam?",
+      "answer": "Muhammad",
+      "answer_keywords": [
+        "muhammad",
+        "mohammed"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the first female Prime Minister of Australia?",
+      "answer": "Julia Gillard",
+      "answer_keywords": [
+        "gillard",
+        "julia gillard"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who wrote Crime and Punishment?",
+      "answer": "Fyodor Dostoevsky",
+      "answer_keywords": [
+        "dostoevsky",
+        "fyodor dostoevsky"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the founder of the Roman Empire?",
+      "answer": "Augustus",
+      "answer_keywords": [
+        "augustus",
+        "augustus caesar"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the first woman to receive a medical degree in the US?",
+      "answer": "Elizabeth Blackwell",
+      "answer_keywords": [
+        "blackwell",
+        "elizabeth blackwell"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who invented the steam engine?",
+      "answer": "James Watt",
+      "answer_keywords": [
+        "watt",
+        "james watt"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who wrote Brave New World?",
+      "answer": "Aldous Huxley",
+      "answer_keywords": [
+        "huxley",
+        "aldous huxley"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the founder of Buddhism?",
+      "answer": "Siddhartha Gautama",
+      "answer_keywords": [
+        "siddhartha",
+        "gautama",
+        "siddhartha gautama",
+        "buddha"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the first person to walk in space?",
+      "answer": "Alexei Leonov",
+      "answer_keywords": [
+        "leonov",
+        "alexei leonov"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who wrote The Wealth of Nations?",
+      "answer": "Adam Smith",
+      "answer_keywords": [
+        "adam smith",
+        "smith"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the founder of the Boy Scouts?",
+      "answer": "Robert Baden-Powell",
+      "answer_keywords": [
+        "baden-powell",
+        "robert baden-powell"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who wrote Anna Karenina?",
+      "answer": "Leo Tolstoy",
+      "answer_keywords": [
+        "tolstoy",
+        "leo tolstoy"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the first female Chancellor of Germany?",
+      "answer": "Angela Merkel",
+      "answer_keywords": [
+        "merkel",
+        "angela merkel"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who invented the aeroplane?",
+      "answer": "Wright Brothers",
+      "answer_keywords": [
+        "wright brothers",
+        "orville wright",
+        "wilbur wright"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who wrote The Great Gatsby?",
+      "answer": "F. Scott Fitzgerald",
+      "answer_keywords": [
+        "fitzgerald",
+        "f. scott fitzgerald",
+        "scott fitzgerald"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who was the first female US Vice President?",
+      "answer": "Kamala Harris",
+      "answer_keywords": [
+        "harris",
+        "kamala harris"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who wrote Moby Dick?",
+      "answer": "Herman Melville",
+      "answer_keywords": [
+        "melville",
+        "herman melville"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first African American to win a Grammy Award?",
+      "answer": "Ella Fitzgerald",
+      "answer_keywords": [
+        "ella fitzgerald",
+        "fitzgerald"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who wrote The Canterbury Tales?",
+      "answer": "Geoffrey Chaucer",
+      "answer_keywords": [
+        "chaucer",
+        "geoffrey chaucer"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first female mayor of a major US city?",
+      "answer": "Patience Latting",
+      "answer_keywords": [
+        "latting",
+        "patience latting"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who wrote In Search of Lost Time?",
+      "answer": "Marcel Proust",
+      "answer_keywords": [
+        "proust",
+        "marcel proust"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first person to win two Nobel Prizes in different sciences?",
+      "answer": "Marie Curie",
+      "answer_keywords": [
+        "curie",
+        "marie curie"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who discovered penicillin?",
+      "answer": "Alexander Fleming",
+      "answer_keywords": [
+        "fleming",
+        "alexander fleming"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who wrote The Brothers Karamazov?",
+      "answer": "Fyodor Dostoevsky",
+      "answer_keywords": [
+        "dostoevsky",
+        "fyodor dostoevsky"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first Prime Minister of India?",
+      "answer": "Jawaharlal Nehru",
+      "answer_keywords": [
+        "nehru",
+        "jawaharlal nehru"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who wrote Don Giovanni?",
+      "answer": "Wolfgang Amadeus Mozart",
+      "answer_keywords": [
+        "mozart",
+        "wolfgang mozart"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first woman to win the Pulitzer Prize for Fiction?",
+      "answer": "Edith Wharton",
+      "answer_keywords": [
+        "wharton",
+        "edith wharton"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the founder of the Maurya Empire in India?",
+      "answer": "Chandragupta Maurya",
+      "answer_keywords": [
+        "chandragupta",
+        "chandragupta maurya"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who wrote Ulysses?",
+      "answer": "James Joyce",
+      "answer_keywords": [
+        "joyce",
+        "james joyce"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first president of Ghana?",
+      "answer": "Kwame Nkrumah",
+      "answer_keywords": [
+        "nkrumah",
+        "kwame nkrumah"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who invented the rabies vaccine?",
+      "answer": "Louis Pasteur",
+      "answer_keywords": [
+        "pasteur",
+        "louis pasteur"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who wrote The Interpretation of Dreams?",
+      "answer": "Sigmund Freud",
+      "answer_keywords": [
+        "freud",
+        "sigmund freud"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first female general in the US Army?",
+      "answer": "Anna Mae Hays",
+      "answer_keywords": [
+        "hays",
+        "anna mae hays",
+        "anna hays"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first president of Indonesia?",
+      "answer": "Sukarno",
+      "answer_keywords": [
+        "sukarno"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who wrote The Aeneid?",
+      "answer": "Virgil",
+      "answer_keywords": [
+        "virgil"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first person to map the human genome?",
+      "answer": "Francis Collins",
+      "answer_keywords": [
+        "collins",
+        "francis collins"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who wrote Faust?",
+      "answer": "Johann Wolfgang von Goethe",
+      "answer_keywords": [
+        "goethe",
+        "von goethe",
+        "johann goethe"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first female director to win an Academy Award?",
+      "answer": "Kathryn Bigelow",
+      "answer_keywords": [
+        "bigelow",
+        "kathryn bigelow"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the founder of the Gupta Empire?",
+      "answer": "Chandragupta I",
+      "answer_keywords": [
+        "chandragupta i",
+        "chandragupta"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who wrote The Master and Margarita?",
+      "answer": "Mikhail Bulgakov",
+      "answer_keywords": [
+        "bulgakov",
+        "mikhail bulgakov"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first person to break the sound barrier?",
+      "answer": "Chuck Yeager",
+      "answer_keywords": [
+        "yeager",
+        "chuck yeager"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who wrote The Divine Comedy?",
+      "answer": "Dante Alighieri",
+      "answer_keywords": [
+        "dante",
+        "dante alighieri"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first female president of Chile?",
+      "answer": "Michelle Bachelet",
+      "answer_keywords": [
+        "bachelet",
+        "michelle bachelet"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first prime minister of Pakistan?",
+      "answer": "Liaquat Ali Khan",
+      "answer_keywords": [
+        "liaquat ali khan",
+        "liaquat khan"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who wrote The Sound and the Fury?",
+      "answer": "William Faulkner",
+      "answer_keywords": [
+        "faulkner",
+        "william faulkner"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first black tennis player to win Wimbledon?",
+      "answer": "Althea Gibson",
+      "answer_keywords": [
+        "gibson",
+        "althea gibson"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who wrote The Trial?",
+      "answer": "Franz Kafka",
+      "answer_keywords": [
+        "kafka",
+        "franz kafka"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first person to run a sub-four-minute mile?",
+      "answer": "Roger Bannister",
+      "answer_keywords": [
+        "bannister",
+        "roger bannister"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first prime minister of Israel?",
+      "answer": "David Ben-Gurion",
+      "answer_keywords": [
+        "ben-gurion",
+        "david ben-gurion"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who wrote The Sun Also Rises?",
+      "answer": "Ernest Hemingway",
+      "answer_keywords": [
+        "hemingway",
+        "ernest hemingway"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who discovered the circulation of blood?",
+      "answer": "William Harvey",
+      "answer_keywords": [
+        "harvey",
+        "william harvey"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first president of Kenya?",
+      "answer": "Jomo Kenyatta",
+      "answer_keywords": [
+        "kenyatta",
+        "jomo kenyatta"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who wrote War and Peace?",
+      "answer": "Leo Tolstoy",
+      "answer_keywords": [
+        "tolstoy",
+        "leo tolstoy"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who was the first person to reach the top of Mount Everest?",
+      "answer": "Edmund Hillary",
+      "answer_keywords": [
+        "hillary",
+        "edmund hillary"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who wrote The Name of the Rose?",
+      "answer": "Umberto Eco",
+      "answer_keywords": [
+        "eco",
+        "umberto eco"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the first president of the Philippines?",
+      "answer": "Emilio Aguinaldo",
+      "answer_keywords": [
+        "aguinaldo",
+        "emilio aguinaldo"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who wrote Thus Spoke Zarathustra?",
+      "answer": "Friedrich Nietzsche",
+      "answer_keywords": [
+        "nietzsche",
+        "friedrich nietzsche"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the first woman to lead a G7 nation?",
+      "answer": "Margaret Thatcher",
+      "answer_keywords": [
+        "thatcher",
+        "margaret thatcher"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who discovered the law of electromagnetic induction?",
+      "answer": "Michael Faraday",
+      "answer_keywords": [
+        "faraday",
+        "michael faraday"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who wrote Blood Meridian?",
+      "answer": "Cormac McCarthy",
+      "answer_keywords": [
+        "mccarthy",
+        "cormac mccarthy"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the first president of Tanzania?",
+      "answer": "Julius Nyerere",
+      "answer_keywords": [
+        "nyerere",
+        "julius nyerere"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the first person to synthesise aspirin?",
+      "answer": "Felix Hoffmann",
+      "answer_keywords": [
+        "hoffmann",
+        "felix hoffmann"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who wrote Midnight's Children?",
+      "answer": "Salman Rushdie",
+      "answer_keywords": [
+        "rushdie",
+        "salman rushdie"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the first female head of government in Asia?",
+      "answer": "Sirimavo Bandaranaike",
+      "answer_keywords": [
+        "bandaranaike",
+        "sirimavo bandaranaike"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who developed the first smallpox vaccine?",
+      "answer": "Edward Jenner",
+      "answer_keywords": [
+        "jenner",
+        "edward jenner"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who wrote The Tin Drum?",
+      "answer": "Günter Grass",
+      "answer_keywords": [
+        "grass",
+        "gunter grass",
+        "günter grass"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the first president of Algeria?",
+      "answer": "Ahmed Ben Bella",
+      "answer_keywords": [
+        "ben bella",
+        "ahmed ben bella"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who formulated the laws of planetary motion?",
+      "answer": "Johannes Kepler",
+      "answer_keywords": [
+        "kepler",
+        "johannes kepler"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who wrote The Magic Mountain?",
+      "answer": "Thomas Mann",
+      "answer_keywords": [
+        "mann",
+        "thomas mann"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the first female Nobel laureate in Literature?",
+      "answer": "Selma Lagerlöf",
+      "answer_keywords": [
+        "lagerlof",
+        "selma lagerlof",
+        "selma lagerlöf"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the founder of the Fatimid Caliphate?",
+      "answer": "Abdullah al-Mahdi",
+      "answer_keywords": [
+        "al-mahdi",
+        "abdullah al-mahdi"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who wrote Fictions?",
+      "answer": "Jorge Luis Borges",
+      "answer_keywords": [
+        "borges",
+        "jorge luis borges"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the first person to synthesise a gene artificially?",
+      "answer": "Har Gobind Khorana",
+      "answer_keywords": [
+        "khorana",
+        "har gobind khorana"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who wrote The Stranger?",
+      "answer": "Albert Camus",
+      "answer_keywords": [
+        "camus",
+        "albert camus"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the first female governor of a US state?",
+      "answer": "Nellie Tayloe Ross",
+      "answer_keywords": [
+        "ross",
+        "nellie tayloe ross",
+        "nellie ross"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who wrote Doctor Zhivago?",
+      "answer": "Boris Pasternak",
+      "answer_keywords": [
+        "pasternak",
+        "boris pasternak"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the first person to propose the germ theory of disease?",
+      "answer": "Louis Pasteur",
+      "answer_keywords": [
+        "pasteur",
+        "louis pasteur"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who wrote The Periodic Table?",
+      "answer": "Primo Levi",
+      "answer_keywords": [
+        "levi",
+        "primo levi"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the first female leader of a Muslim-majority country?",
+      "answer": "Benazir Bhutto",
+      "answer_keywords": [
+        "bhutto",
+        "benazir bhutto"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who discovered the structure of benzene?",
+      "answer": "August Kekulé",
+      "answer_keywords": [
+        "kekule",
+        "august kekule",
+        "kekulé"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who wrote The Plague?",
+      "answer": "Albert Camus",
+      "answer_keywords": [
+        "camus",
+        "albert camus"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the first president of Zimbabwe?",
+      "answer": "Canaan Banana",
+      "answer_keywords": [
+        "banana",
+        "canaan banana"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who proposed the uncertainty principle in quantum mechanics?",
+      "answer": "Werner Heisenberg",
+      "answer_keywords": [
+        "heisenberg",
+        "werner heisenberg"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who wrote The Count of Monte Cristo?",
+      "answer": "Alexandre Dumas",
+      "answer_keywords": [
+        "dumas",
+        "alexandre dumas"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the first president of Mexico?",
+      "answer": "Guadalupe Victoria",
+      "answer_keywords": [
+        "guadalupe victoria",
+        "victoria"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who discovered the electron?",
+      "answer": "J.J. Thomson",
+      "answer_keywords": [
+        "thomson",
+        "j.j. thomson",
+        "jj thomson"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who wrote The Aleph?",
+      "answer": "Jorge Luis Borges",
+      "answer_keywords": [
+        "borges",
+        "jorge luis borges"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the first female leader of a NATO member state?",
+      "answer": "Vigdís Finnbogadóttir",
+      "answer_keywords": [
+        "finnbogadottir",
+        "vigdis finnbogadottir"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who invented the transistor?",
+      "answer": "William Shockley",
+      "answer_keywords": [
+        "shockley",
+        "william shockley"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who wrote The House of the Spirits?",
+      "answer": "Isabel Allende",
+      "answer_keywords": [
+        "allende",
+        "isabel allende"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who was the first director-general of UNESCO?",
+      "answer": "Julian Huxley",
+      "answer_keywords": [
+        "huxley",
+        "julian huxley"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who wrote The Recognitions?",
+      "answer": "William Gaddis",
+      "answer_keywords": [
+        "gaddis",
+        "william gaddis"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the first person to isolate a radioactive element?",
+      "answer": "Marie Curie",
+      "answer_keywords": [
+        "curie",
+        "marie curie"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who wrote Man Without Qualities?",
+      "answer": "Robert Musil",
+      "answer_keywords": [
+        "musil",
+        "robert musil"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the first female president of the UN General Assembly?",
+      "answer": "Vijaya Lakshmi Pandit",
+      "answer_keywords": [
+        "pandit",
+        "vijaya lakshmi pandit"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who formulated the first law of thermodynamics?",
+      "answer": "Rudolf Clausius",
+      "answer_keywords": [
+        "clausius",
+        "rudolf clausius"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who wrote The Death of Virgil?",
+      "answer": "Hermann Broch",
+      "answer_keywords": [
+        "broch",
+        "hermann broch"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the first president of the African National Congress?",
+      "answer": "John Langalibalele Dube",
+      "answer_keywords": [
+        "dube",
+        "john dube",
+        "john langalibalele dube"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who developed the first programmable electronic computer?",
+      "answer": "Konrad Zuse",
+      "answer_keywords": [
+        "zuse",
+        "konrad zuse"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who wrote Austerlitz?",
+      "answer": "W.G. Sebald",
+      "answer_keywords": [
+        "sebald",
+        "w.g. sebald",
+        "wg sebald"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the first woman to command a space shuttle mission?",
+      "answer": "Eileen Collins",
+      "answer_keywords": [
+        "collins",
+        "eileen collins"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who discovered the cause of cholera?",
+      "answer": "Robert Koch",
+      "answer_keywords": [
+        "koch",
+        "robert koch"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who wrote The Book of Disquiet?",
+      "answer": "Fernando Pessoa",
+      "answer_keywords": [
+        "pessoa",
+        "fernando pessoa"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the first female prime minister of Canada?",
+      "answer": "Kim Campbell",
+      "answer_keywords": [
+        "campbell",
+        "kim campbell"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who invented the scanning tunnelling microscope?",
+      "answer": "Gerd Binnig",
+      "answer_keywords": [
+        "binnig",
+        "gerd binnig"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who wrote The Unbearable Lightness of Being?",
+      "answer": "Milan Kundera",
+      "answer_keywords": [
+        "kundera",
+        "milan kundera"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the first Black general in the US Army?",
+      "answer": "Benjamin O. Davis Sr.",
+      "answer_keywords": [
+        "davis",
+        "benjamin davis",
+        "benjamin o davis"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who discovered the structure of insulin?",
+      "answer": "Frederick Sanger",
+      "answer_keywords": [
+        "sanger",
+        "frederick sanger"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who wrote Life: A User's Manual?",
+      "answer": "Georges Perec",
+      "answer_keywords": [
+        "perec",
+        "georges perec"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the first prime minister of Singapore?",
+      "answer": "Lee Kuan Yew",
+      "answer_keywords": [
+        "lee kuan yew",
+        "lee"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who proposed the concept of continental drift?",
+      "answer": "Alfred Wegener",
+      "answer_keywords": [
+        "wegener",
+        "alfred wegener"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who wrote Hopscotch?",
+      "answer": "Julio Cortázar",
+      "answer_keywords": [
+        "cortazar",
+        "julio cortazar",
+        "cortázar"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the first female leader of Ireland?",
+      "answer": "Mary Robinson",
+      "answer_keywords": [
+        "robinson",
+        "mary robinson"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who invented the laser?",
+      "answer": "Theodore Maiman",
+      "answer_keywords": [
+        "maiman",
+        "theodore maiman"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who wrote Independent People?",
+      "answer": "Halldór Laxness",
+      "answer_keywords": [
+        "laxness",
+        "halldor laxness",
+        "halldór laxness"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the first Secretary-General of the United Nations?",
+      "answer": "Trygve Lie",
+      "answer_keywords": [
+        "lie",
+        "trygve lie"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who discovered the cause of malaria?",
+      "answer": "Ronald Ross",
+      "answer_keywords": [
+        "ross",
+        "ronald ross"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who wrote The Tin Flute?",
+      "answer": "Gabrielle Roy",
+      "answer_keywords": [
+        "roy",
+        "gabrielle roy"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the first female justice minister in Canada?",
+      "answer": "Kim Campbell",
+      "answer_keywords": [
+        "campbell",
+        "kim campbell"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who formulated quantum electrodynamics?",
+      "answer": "Richard Feynman",
+      "answer_keywords": [
+        "feynman",
+        "richard feynman"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who wrote The Savage Detectives?",
+      "answer": "Roberto Bolaño",
+      "answer_keywords": [
+        "bolano",
+        "roberto bolano",
+        "bolaño"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the first head of state of the European Union?",
+      "answer": "No single head of state",
+      "answer_keywords": [
+        "no single head of state",
+        "european commission",
+        "president"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who discovered the Rh blood group system?",
+      "answer": "Karl Landsteiner",
+      "answer_keywords": [
+        "landsteiner",
+        "karl landsteiner"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who wrote The Waves?",
+      "answer": "Virginia Woolf",
+      "answer_keywords": [
+        "woolf",
+        "virginia woolf"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the first female astronaut in space?",
+      "answer": "Valentina Tereshkova",
+      "answer_keywords": [
+        "tereshkova",
+        "valentina tereshkova"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who invented the transistor radio?",
+      "answer": "Texas Instruments",
+      "answer_keywords": [
+        "texas instruments"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who wrote Correction?",
+      "answer": "Thomas Bernhard",
+      "answer_keywords": [
+        "bernhard",
+        "thomas bernhard"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who was the first person to sequence the human genome?",
+      "answer": "Craig Venter",
+      "answer_keywords": [
+        "venter",
+        "craig venter"
+      ]
     }
   ]
 }

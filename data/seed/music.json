@@ -1484,6 +1484,1836 @@
         "ukulele",
         "uke"
       ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who wrote the Four Seasons?",
+      "answer": "Antonio Vivaldi",
+      "answer_keywords": [
+        "vivaldi",
+        "antonio vivaldi"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who sang Bohemian Rhapsody?",
+      "answer": "Queen",
+      "answer_keywords": [
+        "queen"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who composed the Moonlight Sonata?",
+      "answer": "Ludwig van Beethoven",
+      "answer_keywords": [
+        "beethoven",
+        "ludwig van beethoven"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who is known as the King of Rock and Roll?",
+      "answer": "Elvis Presley",
+      "answer_keywords": [
+        "elvis",
+        "elvis presley",
+        "presley"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who sang Like a Prayer?",
+      "answer": "Madonna",
+      "answer_keywords": [
+        "madonna"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who composed Swan Lake?",
+      "answer": "Pyotr Ilyich Tchaikovsky",
+      "answer_keywords": [
+        "tchaikovsky",
+        "pyotr tchaikovsky"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who sang Thriller?",
+      "answer": "Michael Jackson",
+      "answer_keywords": [
+        "michael jackson",
+        "jackson"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who composed the 5th Symphony?",
+      "answer": "Ludwig van Beethoven",
+      "answer_keywords": [
+        "beethoven",
+        "ludwig van beethoven"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What instrument does Yo-Yo Ma play?",
+      "answer": "Cello",
+      "answer_keywords": [
+        "cello"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who sang Hotel California?",
+      "answer": "Eagles",
+      "answer_keywords": [
+        "eagles",
+        "the eagles"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who composed The Nutcracker?",
+      "answer": "Pyotr Ilyich Tchaikovsky",
+      "answer_keywords": [
+        "tchaikovsky",
+        "pyotr tchaikovsky"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who is known as the Queen of Soul?",
+      "answer": "Aretha Franklin",
+      "answer_keywords": [
+        "aretha franklin",
+        "aretha"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who sang Yesterday?",
+      "answer": "The Beatles",
+      "answer_keywords": [
+        "beatles",
+        "the beatles"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who composed the Marriage of Figaro?",
+      "answer": "Wolfgang Amadeus Mozart",
+      "answer_keywords": [
+        "mozart",
+        "wolfgang mozart"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who sang Purple Rain?",
+      "answer": "Prince",
+      "answer_keywords": [
+        "prince"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who composed Ride of the Valkyries?",
+      "answer": "Richard Wagner",
+      "answer_keywords": [
+        "wagner",
+        "richard wagner"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who sang (I Can't Get No) Satisfaction?",
+      "answer": "Rolling Stones",
+      "answer_keywords": [
+        "rolling stones",
+        "the rolling stones"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who is known as the Jazz trumpeter who popularised bebop?",
+      "answer": "Miles Davis",
+      "answer_keywords": [
+        "miles davis",
+        "miles"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who sang Imagine?",
+      "answer": "John Lennon",
+      "answer_keywords": [
+        "lennon",
+        "john lennon"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who composed the Goldberg Variations?",
+      "answer": "Johann Sebastian Bach",
+      "answer_keywords": [
+        "bach",
+        "johann sebastian bach"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who sang I Will Always Love You?",
+      "answer": "Whitney Houston",
+      "answer_keywords": [
+        "whitney houston",
+        "whitney"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who composed Bolero?",
+      "answer": "Maurice Ravel",
+      "answer_keywords": [
+        "ravel",
+        "maurice ravel"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who sang Smells Like Teen Spirit?",
+      "answer": "Nirvana",
+      "answer_keywords": [
+        "nirvana"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who is known as the father of the blues?",
+      "answer": "W.C. Handy",
+      "answer_keywords": [
+        "w.c. handy",
+        "wc handy",
+        "handy"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who sang Rolling in the Deep?",
+      "answer": "Adele",
+      "answer_keywords": [
+        "adele"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who composed The Messiah?",
+      "answer": "George Frideric Handel",
+      "answer_keywords": [
+        "handel",
+        "george handel"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who sang Born to Run?",
+      "answer": "Bruce Springsteen",
+      "answer_keywords": [
+        "springsteen",
+        "bruce springsteen"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What country does flamenco music come from?",
+      "answer": "Spain",
+      "answer_keywords": [
+        "spain",
+        "spanish"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who sang Let It Be?",
+      "answer": "The Beatles",
+      "answer_keywords": [
+        "beatles",
+        "the beatles"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who composed the William Tell Overture?",
+      "answer": "Gioachino Rossini",
+      "answer_keywords": [
+        "rossini",
+        "gioachino rossini"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who sang Like a Rolling Stone?",
+      "answer": "Bob Dylan",
+      "answer_keywords": [
+        "dylan",
+        "bob dylan"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who composed Clair de Lune?",
+      "answer": "Claude Debussy",
+      "answer_keywords": [
+        "debussy",
+        "claude debussy"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who sang Respect?",
+      "answer": "Aretha Franklin",
+      "answer_keywords": [
+        "aretha franklin",
+        "aretha"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who sang Johnny B. Goode?",
+      "answer": "Chuck Berry",
+      "answer_keywords": [
+        "chuck berry",
+        "berry"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "What is the highest female singing voice?",
+      "answer": "Soprano",
+      "answer_keywords": [
+        "soprano"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who composed the Requiem that he left unfinished?",
+      "answer": "Wolfgang Amadeus Mozart",
+      "answer_keywords": [
+        "mozart",
+        "wolfgang mozart"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "points": 100,
+      "question": "Who sang Stairway to Heaven?",
+      "answer": "Led Zeppelin",
+      "answer_keywords": [
+        "led zeppelin",
+        "zeppelin"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who composed the opera La Traviata?",
+      "answer": "Giuseppe Verdi",
+      "answer_keywords": [
+        "verdi",
+        "giuseppe verdi"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What musical term means gradually getting louder?",
+      "answer": "Crescendo",
+      "answer_keywords": [
+        "crescendo"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who sang Blue Suede Shoes?",
+      "answer": "Carl Perkins",
+      "answer_keywords": [
+        "carl perkins",
+        "perkins"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who composed the Brandenburg Concertos?",
+      "answer": "Johann Sebastian Bach",
+      "answer_keywords": [
+        "bach",
+        "johann sebastian bach"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the musical scale with all 12 semitones?",
+      "answer": "Chromatic scale",
+      "answer_keywords": [
+        "chromatic",
+        "chromatic scale"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who sang The Sound of Silence?",
+      "answer": "Simon and Garfunkel",
+      "answer_keywords": [
+        "simon and garfunkel",
+        "simon & garfunkel"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who composed Rhapsody in Blue?",
+      "answer": "George Gershwin",
+      "answer_keywords": [
+        "gershwin",
+        "george gershwin"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the Italian word meaning very fast in music?",
+      "answer": "Presto",
+      "answer_keywords": [
+        "presto"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who sang What's Going On?",
+      "answer": "Marvin Gaye",
+      "answer_keywords": [
+        "marvin gaye",
+        "gaye"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who composed the opera Carmen?",
+      "answer": "Georges Bizet",
+      "answer_keywords": [
+        "bizet",
+        "georges bizet"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What instrument does a xylophonist play?",
+      "answer": "Xylophone",
+      "answer_keywords": [
+        "xylophone"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who sang Waterloo?",
+      "answer": "ABBA",
+      "answer_keywords": [
+        "abba"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who composed the Unfinished Symphony?",
+      "answer": "Franz Schubert",
+      "answer_keywords": [
+        "schubert",
+        "franz schubert"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What musical symbol means to play softly?",
+      "answer": "Piano",
+      "answer_keywords": [
+        "piano",
+        "p"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who sang Good Vibrations?",
+      "answer": "Beach Boys",
+      "answer_keywords": [
+        "beach boys",
+        "the beach boys"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who composed the opera Madama Butterfly?",
+      "answer": "Giacomo Puccini",
+      "answer_keywords": [
+        "puccini",
+        "giacomo puccini"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the style of music originating in New Orleans in the early 20th century?",
+      "answer": "Jazz",
+      "answer_keywords": [
+        "jazz"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who sang Bridge Over Troubled Water?",
+      "answer": "Simon and Garfunkel",
+      "answer_keywords": [
+        "simon and garfunkel",
+        "simon & garfunkel"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who composed the Well-Tempered Clavier?",
+      "answer": "Johann Sebastian Bach",
+      "answer_keywords": [
+        "bach",
+        "johann sebastian bach"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the musical term for gradually slowing down?",
+      "answer": "Rallentando",
+      "answer_keywords": [
+        "rallentando",
+        "ritardando"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who sang Mr. Tambourine Man?",
+      "answer": "Bob Dylan",
+      "answer_keywords": [
+        "dylan",
+        "bob dylan"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who composed the opera Rigoletto?",
+      "answer": "Giuseppe Verdi",
+      "answer_keywords": [
+        "verdi",
+        "giuseppe verdi"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the lowest male singing voice?",
+      "answer": "Bass",
+      "answer_keywords": [
+        "bass"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who sang Roxanne?",
+      "answer": "The Police",
+      "answer_keywords": [
+        "police",
+        "the police"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who composed the Pastoral Symphony?",
+      "answer": "Ludwig van Beethoven",
+      "answer_keywords": [
+        "beethoven",
+        "ludwig van beethoven"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the Japanese stringed instrument with 13 strings?",
+      "answer": "Koto",
+      "answer_keywords": [
+        "koto"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who sang Sultans of Swing?",
+      "answer": "Dire Straits",
+      "answer_keywords": [
+        "dire straits"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who composed the opera The Magic Flute?",
+      "answer": "Wolfgang Amadeus Mozart",
+      "answer_keywords": [
+        "mozart",
+        "wolfgang mozart"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What musical term means to play smoothly and connected?",
+      "answer": "Legato",
+      "answer_keywords": [
+        "legato"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who sang Heroes?",
+      "answer": "David Bowie",
+      "answer_keywords": [
+        "bowie",
+        "david bowie"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who composed Gymnopédie No.1?",
+      "answer": "Erik Satie",
+      "answer_keywords": [
+        "satie",
+        "erik satie"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the name of the style of music that combined rhythm and blues with gospel?",
+      "answer": "Soul",
+      "answer_keywords": [
+        "soul",
+        "soul music"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who sang Superstition?",
+      "answer": "Stevie Wonder",
+      "answer_keywords": [
+        "stevie wonder",
+        "wonder"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who composed Don Giovanni?",
+      "answer": "Wolfgang Amadeus Mozart",
+      "answer_keywords": [
+        "mozart",
+        "wolfgang mozart"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "What is the time signature that means four beats per bar?",
+      "answer": "4/4",
+      "answer_keywords": [
+        "4/4",
+        "common time"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who sang Lose Yourself?",
+      "answer": "Eminem",
+      "answer_keywords": [
+        "eminem"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "points": 200,
+      "question": "Who composed Pictures at an Exhibition?",
+      "answer": "Modest Mussorgsky",
+      "answer_keywords": [
+        "mussorgsky",
+        "modest mussorgsky"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who composed the opera Tosca?",
+      "answer": "Giacomo Puccini",
+      "answer_keywords": [
+        "puccini",
+        "giacomo puccini"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the musical notation system using letters A through G?",
+      "answer": "Letter notation",
+      "answer_keywords": [
+        "letter notation",
+        "alphabetical notation"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who wrote the musical West Side Story?",
+      "answer": "Leonard Bernstein",
+      "answer_keywords": [
+        "bernstein",
+        "leonard bernstein"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the Italian baroque composer known for vocal ornamentation?",
+      "answer": "Domenico Scarlatti",
+      "answer_keywords": [
+        "scarlatti",
+        "domenico scarlatti"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who sang Nowhere Man?",
+      "answer": "The Beatles",
+      "answer_keywords": [
+        "beatles",
+        "the beatles"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who composed the opera Aida?",
+      "answer": "Giuseppe Verdi",
+      "answer_keywords": [
+        "verdi",
+        "giuseppe verdi"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What musical term means the main melody in a polyphonic composition?",
+      "answer": "Cantus firmus",
+      "answer_keywords": [
+        "cantus firmus"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who is credited with inventing the modern piano?",
+      "answer": "Bartolomeo Cristofori",
+      "answer_keywords": [
+        "cristofori",
+        "bartolomeo cristofori"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who sang Here Comes the Sun?",
+      "answer": "The Beatles",
+      "answer_keywords": [
+        "beatles",
+        "the beatles"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who composed the Cello Suites?",
+      "answer": "Johann Sebastian Bach",
+      "answer_keywords": [
+        "bach",
+        "johann sebastian bach"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the French impressionist composer known for Prélude à l'après-midi d'un faune?",
+      "answer": "Claude Debussy",
+      "answer_keywords": [
+        "debussy",
+        "claude debussy"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who sang Hallelujah?",
+      "answer": "Leonard Cohen",
+      "answer_keywords": [
+        "cohen",
+        "leonard cohen"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What musical term describes a piece played back at the original speed after an accelerando?",
+      "answer": "A tempo",
+      "answer_keywords": [
+        "a tempo"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who composed the Trout Quintet?",
+      "answer": "Franz Schubert",
+      "answer_keywords": [
+        "schubert",
+        "franz schubert"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the Cuban dance music genre originating in the 1930s?",
+      "answer": "Mambo",
+      "answer_keywords": [
+        "mambo"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who sang Comfortably Numb?",
+      "answer": "Pink Floyd",
+      "answer_keywords": [
+        "pink floyd"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who composed the ballet The Rite of Spring?",
+      "answer": "Igor Stravinsky",
+      "answer_keywords": [
+        "stravinsky",
+        "igor stravinsky"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the musical technique of playing all strings of a guitar at once?",
+      "answer": "Strumming",
+      "answer_keywords": [
+        "strumming"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who sang The Dock of the Bay?",
+      "answer": "Otis Redding",
+      "answer_keywords": [
+        "otis redding",
+        "redding"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who composed the Symphonie Fantastique?",
+      "answer": "Hector Berlioz",
+      "answer_keywords": [
+        "berlioz",
+        "hector berlioz"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the musical genre that combines jazz and classical music?",
+      "answer": "Third stream",
+      "answer_keywords": [
+        "third stream"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who sang A Whiter Shade of Pale?",
+      "answer": "Procol Harum",
+      "answer_keywords": [
+        "procol harum"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who composed the opera La Bohème?",
+      "answer": "Giacomo Puccini",
+      "answer_keywords": [
+        "puccini",
+        "giacomo puccini"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the scale used in blues music?",
+      "answer": "Blues scale",
+      "answer_keywords": [
+        "blues scale",
+        "pentatonic blues scale"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who sang Space Oddity?",
+      "answer": "David Bowie",
+      "answer_keywords": [
+        "bowie",
+        "david bowie"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who composed Peer Gynt?",
+      "answer": "Edvard Grieg",
+      "answer_keywords": [
+        "grieg",
+        "edvard grieg"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What musical term means a gradual slowing of tempo?",
+      "answer": "Ritardando",
+      "answer_keywords": [
+        "ritardando"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who sang No Woman No Cry?",
+      "answer": "Bob Marley",
+      "answer_keywords": [
+        "bob marley",
+        "marley"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who composed the Violin Concerto in D major Op. 77?",
+      "answer": "Johannes Brahms",
+      "answer_keywords": [
+        "brahms",
+        "johannes brahms"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the North African vocal style with improvised melismatic singing?",
+      "answer": "Maqam",
+      "answer_keywords": [
+        "maqam",
+        "maqam music"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who sang September?",
+      "answer": "Earth, Wind & Fire",
+      "answer_keywords": [
+        "earth wind and fire",
+        "earth wind fire",
+        "earth wind & fire"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who composed the opera Falstaff?",
+      "answer": "Giuseppe Verdi",
+      "answer_keywords": [
+        "verdi",
+        "giuseppe verdi"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What musical term describes notes played short and detached?",
+      "answer": "Staccato",
+      "answer_keywords": [
+        "staccato"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who sang What's Love Got to Do with It?",
+      "answer": "Tina Turner",
+      "answer_keywords": [
+        "tina turner",
+        "tina"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who composed the Enigma Variations?",
+      "answer": "Edward Elgar",
+      "answer_keywords": [
+        "elgar",
+        "edward elgar"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "What is the name of the style of classical Indian vocal music?",
+      "answer": "Raga",
+      "answer_keywords": [
+        "raga",
+        "ragas"
+      ]
+    },
+    {
+      "difficulty": 3,
+      "points": 300,
+      "question": "Who sang Proud Mary?",
+      "answer": "Tina Turner",
+      "answer_keywords": [
+        "tina turner",
+        "ike and tina turner",
+        "creedence clearwater revival"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who composed the opera Wozzeck?",
+      "answer": "Alban Berg",
+      "answer_keywords": [
+        "berg",
+        "alban berg"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the Italian composer known for microtonal music?",
+      "answer": "Giacinto Scelsi",
+      "answer_keywords": [
+        "scelsi",
+        "giacinto scelsi"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who sang A Day in the Life?",
+      "answer": "The Beatles",
+      "answer_keywords": [
+        "beatles",
+        "the beatles"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who composed the St. Matthew Passion?",
+      "answer": "Johann Sebastian Bach",
+      "answer_keywords": [
+        "bach",
+        "johann sebastian bach"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the compositional technique where a theme is repeated at a different pitch?",
+      "answer": "Sequence",
+      "answer_keywords": [
+        "sequence",
+        "melodic sequence"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who composed the opera Moses und Aron?",
+      "answer": "Arnold Schoenberg",
+      "answer_keywords": [
+        "schoenberg",
+        "arnold schoenberg"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the Brazilian music genre combining African and European elements?",
+      "answer": "Bossa nova",
+      "answer_keywords": [
+        "bossa nova"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who sang I Put a Spell on You?",
+      "answer": "Screamin' Jay Hawkins",
+      "answer_keywords": [
+        "screamin jay hawkins",
+        "jay hawkins"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who composed the opera Pelléas et Mélisande?",
+      "answer": "Claude Debussy",
+      "answer_keywords": [
+        "debussy",
+        "claude debussy"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the musical technique of rapidly alternating between two notes?",
+      "answer": "Trill",
+      "answer_keywords": [
+        "trill"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who composed the opera Peter Grimes?",
+      "answer": "Benjamin Britten",
+      "answer_keywords": [
+        "britten",
+        "benjamin britten"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the style of jazz improvisation based on chord substitution?",
+      "answer": "Bebop",
+      "answer_keywords": [
+        "bebop"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who sang Strange Fruit?",
+      "answer": "Billie Holiday",
+      "answer_keywords": [
+        "billie holiday",
+        "billie"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who composed the opera The Turn of the Screw?",
+      "answer": "Benjamin Britten",
+      "answer_keywords": [
+        "britten",
+        "benjamin britten"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the Italian term for the speed or pace of music?",
+      "answer": "Tempo",
+      "answer_keywords": [
+        "tempo"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who sang Ornithology?",
+      "answer": "Charlie Parker",
+      "answer_keywords": [
+        "charlie parker",
+        "parker",
+        "bird"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who composed the Hammerklavier Sonata?",
+      "answer": "Ludwig van Beethoven",
+      "answer_keywords": [
+        "beethoven",
+        "ludwig van beethoven"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the system of movable syllables used to teach pitch in music?",
+      "answer": "Solfège",
+      "answer_keywords": [
+        "solfège",
+        "solfege",
+        "sol-fa"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who sang Take Five?",
+      "answer": "Dave Brubeck",
+      "answer_keywords": [
+        "brubeck",
+        "dave brubeck",
+        "dave brubeck quartet"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who composed the opera Elektra?",
+      "answer": "Richard Strauss",
+      "answer_keywords": [
+        "strauss",
+        "richard strauss"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the form of music based on a fixed repeating bass line?",
+      "answer": "Passacaglia",
+      "answer_keywords": [
+        "passacaglia"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who sang A Love Supreme?",
+      "answer": "John Coltrane",
+      "answer_keywords": [
+        "coltrane",
+        "john coltrane"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who composed the opera Il Trovatore?",
+      "answer": "Giuseppe Verdi",
+      "answer_keywords": [
+        "verdi",
+        "giuseppe verdi"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the type of voice that can sing both male and female parts?",
+      "answer": "Countertenor",
+      "answer_keywords": [
+        "countertenor"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who sang Kind of Blue?",
+      "answer": "Miles Davis",
+      "answer_keywords": [
+        "miles davis",
+        "miles"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who composed the opera Salome?",
+      "answer": "Richard Strauss",
+      "answer_keywords": [
+        "strauss",
+        "richard strauss"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the Italian composer known for his operas The Barber of Seville?",
+      "answer": "Gioachino Rossini",
+      "answer_keywords": [
+        "rossini",
+        "gioachino rossini"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who sang My Favorite Things?",
+      "answer": "John Coltrane",
+      "answer_keywords": [
+        "coltrane",
+        "john coltrane"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who composed the Goldberg Variations that Glenn Gould recorded twice?",
+      "answer": "Johann Sebastian Bach",
+      "answer_keywords": [
+        "bach",
+        "johann sebastian bach"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the electronic music pioneer who invented the synthesizer?",
+      "answer": "Robert Moog",
+      "answer_keywords": [
+        "moog",
+        "robert moog"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who sang Epistrophy?",
+      "answer": "Thelonious Monk",
+      "answer_keywords": [
+        "monk",
+        "thelonious monk"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who composed the opera The Flying Dutchman?",
+      "answer": "Richard Wagner",
+      "answer_keywords": [
+        "wagner",
+        "richard wagner"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the West African musical tradition using call-and-response?",
+      "answer": "Griot",
+      "answer_keywords": [
+        "griot",
+        "call and response"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who sang So What?",
+      "answer": "Miles Davis",
+      "answer_keywords": [
+        "miles davis",
+        "miles"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who composed the Concierto de Aranjuez?",
+      "answer": "Joaquín Rodrigo",
+      "answer_keywords": [
+        "rodrigo",
+        "joaquin rodrigo",
+        "joaquín rodrigo"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "What is the name of the compositional form consisting of a theme and variations?",
+      "answer": "Theme and variations",
+      "answer_keywords": [
+        "theme and variations"
+      ]
+    },
+    {
+      "difficulty": 4,
+      "points": 400,
+      "question": "Who sang Giant Steps?",
+      "answer": "John Coltrane",
+      "answer_keywords": [
+        "coltrane",
+        "john coltrane"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who composed the opera Lulu?",
+      "answer": "Alban Berg",
+      "answer_keywords": [
+        "berg",
+        "alban berg"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the French composer known for the prepared piano technique?",
+      "answer": "John Cage",
+      "answer_keywords": [
+        "cage",
+        "john cage"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who sang Round Midnight?",
+      "answer": "Thelonious Monk",
+      "answer_keywords": [
+        "monk",
+        "thelonious monk"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who composed the opera Ariadne auf Naxos?",
+      "answer": "Richard Strauss",
+      "answer_keywords": [
+        "strauss",
+        "richard strauss"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the micro-tonal Indian musical mode used in classical performance?",
+      "answer": "Shruti",
+      "answer_keywords": [
+        "shruti"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who sang Nefertiti?",
+      "answer": "Miles Davis",
+      "answer_keywords": [
+        "miles davis",
+        "miles"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who composed the opera The Rake's Progress?",
+      "answer": "Igor Stravinsky",
+      "answer_keywords": [
+        "stravinsky",
+        "igor stravinsky"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the compositional technique where the same melody is played at different speeds simultaneously?",
+      "answer": "Polytempo",
+      "answer_keywords": [
+        "polytempo",
+        "polyrhythm"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who sang Thelonious?",
+      "answer": "Thelonious Monk",
+      "answer_keywords": [
+        "monk",
+        "thelonious monk"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who composed the opera Nixon in China?",
+      "answer": "John Adams",
+      "answer_keywords": [
+        "john adams",
+        "adams"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the Polish composer known for his Threnody for the Victims of Hiroshima?",
+      "answer": "Krzysztof Penderecki",
+      "answer_keywords": [
+        "penderecki",
+        "krzysztof penderecki"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who sang In a Silent Way?",
+      "answer": "Miles Davis",
+      "answer_keywords": [
+        "miles davis",
+        "miles"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who composed the opera Death of Klinghoffer?",
+      "answer": "John Adams",
+      "answer_keywords": [
+        "john adams",
+        "adams"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the German Romantic composer known for the leitmotif technique?",
+      "answer": "Richard Wagner",
+      "answer_keywords": [
+        "wagner",
+        "richard wagner"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who sang Mingus Ah Um?",
+      "answer": "Charles Mingus",
+      "answer_keywords": [
+        "mingus",
+        "charles mingus"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who composed the opera The Fiery Angel?",
+      "answer": "Sergei Prokofiev",
+      "answer_keywords": [
+        "prokofiev",
+        "sergei prokofiev"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the Hungarian composer known for transforming folk tunes into art music?",
+      "answer": "Béla Bartók",
+      "answer_keywords": [
+        "bartok",
+        "bela bartok",
+        "béla bartók"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who sang The Köln Concert?",
+      "answer": "Keith Jarrett",
+      "answer_keywords": [
+        "jarrett",
+        "keith jarrett"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who composed the opera The Cunning Little Vixen?",
+      "answer": "Leoš Janáček",
+      "answer_keywords": [
+        "janacek",
+        "leos janacek",
+        "leoš janáček"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the compositional technique of using 12 tones in a fixed sequence?",
+      "answer": "Serialism",
+      "answer_keywords": [
+        "serialism",
+        "twelve-tone",
+        "dodecaphony"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who sang Pithecanthropus Erectus?",
+      "answer": "Charles Mingus",
+      "answer_keywords": [
+        "mingus",
+        "charles mingus"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who composed the opera Wuthering Heights?",
+      "answer": "Bernard Herrmann",
+      "answer_keywords": [
+        "herrmann",
+        "bernard herrmann"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the French composer known for spectral music?",
+      "answer": "Gérard Grisey",
+      "answer_keywords": [
+        "grisey",
+        "gerard grisey",
+        "gérard grisey"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who sang Ascension?",
+      "answer": "John Coltrane",
+      "answer_keywords": [
+        "coltrane",
+        "john coltrane"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who composed the opera From the House of the Dead?",
+      "answer": "Leoš Janáček",
+      "answer_keywords": [
+        "janacek",
+        "leos janacek"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the American composer known for minimalist works like In C?",
+      "answer": "Terry Riley",
+      "answer_keywords": [
+        "riley",
+        "terry riley"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who sang The Shape of Jazz to Come?",
+      "answer": "Ornette Coleman",
+      "answer_keywords": [
+        "ornette coleman",
+        "coleman"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who composed the opera Kat'a Kabanová?",
+      "answer": "Leoš Janáček",
+      "answer_keywords": [
+        "janacek",
+        "leos janacek"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the German composer known for Atmosphères?",
+      "answer": "György Ligeti",
+      "answer_keywords": [
+        "ligeti",
+        "gyorgy ligeti",
+        "györgy ligeti"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who sang Free Jazz?",
+      "answer": "Ornette Coleman",
+      "answer_keywords": [
+        "ornette coleman",
+        "coleman"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who composed the opera The Nose?",
+      "answer": "Dmitri Shostakovich",
+      "answer_keywords": [
+        "shostakovich",
+        "dmitri shostakovich"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the Polish composer known for dark, microtonal string writing?",
+      "answer": "Henryk Górecki",
+      "answer_keywords": [
+        "gorecki",
+        "henryk gorecki",
+        "henryk górecki"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who sang Interstellar Space?",
+      "answer": "John Coltrane",
+      "answer_keywords": [
+        "coltrane",
+        "john coltrane"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who composed the opera Billy Budd?",
+      "answer": "Benjamin Britten",
+      "answer_keywords": [
+        "britten",
+        "benjamin britten"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "What is the name of the American composer known for 4'33\"?",
+      "answer": "John Cage",
+      "answer_keywords": [
+        "cage",
+        "john cage"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who sang Ornette!?",
+      "answer": "Ornette Coleman",
+      "answer_keywords": [
+        "ornette coleman",
+        "coleman"
+      ]
+    },
+    {
+      "difficulty": 5,
+      "points": 500,
+      "question": "Who composed the opera L'Orfeo, considered the first great opera?",
+      "answer": "Claudio Monteverdi",
+      "answer_keywords": [
+        "monteverdi",
+        "claudio monteverdi"
+      ]
     }
   ]
 }
