@@ -1,6 +1,7 @@
+import math
 import re
 
-from PyQt6.QtCore import Qt, pyqtSignal
+from PyQt6.QtCore import Qt, QTimer, pyqtSignal
 from PyQt6.QtGui import QFont
 from PyQt6.QtWidgets import (
     QHBoxLayout,
@@ -16,6 +17,11 @@ BG = "#0d1b2a"
 GOLD = "#c9a84c"
 TILE = "#1a3a6b"
 TEXT = "#ffffff"
+
+# Title shimmer: dim gold → bright gold
+_SHIMMER_R = (0xc9, 0xff)
+_SHIMMER_G = (0xa8, 0xd9)
+_SHIMMER_B = (0x4c, 0x7a)
 
 _NAME_RE = re.compile(r"^[\x20-\x7E]{2,20}$")
 
@@ -35,6 +41,10 @@ class WelcomeScreen(QWidget):
         self._player_count = 2
         self._name_inputs: list[QLineEdit] = []
         self._count_buttons: list[QPushButton] = []
+        self._shimmer_t: float = 0.0
+        self._shimmer_timer = QTimer(self)
+        self._shimmer_timer.setInterval(50)
+        self._shimmer_timer.timeout.connect(self._tick_shimmer)
         self._build()
 
     def _build(self) -> None:
@@ -42,11 +52,11 @@ class WelcomeScreen(QWidget):
         layout.setAlignment(Qt.AlignmentFlag.AlignCenter)
         layout.setSpacing(20)
 
-        title = QLabel("TRIVIA NIGHT")
-        title.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        title.setFont(QFont("Sans", 52, QFont.Weight.Bold))
-        title.setStyleSheet(f"color: {GOLD};")
-        layout.addWidget(title)
+        self._title = QLabel("TRIVIA NIGHT")
+        self._title.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self._title.setFont(QFont("Sans", 52, QFont.Weight.Bold))
+        self._title.setStyleSheet(f"color: {GOLD};")
+        layout.addWidget(self._title)
 
         self._subtitle = QLabel(_SUBTITLES[self._player_count])
         self._subtitle.setAlignment(Qt.AlignmentFlag.AlignCenter)
@@ -172,6 +182,23 @@ class WelcomeScreen(QWidget):
             names.append(name)
 
         self.game_started.emit(names)
+
+    def _tick_shimmer(self) -> None:
+        self._shimmer_t += 0.04
+        v = 0.5 + 0.5 * math.sin(self._shimmer_t)
+        r = int(_SHIMMER_R[0] + (_SHIMMER_R[1] - _SHIMMER_R[0]) * v)
+        g = int(_SHIMMER_G[0] + (_SHIMMER_G[1] - _SHIMMER_G[0]) * v)
+        b = int(_SHIMMER_B[0] + (_SHIMMER_B[1] - _SHIMMER_B[0]) * v)
+        self._title.setStyleSheet(f"color: #{r:02x}{g:02x}{b:02x};")
+
+    def showEvent(self, event) -> None:
+        super().showEvent(event)
+        self._shimmer_t = 0.0
+        self._shimmer_timer.start()
+
+    def hideEvent(self, event) -> None:
+        super().hideEvent(event)
+        self._shimmer_timer.stop()
 
     def _err(self, msg: str) -> None:
         box = QMessageBox(self)

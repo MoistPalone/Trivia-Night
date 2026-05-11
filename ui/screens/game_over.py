@@ -1,6 +1,7 @@
-from PyQt6.QtCore import Qt, pyqtSignal
+from PyQt6.QtCore import QEasingCurve, QPropertyAnimation, Qt, QTimer, pyqtSignal
 from PyQt6.QtGui import QFont
 from PyQt6.QtWidgets import (
+    QGraphicsOpacityEffect,
     QHBoxLayout,
     QLabel,
     QPushButton,
@@ -90,7 +91,23 @@ class GameOverScreen(QWidget):
         ranked = sorted(enumerate(state.players), key=lambda t: t[1].score, reverse=True)
         for rank, (idx, player) in enumerate(ranked, start=1):
             row = self._standings_row(rank, player.name, player.score, idx == state.winner_index)
+            fx = QGraphicsOpacityEffect(row)
+            fx.setOpacity(0.0)
+            row.setGraphicsEffect(fx)
             self._standings_layout.addWidget(row)
+            QTimer.singleShot(80 * rank, lambda r=row: self._reveal_row(r))
+
+    def _reveal_row(self, row: QWidget) -> None:
+        fx = row.graphicsEffect()
+        if fx is None:
+            return
+        anim = QPropertyAnimation(fx, b"opacity", row)
+        anim.setDuration(350)
+        anim.setStartValue(0.0)
+        anim.setEndValue(1.0)
+        anim.setEasingCurve(QEasingCurve.Type.OutQuad)
+        anim.finished.connect(lambda: row.setGraphicsEffect(None))
+        anim.start()
 
     def _standings_row(self, rank: int, name: str, score: int, is_winner: bool) -> QWidget:
         w = QWidget()

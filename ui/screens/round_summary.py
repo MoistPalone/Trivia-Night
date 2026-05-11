@@ -1,6 +1,7 @@
-from PyQt6.QtCore import Qt, pyqtSignal
+from PyQt6.QtCore import QEasingCurve, QPropertyAnimation, Qt, QTimer, pyqtSignal
 from PyQt6.QtGui import QFont
 from PyQt6.QtWidgets import (
+    QGraphicsOpacityEffect,
     QHBoxLayout,
     QLabel,
     QPushButton,
@@ -107,6 +108,18 @@ class RoundSummaryScreen(QWidget):
     # Public API                                                           #
     # ------------------------------------------------------------------ #
 
+    def _reveal_panel(self, panel: QWidget) -> None:
+        fx = panel.graphicsEffect()
+        if fx is None:
+            return
+        anim = QPropertyAnimation(fx, b"opacity", panel)
+        anim.setDuration(400)
+        anim.setStartValue(0.0)
+        anim.setEndValue(1.0)
+        anim.setEasingCurve(QEasingCurve.Type.OutCubic)
+        anim.finished.connect(lambda: panel.setGraphicsEffect(None))
+        anim.start()
+
     def show_summary(self, state: GameState) -> None:
         self._title.setText(f"Round {state.round_number} Complete")
 
@@ -119,8 +132,13 @@ class RoundSummaryScreen(QWidget):
         max_score = max(p.score for p in state.players)
         leaders = [p for p in state.players if p.score == max_score]
 
-        for p in state.players:
-            self._panels_row.addWidget(_score_panel(p.name, p.score, p.score == max_score))
+        for i, p in enumerate(state.players):
+            panel = _score_panel(p.name, p.score, p.score == max_score)
+            fx = QGraphicsOpacityEffect(panel)
+            fx.setOpacity(0.0)
+            panel.setGraphicsEffect(fx)
+            self._panels_row.addWidget(panel)
+            QTimer.singleShot(120 * i, lambda w=panel: self._reveal_panel(w))
 
         if len(leaders) == len(state.players):
             self._status.setText("All players are tied!")

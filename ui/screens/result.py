@@ -1,4 +1,4 @@
-from PyQt6.QtCore import Qt, QTimer, pyqtSignal
+from PyQt6.QtCore import QEasingCurve, Qt, QTimer, QVariantAnimation, pyqtSignal
 from PyQt6.QtGui import QFont
 from PyQt6.QtWidgets import QLabel, QVBoxLayout, QWidget
 
@@ -18,6 +18,7 @@ class ResultScreen(QWidget):
 
     def __init__(self, parent=None) -> None:
         super().__init__(parent)
+        self._icon_anim: QVariantAnimation | None = None
         self._build()
 
     def _build(self) -> None:
@@ -29,6 +30,7 @@ class ResultScreen(QWidget):
         self._icon_label = QLabel("")
         self._icon_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self._icon_label.setFont(QFont("Sans", 72, QFont.Weight.Bold))
+        self._icon_label.setFixedHeight(110)
         layout.addWidget(self._icon_label)
 
         self._verdict_label = QLabel("")
@@ -77,4 +79,22 @@ class ResultScreen(QWidget):
             self._points_label.setText("No points awarded")
             self._answer_label.setText(f"Answer: {correct_answer}")
 
+        self._animate_icon()
         QTimer.singleShot(DISPLAY_MS, self.finished.emit)
+
+    def _animate_icon(self) -> None:
+        if self._icon_anim is not None:
+            self._icon_anim.stop()
+        anim = QVariantAnimation(self)
+        anim.setStartValue(16.0)
+        anim.setEndValue(72.0)
+        anim.setDuration(220)
+        anim.setEasingCurve(QEasingCurve.Type.OutBack)
+        anim.valueChanged.connect(
+            lambda v: self._icon_label.setFont(QFont("Sans", int(v), QFont.Weight.Bold))
+        )
+        anim.finished.connect(
+            lambda: self._icon_label.setFont(QFont("Sans", 72, QFont.Weight.Bold))
+        )
+        anim.start()
+        self._icon_anim = anim
