@@ -4,6 +4,7 @@ Run once: python audio/generate_sounds.py
 Replace with real audio files (same names) for final polish.
 """
 import math
+import random
 import struct
 import wave
 from pathlib import Path
@@ -87,19 +88,20 @@ def generate_timeout() -> None:
 
 
 def generate_tick_urgent() -> None:
-    # Hard clock tick: instant attack, dual-freq (1300Hz + 2600Hz), convex 22ms decay
-    n = int(SAMPLE_RATE * 0.022)
-    attack = int(SAMPLE_RATE * 0.001)  # 1ms ramp
-    frames = []
-    for i in range(n):
-        t = i / SAMPLE_RATE
-        s = 0.55 * _sine(1300.0, t) + 0.45 * _sine(2600.0, t)
-        if i < attack:
-            env = i / attack
-        else:
-            env = max(0.0, 1.0 - (i - attack) / (n - attack)) ** 2
-        frames.append(s * env)
-    _write("tick_urgent.wav", frames, volume=0.65)
+    # Mechanical clock tick: 6ms white-noise transient + 14ms 2800Hz ring decay.
+    # White noise gives the broadband "click" character; pure sine tones sound like hums.
+    sr = SAMPLE_RATE
+    noise_n = int(sr * 0.006)   # 6ms noise burst (the "click")
+    ring_n = int(sr * 0.014)    # 14ms tonal ring decay (the "tick" body)
+    frames: list[float] = []
+    for i in range(noise_n):
+        env = (1.0 - i / noise_n) ** 0.4   # fast convex decay
+        frames.append((2.0 * random.random() - 1.0) * env)
+    for i in range(ring_n):
+        t = (noise_n + i) / sr
+        env = (1.0 - i / ring_n) ** 2
+        frames.append(_sine(2800.0, t) * env * 0.5)
+    _write("tick_urgent.wav", frames, volume=0.80)
 
 
 def generate_round_complete() -> None:

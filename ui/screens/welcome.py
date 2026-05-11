@@ -32,6 +32,16 @@ _SUBTITLES = {
 }
 
 
+def _lbl(text: str, color: str, font_size: int, bold: bool = False) -> QLabel:
+    """QLabel with transparent background — required when painting over a gradient."""
+    lbl = QLabel(text)
+    lbl.setAlignment(Qt.AlignmentFlag.AlignCenter)
+    weight = QFont.Weight.Bold if bold else QFont.Weight.Normal
+    lbl.setFont(QFont("Sans", font_size, weight))
+    lbl.setStyleSheet(f"color: {color}; background: transparent;")
+    return lbl
+
+
 class WelcomeScreen(QWidget):
     game_started = pyqtSignal(list)
 
@@ -51,16 +61,10 @@ class WelcomeScreen(QWidget):
         layout.setAlignment(Qt.AlignmentFlag.AlignCenter)
         layout.setSpacing(20)
 
-        self._title = QLabel("TRIVIA NIGHT")
-        self._title.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self._title.setFont(QFont("Sans", 52, QFont.Weight.Bold))
-        self._title.setStyleSheet(f"color: {GOLD};")
+        self._title = _lbl("TRIVIA NIGHT", GOLD, 52, bold=True)
         layout.addWidget(self._title)
 
-        self._subtitle = QLabel(_SUBTITLES[self._player_count])
-        self._subtitle.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self._subtitle.setFont(QFont("Sans", 16))
-        self._subtitle.setStyleSheet(f"color: {TEXT};")
+        self._subtitle = _lbl(_SUBTITLES[self._player_count], TEXT, 16)
         layout.addWidget(self._subtitle)
 
         layout.addSpacing(24)
@@ -70,9 +74,7 @@ class WelcomeScreen(QWidget):
         count_row.setSpacing(12)
         count_row.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
-        count_lbl = QLabel("Players:")
-        count_lbl.setFont(QFont("Sans", 13, QFont.Weight.Bold))
-        count_lbl.setStyleSheet(f"color: {GOLD};")
+        count_lbl = _lbl("Players:", GOLD, 13, bold=True)
         count_row.addWidget(count_lbl)
 
         for n in (2, 3, 4):
@@ -87,8 +89,9 @@ class WelcomeScreen(QWidget):
         layout.addLayout(count_row)
         layout.addSpacing(8)
 
-        # Dynamic name fields container
+        # Dynamic name fields container — transparent so gradient shows through
         self._fields_widget = QWidget()
+        self._fields_widget.setStyleSheet("background: transparent;")
         self._fields_layout = QVBoxLayout(self._fields_widget)
         self._fields_layout.setSpacing(8)
         self._fields_layout.setContentsMargins(0, 0, 0, 0)
@@ -146,9 +149,7 @@ class WelcomeScreen(QWidget):
         self._name_inputs = []
         for i in range(self._player_count):
             label_text = f"Player {i + 1}"
-            lbl = QLabel(label_text)
-            lbl.setFont(QFont("Sans", 13, QFont.Weight.Bold))
-            lbl.setStyleSheet(f"color: {GOLD};")
+            lbl = _lbl(label_text, GOLD, 13, bold=True)
             self._fields_layout.addWidget(lbl, alignment=Qt.AlignmentFlag.AlignCenter)
 
             field = QLineEdit()
@@ -188,9 +189,9 @@ class WelcomeScreen(QWidget):
         cy = self.height() * 2 // 5
         radius = max(self.width(), self.height()) * 0.80
         grad = QRadialGradient(cx, cy, radius)
-        grad.setColorAt(0.0, QColor(22, 52, 82))   # lighter blue-navy center
-        grad.setColorAt(0.6, QColor(13, 27, 42))   # mid BG
-        grad.setColorAt(1.0, QColor(4, 9, 18))     # very dark vignette edges
+        grad.setColorAt(0.0, QColor(22, 52, 82))
+        grad.setColorAt(0.6, QColor(13, 27, 42))
+        grad.setColorAt(1.0, QColor(4, 9, 18))
         painter.fillRect(self.rect(), grad)
 
     def _tick_shimmer(self) -> None:
@@ -199,7 +200,8 @@ class WelcomeScreen(QWidget):
         r = int(_SHIMMER_R[0] + (_SHIMMER_R[1] - _SHIMMER_R[0]) * v)
         g = int(_SHIMMER_G[0] + (_SHIMMER_G[1] - _SHIMMER_G[0]) * v)
         b = int(_SHIMMER_B[0] + (_SHIMMER_B[1] - _SHIMMER_B[0]) * v)
-        self._title.setStyleSheet(f"color: #{r:02x}{g:02x}{b:02x};")
+        # Must include background: transparent — any setStyleSheet call resets it
+        self._title.setStyleSheet(f"color: #{r:02x}{g:02x}{b:02x}; background: transparent;")
 
     def showEvent(self, event) -> None:
         super().showEvent(event)
