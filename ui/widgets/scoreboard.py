@@ -1,6 +1,6 @@
 import math
 
-from PyQt6.QtCore import Qt, QTimer
+from PyQt6.QtCore import QEasingCurve, Qt, QTimer, QVariantAnimation
 from PyQt6.QtGui import QFont
 from PyQt6.QtWidgets import QHBoxLayout, QLabel, QVBoxLayout, QWidget
 
@@ -30,6 +30,8 @@ class _PlayerPanel(QWidget):
         self._pulse_timer = QTimer(self)
         self._pulse_timer.setInterval(40)
         self._pulse_timer.timeout.connect(self._tick_pulse)
+        self._displayed_score: int = 0
+        self._score_anim: QVariantAnimation | None = None
         self._build(player_number)
 
     def _build(self, player_number: int) -> None:
@@ -76,9 +78,28 @@ class _PlayerPanel(QWidget):
             f"background-color: {BG}; border: 3px solid {color}; border-radius: 6px;"
         )
 
+    def _update_score(self, score: int) -> None:
+        if score == self._displayed_score:
+            return
+        if self._score_anim is not None:
+            self._score_anim.stop()
+        if score > self._displayed_score:
+            anim = QVariantAnimation(self)
+            anim.setStartValue(float(self._displayed_score))
+            anim.setEndValue(float(score))
+            anim.setDuration(600)
+            anim.setEasingCurve(QEasingCurve.Type.OutCubic)
+            anim.valueChanged.connect(lambda v: self.score_lbl.setText(str(int(v))))
+            anim.finished.connect(lambda: self.score_lbl.setText(str(score)))
+            anim.start()
+            self._score_anim = anim
+        else:
+            self.score_lbl.setText(str(score))
+        self._displayed_score = score
+
     def refresh(self, name: str, score: int, genres_cleared: set, active: bool) -> None:
         self.name_lbl.setText(name)
-        self.score_lbl.setText(str(score))
+        self._update_score(score)
         for gid, dot in zip(self._genre_ids, self._genre_dots):
             dot.setStyleSheet(
                 f"color: {DOT_ON if gid in genres_cleared else DOT_OFF}; border: none;"

@@ -1,6 +1,9 @@
-from PyQt6.QtCore import QEasingCurve, QPoint, QPropertyAnimation, Qt, QTimer, pyqtSignal
+from PyQt6.QtCore import (
+    QEasingCurve, QPoint, QPropertyAnimation, Qt, QTimer, QVariantAnimation, pyqtSignal,
+)
 from PyQt6.QtGui import QFont
 from PyQt6.QtWidgets import (
+    QGraphicsOpacityEffect,
     QGridLayout,
     QLabel,
     QPushButton,
@@ -15,9 +18,7 @@ from ui.widgets.scoreboard import Scoreboard
 
 BG = "#0d1b2a"
 GOLD = "#c9a84c"
-TILE_BG = "#1a3a6b"
 TILE_CLEARED_BG = "#131320"
-TILE_BORDER = "#2a5a9b"
 TILE_CLEARED_BORDER = "#222233"
 
 # One accent color per genre (keyed by genre_id 1–6)
@@ -32,12 +33,129 @@ GENRE_COLORS: dict[int, str] = {
 
 DIFFICULTIES = [1, 2, 3, 4, 5]
 POINTS = [100, 200, 300, 400, 500]
-
 OVERLAY_BG = "#080f1a"
 
 
+# ─────────────────────────────────────────────────────────────────────────── #
+# Animated tile button                                                         #
+# ─────────────────────────────────────────────────────────────────────────── #
+
+class TileButton(QPushButton):
+    """QPushButton with smooth hover glow and fade-in-as-cleared animation."""
+
+    def __init__(self, text: str, accent: str, parent=None) -> None:
+        super().__init__(text, parent)
+        self._accent_rgb = (int(accent[1:3], 16), int(accent[3:5], 16), int(accent[5:7], 16))
+        self._glow = 0.0
+        self._clear_anim: QPropertyAnimation | None = None
+
+        self._hover_anim = QVariantAnimation(self)
+        self._hover_anim.setDuration(200)
+        self._hover_anim.setEasingCurve(QEasingCurve.Type.OutQuad)
+        self._hover_anim.valueChanged.connect(self._on_hover)
+        self._apply_normal()
+
+    def enterEvent(self, event) -> None:
+        if self.isEnabled():
+            self._hover_anim.stop()
+            self._hover_anim.setStartValue(self._glow)
+            self._hover_anim.setEndValue(1.0)
+            self._hover_anim.start()
+        super().enterEvent(event)
+
+    def leaveEvent(self, event) -> None:
+        if self.isEnabled():
+            self._hover_anim.stop()
+            self._hover_anim.setStartValue(self._glow)
+            self._hover_anim.setEndValue(0.0)
+            self._hover_anim.start()
+        super().leaveEvent(event)
+
+    def _on_hover(self, value) -> None:
+        self._glow = float(value)
+        self._apply_normal()
+
+    def _apply_normal(self) -> None:
+        v = self._glow
+        ar, ag, ab = self._accent_rgb
+
+        # Background: #1a3a6b → #22508b on full hover
+        bg = f"#{int(0x1a + 8*v):02x}{int(0x3a + 22*v):02x}{int(0x6b + 32*v):02x}"
+
+        # Side border: #2a5a9b → accent
+        border = (f"#{int(0x2a + (ar-0x2a)*v):02x}"
+                  f"{int(0x5a + (ag-0x5a)*v):02x}"
+                  f"{int(0x9b + (ab-0x9b)*v):02x}")
+
+        # Top accent: genre color at 70% dim at rest, 100% on hover
+        dim = 0.7 + 0.3 * v
+        top = f"#{min(255,int(ar*dim)):02x}{min(255,int(ag*dim)):02x}{min(255,int(ab*dim)):02x}"
+
+        self.setStyleSheet(f"""
+            QPushButton {{
+                background-color: {bg};
+                color: {GOLD};
+                border: 2px solid {border};
+                border-top: 3px solid {top};
+                border-radius: 4px;
+            }}
+            QPushButton:pressed {{ background-color: #0f2a5b; }}
+        """)
+
+    def _apply_cleared(self) -> None:
+        self.setStyleSheet(f"""
+            QPushButton {{
+                background-color: {TILE_CLEARED_BG};
+                color: #444460;
+                border: 2px solid {TILE_CLEARED_BORDER};
+                border-top: 3px solid {TILE_CLEARED_BORDER};
+                border-radius: 4px;
+            }}
+        """)
+
+    def set_cleared(self, cleared: bool) -> None:
+        """Immediately apply cleared/uncleaned state with no animation."""
+        self.setGraphicsEffect(None)
+        self.setEnabled(not cleared)
+        if cleared:
+            self._hover_anim.stop()
+            self._glow = 0.0
+            self._apply_cleared()
+        else:
+            self._apply_normal()
+
+    def set_cleared_animated(self) -> None:
+        """Disable tile now; fade it in as cleared once the board has appeared."""
+        self.setEnabled(False)
+        self._hover_anim.stop()
+        self._glow = 0.0
+        self._apply_cleared()
+        self.setGraphicsEffect(None)
+        fx = QGraphicsOpacityEffect(self)
+        fx.setOpacity(0.0)
+        self.setGraphicsEffect(fx)
+        # 280ms lets the board fade-in finish before the tile materialises
+        QTimer.singleShot(280, lambda: self._fade_in_cleared(fx))
+
+    def _fade_in_cleared(self, fx: QGraphicsOpacityEffect) -> None:
+        if self.graphicsEffect() is not fx:
+            return  # stale — effect was replaced (e.g., board reset)
+        anim = QPropertyAnimation(fx, b"opacity", self)
+        anim.setDuration(600)
+        anim.setStartValue(0.0)
+        anim.setEndValue(1.0)
+        anim.setEasingCurve(QEasingCurve.Type.OutCubic)
+        anim.finished.connect(lambda: self.setGraphicsEffect(None))
+        anim.start()
+        self._clear_anim = anim
+
+
+# ─────────────────────────────────────────────────────────────────────────── #
+# Round announcement overlay                                                   #
+# ─────────────────────────────────────────────────────────────────────────── #
+
 class RoundAnnouncementOverlay(QWidget):
-    """Full-screen overlay that slides in, holds, then slides out announcing the new round."""
+    """Full-screen overlay that slides in, holds, then slides out for new rounds."""
 
     finished = pyqtSignal()
 
@@ -62,7 +180,7 @@ class RoundAnnouncementOverlay(QWidget):
         self._sub_lbl = QLabel("")
         self._sub_lbl.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self._sub_lbl.setFont(QFont("Sans", 22, QFont.Weight.Bold))
-        self._sub_lbl.setStyleSheet(f"color: #e8e8e8;")
+        self._sub_lbl.setStyleSheet("color: #e8e8e8;")
         layout.addWidget(self._sub_lbl)
 
     def announce(self, round_number: int) -> None:
@@ -106,24 +224,9 @@ class RoundAnnouncementOverlay(QWidget):
         self._anim = anim
 
 
-def _tile_style(cleared: bool, accent: str = GOLD) -> str:
-    bg = TILE_CLEARED_BG if cleared else TILE_BG
-    fg = "#444460" if cleared else GOLD
-    border = TILE_CLEARED_BORDER if cleared else TILE_BORDER
-    top_accent = TILE_CLEARED_BORDER if cleared else accent
-    hover = "" if cleared else f"QPushButton:hover {{ background-color: #22508b; border-color: {accent}; }}"
-    return f"""
-        QPushButton {{
-            background-color: {bg};
-            color: {fg};
-            border: 2px solid {border};
-            border-top: 3px solid {top_accent};
-            border-radius: 4px;
-        }}
-        {hover}
-        QPushButton:pressed {{ background-color: #0f2a5b; }}
-    """
-
+# ─────────────────────────────────────────────────────────────────────────── #
+# Board screen                                                                  #
+# ─────────────────────────────────────────────────────────────────────────── #
 
 class BoardScreen(QWidget):
     tile_selected = pyqtSignal(int, int)  # (genre_id, difficulty)
@@ -132,7 +235,7 @@ class BoardScreen(QWidget):
         super().__init__(parent)
         self.setStyleSheet(f"background-color: {BG};")
         self._genres: list[tuple[int, str]] = get_genres()
-        self._tiles: dict[tuple[int, int], QPushButton] = {}
+        self._tiles: dict[tuple[int, int], TileButton] = {}
         self._build()
 
     def _build(self) -> None:
@@ -161,17 +264,12 @@ class BoardScreen(QWidget):
         # Tile rows
         for row, (diff, pts) in enumerate(zip(DIFFICULTIES, POINTS), start=1):
             for col, (gid, _) in enumerate(self._genres):
-                btn = QPushButton(f"${pts}")
+                accent = GENRE_COLORS.get(gid, GOLD)
+                btn = TileButton(f"${pts}", accent)
                 btn.setFont(QFont("Sans", 22, QFont.Weight.Bold))
                 btn.setMinimumSize(110, 80)
-                btn.setSizePolicy(
-                    QSizePolicy.Policy.Expanding,
-                    QSizePolicy.Policy.Expanding,
-                )
-                btn.setStyleSheet(_tile_style(cleared=False, accent=GENRE_COLORS.get(gid, GOLD)))
-                btn.clicked.connect(
-                    lambda _, g=gid, d=diff: self.tile_selected.emit(g, d)
-                )
+                btn.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding)
+                btn.clicked.connect(lambda _, g=gid, d=diff: self.tile_selected.emit(g, d))
                 grid.addWidget(btn, row, col)
                 self._tiles[(gid, diff)] = btn
 
@@ -179,9 +277,11 @@ class BoardScreen(QWidget):
 
     def refresh(self, state: GameState) -> None:
         for (gid, diff), btn in self._tiles.items():
-            cleared = (gid, diff) in state.board_cleared
-            btn.setEnabled(not cleared)
-            btn.setStyleSheet(_tile_style(cleared=cleared, accent=GENRE_COLORS.get(gid, GOLD)))
+            is_cleared = (gid, diff) in state.board_cleared
+            if is_cleared and btn.isEnabled():
+                btn.set_cleared_animated()   # newly cleared — fade in as grey
+            else:
+                btn.set_cleared(is_cleared)  # immediate (already cleared or not cleared)
         self.scoreboard.refresh(state)
 
     def announce_round(self, round_number: int) -> None:
