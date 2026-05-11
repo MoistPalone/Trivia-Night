@@ -138,11 +138,33 @@ def generate_turn_change() -> None:
 
 
 def generate_question_ambient() -> None:
-    # Fallback placeholder only — production uses the CC0 "Ticking Clock" WAV
-    # by Michel Baradari (opengameart.org/content/ticking-clock-0, CC0 1.0).
-    # Only call this if you need to regenerate a placeholder without the external file.
-    frames = _chord([130.81, 164.81, 196.00], 6.0, fade_frac=0.12)
-    _write("question_ambient.wav", frames, volume=0.22)
+    # 3-second seamless loop: ticks at 0.25s, 1.25s, 2.25s (1/s cadence).
+    # Ticks are offset from the loop boundary so QSoundEffect's ~50ms restart
+    # latency falls inside the 0.75s silence window and is inaudible.
+    sr = SAMPLE_RATE
+    n = int(sr * 3.0)
+    frames = [0.0] * n
+
+    def add_tick(offset_s: float) -> None:
+        o = int(sr * offset_s)
+        noise_n = int(sr * 0.004)   # 4ms broadband click
+        ring_n = int(sr * 0.018)    # 18ms tonal ring at 1800 Hz
+        for i in range(noise_n):
+            if o + i < n:
+                env = (1.0 - i / noise_n) ** 0.5
+                frames[o + i] += (2.0 * random.random() - 1.0) * env
+        for i in range(ring_n):
+            idx = o + noise_n + i
+            if idx < n:
+                t_s = idx / sr
+                env = (1.0 - i / ring_n) ** 2.5
+                frames[idx] += _sine(1800.0, t_s) * env * 0.55
+
+    add_tick(0.25)
+    add_tick(1.25)
+    add_tick(2.25)
+    frames = [max(-1.0, min(1.0, s)) for s in frames]
+    _write("question_ambient.wav", frames, volume=0.62)
 
 
 if __name__ == "__main__":
@@ -156,5 +178,5 @@ if __name__ == "__main__":
     generate_game_over()
     generate_tile_select()
     generate_turn_change()
-    # question_ambient.wav is the CC0 ticking clock from OpenGameArt — do not overwrite
+    generate_question_ambient()
     print("Done.")

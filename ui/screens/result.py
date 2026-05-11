@@ -41,13 +41,13 @@ class ResultScreen(QWidget):
         self._points_label = QLabel("")
         self._points_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self._points_label.setFont(QFont("Sans", 20))
-        self._points_label.setStyleSheet(f"color: {GOLD};")
+        self._points_label.setStyleSheet(f"color: {GOLD}; background: transparent;")
         layout.addWidget(self._points_label)
 
         self._answer_label = QLabel("")
         self._answer_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self._answer_label.setFont(QFont("Sans", 14))
-        self._answer_label.setStyleSheet(f"color: {TEXT_COLOR}; opacity: 0.7;")
+        self._answer_label.setStyleSheet(f"color: {TEXT_COLOR}; background: transparent;")
         self._answer_label.setWordWrap(True)
         layout.addWidget(self._answer_label)
 
@@ -65,17 +65,17 @@ class ResultScreen(QWidget):
         if correct:
             self.setStyleSheet(f"background-color: {BG_CORRECT};")
             self._icon_label.setText("✓")
-            self._icon_label.setStyleSheet(f"color: {GREEN};")
+            self._icon_label.setStyleSheet(f"color: {GREEN}; background: transparent;")
             self._verdict_label.setText(f"Correct!  {player_name} scores!")
-            self._verdict_label.setStyleSheet(f"color: {GREEN};")
+            self._verdict_label.setStyleSheet(f"color: {GREEN}; background: transparent;")
             self._points_label.setText(f"+{points_awarded} points")
             self._answer_label.setText("")
         else:
             self.setStyleSheet(f"background-color: {BG_WRONG};")
             self._icon_label.setText("✗")
-            self._icon_label.setStyleSheet(f"color: {RED};")
+            self._icon_label.setStyleSheet(f"color: {RED}; background: transparent;")
             self._verdict_label.setText("Wrong!")
-            self._verdict_label.setStyleSheet(f"color: {RED};")
+            self._verdict_label.setStyleSheet(f"color: {RED}; background: transparent;")
             self._points_label.setText("No points awarded")
             self._answer_label.setText(f"Answer: {correct_answer}")
 

@@ -81,44 +81,59 @@ class TileButton(QPushButton):
         v = self._glow
         ar, ag, ab = self._accent_rgb
 
-        # Background: #0e2040 (dark rest) → #1e5090 (bright hover)
-        bg = f"#{int(0x0e + 0x10*v):02x}{int(0x20 + 0x30*v):02x}{int(0x40 + 0x50*v):02x}"
+        # Gradient top stop: deep navy → slightly genre-tinted on hover
+        tr = int(0x10 + 0x18 * v)
+        tg = int(0x24 + 0x2e * v)
+        tb = int(0x48 + 0x48 * v)
+        # Gradient bottom stop: darker base, subtle shift on hover
+        br = int(0x07 + 0x0b * v)
+        bg_ = int(0x10 + 0x18 * v)
+        bb_ = int(0x22 + 0x28 * v)
+        grad_top = f"#{tr:02x}{tg:02x}{tb:02x}"
+        grad_bot = f"#{br:02x}{bg_:02x}{bb_:02x}"
 
         # Side border: dim blue at rest → full accent on hover
-        dim_factor = 0.35 + 0.65 * v
+        dim_factor = 0.28 + 0.72 * v
         border = (f"#{min(255,int(ar*dim_factor)):02x}"
                   f"{min(255,int(ag*dim_factor)):02x}"
                   f"{min(255,int(ab*dim_factor)):02x}")
 
-        # Top accent: genre color at 50% dim at rest, 110% (clamped) on hover
-        top_dim = 0.50 + 0.60 * v
-        top = f"#{min(255,int(ar*top_dim)):02x}{min(255,int(ag*top_dim)):02x}{min(255,int(ab*top_dim)):02x}"
+        # Top accent bar: genre color, prominent even at rest
+        top_dim = 0.55 + 0.55 * v
+        top = (f"#{min(255,int(ar*top_dim)):02x}"
+               f"{min(255,int(ag*top_dim)):02x}"
+               f"{min(255,int(ab*top_dim)):02x}")
 
-        # Price text brightens on hover too
+        # Price text: gold, brightens on hover
         gold_v = int(0xc9 + (0xff - 0xc9) * v)
         gold_g = int(0xa8 + (0xd9 - 0xa8) * v)
         text_color = f"#{gold_v:02x}{gold_g:02x}{int(0x4c + 0x2e*v):02x}"
 
         self.setStyleSheet(f"""
             QPushButton {{
-                background-color: {bg};
+                background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                    stop:0 {grad_top}, stop:1 {grad_bot});
                 color: {text_color};
-                border: 2px solid {border};
-                border-top: 4px solid {top};
-                border-radius: 4px;
+                border: 1px solid {border};
+                border-top: 5px solid {top};
+                border-radius: 8px;
             }}
-            QPushButton:pressed {{ background-color: #0a1830; }}
+            QPushButton:pressed {{
+                background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                    stop:0 #060f20, stop:1 #030810);
+            }}
         """)
 
     def _apply_cleared(self) -> None:
-        self.setStyleSheet(f"""
-            QPushButton {{
-                background-color: {TILE_CLEARED_BG};
-                color: #444460;
-                border: 2px solid {TILE_CLEARED_BORDER};
-                border-top: 3px solid {TILE_CLEARED_BORDER};
-                border-radius: 4px;
-            }}
+        self.setStyleSheet("""
+            QPushButton {
+                background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                    stop:0 #111124, stop:1 #080812);
+                color: #282840;
+                border: 1px solid #191928;
+                border-top: 5px solid #191928;
+                border-radius: 8px;
+            }
         """)
 
     def set_cleared(self, cleared: bool) -> None:
@@ -278,7 +293,7 @@ class BoardScreen(QWidget):
         self._overlay = RoundAnnouncementOverlay(self)
 
         grid = QGridLayout()
-        grid.setSpacing(6)
+        grid.setSpacing(8)
         grid.setContentsMargins(0, 0, 0, 0)
 
         # Genre header row
@@ -295,8 +310,8 @@ class BoardScreen(QWidget):
             for col, (gid, _) in enumerate(self._genres):
                 accent = GENRE_COLORS.get(gid, GOLD)
                 btn = TileButton(f"${pts}", accent)
-                btn.setFont(QFont("Sans", 22, QFont.Weight.Bold))
-                btn.setMinimumSize(110, 80)
+                btn.setFont(QFont("Sans", 24, QFont.Weight.Bold))
+                btn.setMinimumSize(110, 84)
                 btn.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding)
                 btn.clicked.connect(lambda _, g=gid, d=diff: self.tile_selected.emit(g, d))
                 grid.addWidget(btn, row, col)
